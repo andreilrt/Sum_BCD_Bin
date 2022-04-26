@@ -1,0 +1,439 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Sep 13 22:25:55 2021
+# Process ID: 9740
+# Current directory: D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3116 D:\VIVADO\Sum_BCD_Bin\Sum_BCD_Bin\Sum_BCD_Bin.xpr
+# Log file: D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado.log
+# Journal file: D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:32 ; elapsed = 00:00:20 . Memory (MB): peak = 758.605 ; gain = 166.309
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Mon Sep 13 22:32:36 2021] Launched synth_1...
+Run output will be captured here: D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Mon Sep 13 22:34:52 2021] Launched impl_1...
+Run output will be captured here: D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/runme.log
+close [ open D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Multiplexor4a1.vhd w ]
+add_files D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Multiplexor4a1.vhd
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: Sum_BCD_Bin
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 884.484 ; gain = 71.020
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Sum_BCD_Bin' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:17]
+INFO: [Synth 8-3491] module 'Comparador_Entrada' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Comparador_Entrada.vhd:4' bound to instance 'u0' of component 'Comparador_Entrada' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'Comparador_Entrada' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Comparador_Entrada.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'Comparador_Entrada' (1#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Comparador_Entrada.vhd:10]
+INFO: [Synth 8-3491] module 'sumador4bits' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:4' bound to instance 'u1' of component 'sumador4bits' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:90]
+INFO: [Synth 8-638] synthesizing module 'sumador4bits' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:10]
+INFO: [Synth 8-3491] module 'Fulladder' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Fulladder.vhd:4' bound to instance 'FA0' of component 'FullAdder' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:17]
+INFO: [Synth 8-638] synthesizing module 'Fulladder' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Fulladder.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'Fulladder' (2#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Fulladder.vhd:12]
+INFO: [Synth 8-3491] module 'Fulladder' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Fulladder.vhd:4' bound to instance 'FA1' of component 'FullAdder' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:19]
+INFO: [Synth 8-3491] module 'Fulladder' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Fulladder.vhd:4' bound to instance 'FA2' of component 'FullAdder' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:21]
+INFO: [Synth 8-3491] module 'Fulladder' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Fulladder.vhd:4' bound to instance 'FA3' of component 'FullAdder' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'sumador4bits' (3#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:10]
+INFO: [Synth 8-3491] module 'comparador_Magnitud' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/comparador_Magnitud.vhd:4' bound to instance 'u2' of component 'comparador_Magnitud' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:92]
+INFO: [Synth 8-638] synthesizing module 'comparador_Magnitud' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/comparador_Magnitud.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'comparador_Magnitud' (4#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/comparador_Magnitud.vhd:10]
+INFO: [Synth 8-3491] module 'Mux2_1' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:4' bound to instance 'u3' of component 'Mux2_1' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:94]
+INFO: [Synth 8-638] synthesizing module 'Mux2_1' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'Mux2_1' (5#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:11]
+INFO: [Synth 8-3491] module 'sumador4bits' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:4' bound to instance 'u4' of component 'sumador4bits' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:96]
+INFO: [Synth 8-3491] module 'acarreoE' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/acarreoEntrada.vhd:4' bound to instance 'u5' of component 'AcarreoE' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:98]
+INFO: [Synth 8-638] synthesizing module 'acarreoE' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/acarreoEntrada.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'acarreoE' (6#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/acarreoEntrada.vhd:9]
+INFO: [Synth 8-3491] module 'Mux2_1' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:4' bound to instance 'u6' of component 'Mux2_1' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:100]
+INFO: [Synth 8-3491] module 'Mux2_1' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:4' bound to instance 'u7' of component 'Mux2_1' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:102]
+INFO: [Synth 8-3491] module 'PARTIR_OCTAL' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/PARTIR_OCTAL.vhd:4' bound to instance 'u8_1' of component 'PARTIR_OCTAL' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:104]
+INFO: [Synth 8-638] synthesizing module 'PARTIR_OCTAL' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/PARTIR_OCTAL.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'PARTIR_OCTAL' (7#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/PARTIR_OCTAL.vhd:10]
+INFO: [Synth 8-3491] module 'Mux2_1' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:4' bound to instance 'u8' of component 'Mux2_1' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:106]
+INFO: [Synth 8-3491] module 'Mux2_1' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:4' bound to instance 'u9' of component 'Mux2_1' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:108]
+INFO: [Synth 8-3491] module 'ref' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/ref.vhd:7' bound to instance 'u10' of component 'ref' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:110]
+INFO: [Synth 8-638] synthesizing module 'ref' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/ref.vhd:18]
+INFO: [Synth 8-3491] module 'mux' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/mux.vhd:4' bound to instance 'u1' of component 'mux' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/ref.vhd:50]
+INFO: [Synth 8-638] synthesizing module 'mux' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/mux.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'mux' (8#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/mux.vhd:13]
+INFO: [Synth 8-3491] module 'clk' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/conta.vhd:8' bound to instance 'u2' of component 'clk' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/ref.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'clk' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/conta.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'clk' (9#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/conta.vhd:14]
+INFO: [Synth 8-3491] module 'segmento' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/segmento.vhd:3' bound to instance 'u3' of component 'segmento' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/ref.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'segmento' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/segmento.vhd:7]
+INFO: [Synth 8-256] done synthesizing module 'segmento' (10#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/segmento.vhd:7]
+INFO: [Synth 8-3491] module 'deco' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/deco.vhd:7' bound to instance 'u4' of component 'deco' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/ref.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'deco' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/deco.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'deco' (11#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/deco.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'ref' (12#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/ref.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'Sum_BCD_Bin' (13#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:17]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 924.137 ; gain = 110.672
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 924.137 ; gain = 110.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 924.137 ; gain = 110.672
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/constrs_1/new/1.xdc]
+Finished Parsing XDC File [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/constrs_1/new/1.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1235.051 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:53 ; elapsed = 00:00:53 . Memory (MB): peak = 1302.156 ; gain = 488.691
+50 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:53 ; elapsed = 00:00:53 . Memory (MB): peak = 1302.156 ; gain = 488.691
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1302.156 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Sum_BCD_Bin' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:17]
+INFO: [Synth 8-3491] module 'Comparador_Entrada' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Comparador_Entrada.vhd:4' bound to instance 'u0' of component 'Comparador_Entrada' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'Comparador_Entrada' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Comparador_Entrada.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'Comparador_Entrada' (1#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Comparador_Entrada.vhd:10]
+INFO: [Synth 8-3491] module 'sumador4bits' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:4' bound to instance 'u1' of component 'sumador4bits' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:81]
+INFO: [Synth 8-638] synthesizing module 'sumador4bits' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:10]
+INFO: [Synth 8-3491] module 'Fulladder' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Fulladder.vhd:4' bound to instance 'FA0' of component 'FullAdder' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:17]
+INFO: [Synth 8-638] synthesizing module 'Fulladder' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Fulladder.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'Fulladder' (2#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Fulladder.vhd:12]
+INFO: [Synth 8-3491] module 'Fulladder' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Fulladder.vhd:4' bound to instance 'FA1' of component 'FullAdder' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:19]
+INFO: [Synth 8-3491] module 'Fulladder' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Fulladder.vhd:4' bound to instance 'FA2' of component 'FullAdder' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:21]
+INFO: [Synth 8-3491] module 'Fulladder' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Fulladder.vhd:4' bound to instance 'FA3' of component 'FullAdder' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'sumador4bits' (3#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:10]
+INFO: [Synth 8-3491] module 'comparador_Magnitud' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/comparador_Magnitud.vhd:4' bound to instance 'u2' of component 'comparador_Magnitud' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:83]
+INFO: [Synth 8-638] synthesizing module 'comparador_Magnitud' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/comparador_Magnitud.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'comparador_Magnitud' (4#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/comparador_Magnitud.vhd:10]
+INFO: [Synth 8-3491] module 'Mux2_1' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:4' bound to instance 'u3' of component 'Mux2_1' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'Mux2_1' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'Mux2_1' (5#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:11]
+INFO: [Synth 8-3491] module 'sumador4bits' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:4' bound to instance 'u4' of component 'sumador4bits' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:87]
+INFO: [Synth 8-3491] module 'acarreoE' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/acarreoEntrada.vhd:4' bound to instance 'u5' of component 'AcarreoE' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:89]
+INFO: [Synth 8-638] synthesizing module 'acarreoE' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/acarreoEntrada.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'acarreoE' (6#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/acarreoEntrada.vhd:9]
+INFO: [Synth 8-3491] module 'Mux2_1' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:4' bound to instance 'u6' of component 'Mux2_1' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:91]
+INFO: [Synth 8-3491] module 'Mux2_1' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:4' bound to instance 'u7' of component 'Mux2_1' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:93]
+INFO: [Synth 8-3491] module 'PARTIR_OCTAL' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/PARTIR_OCTAL.vhd:4' bound to instance 'u8_1' of component 'PARTIR_OCTAL' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:95]
+INFO: [Synth 8-638] synthesizing module 'PARTIR_OCTAL' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/PARTIR_OCTAL.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'PARTIR_OCTAL' (7#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/PARTIR_OCTAL.vhd:10]
+INFO: [Synth 8-3491] module 'Mux2_1' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:4' bound to instance 'u8' of component 'Mux2_1' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:97]
+INFO: [Synth 8-3491] module 'Mux2_1' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:4' bound to instance 'u9' of component 'Mux2_1' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:99]
+INFO: [Synth 8-3491] module 'ref' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/ref.vhd:7' bound to instance 'u10' of component 'ref' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:101]
+INFO: [Synth 8-638] synthesizing module 'ref' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/ref.vhd:18]
+INFO: [Synth 8-3491] module 'mux' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/mux.vhd:4' bound to instance 'u1' of component 'mux' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/ref.vhd:50]
+INFO: [Synth 8-638] synthesizing module 'mux' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/mux.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'mux' (8#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/mux.vhd:13]
+INFO: [Synth 8-3491] module 'clk' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/conta.vhd:8' bound to instance 'u2' of component 'clk' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/ref.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'clk' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/conta.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'clk' (9#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/conta.vhd:14]
+INFO: [Synth 8-3491] module 'segmento' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/segmento.vhd:3' bound to instance 'u3' of component 'segmento' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/ref.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'segmento' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/segmento.vhd:7]
+INFO: [Synth 8-256] done synthesizing module 'segmento' (10#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/segmento.vhd:7]
+INFO: [Synth 8-3491] module 'deco' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/deco.vhd:7' bound to instance 'u4' of component 'deco' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/ref.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'deco' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/deco.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'deco' (11#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/deco.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'ref' (12#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/ref.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'Sum_BCD_Bin' (13#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:17]
+WARNING: [Synth 8-3331] design Sum_BCD_Bin has unconnected port selector
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1319.824 ; gain = 17.668
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1319.824 ; gain = 17.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1319.824 ; gain = 17.668
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/constrs_1/new/1.xdc]
+Finished Parsing XDC File [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/constrs_1/new/1.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:18 . Memory (MB): peak = 1341.391 ; gain = 39.234
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Multiplexor4a1.vhd] -no_script -reset -force -quiet
+remove_files  D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Multiplexor4a1.vhd
+remove_files  D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Multiplexor4a1.vhd
+WARNING: [Vivado 12-818] No files matched 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Multiplexor4a1.vhd'
+remove_files  D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Multiplexor4a1.vhd
+WARNING: [Vivado 12-818] No files matched 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Multiplexor4a1.vhd'
+file delete -force D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Multiplexor4a1.vhd
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Mon Sep 13 23:14:01 2021] Launched synth_1...
+Run output will be captured here: D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/synth_1/runme.log
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1444.164 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Sum_BCD_Bin' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:17]
+INFO: [Synth 8-3491] module 'Comparador_Entrada' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Comparador_Entrada.vhd:4' bound to instance 'u0' of component 'Comparador_Entrada' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'Comparador_Entrada' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Comparador_Entrada.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'Comparador_Entrada' (1#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Comparador_Entrada.vhd:10]
+INFO: [Synth 8-3491] module 'sumador4bits' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:4' bound to instance 'u1' of component 'sumador4bits' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'sumador4bits' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:10]
+INFO: [Synth 8-3491] module 'Fulladder' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Fulladder.vhd:4' bound to instance 'FA0' of component 'FullAdder' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:17]
+INFO: [Synth 8-638] synthesizing module 'Fulladder' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Fulladder.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'Fulladder' (2#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Fulladder.vhd:12]
+INFO: [Synth 8-3491] module 'Fulladder' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Fulladder.vhd:4' bound to instance 'FA1' of component 'FullAdder' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:19]
+INFO: [Synth 8-3491] module 'Fulladder' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Fulladder.vhd:4' bound to instance 'FA2' of component 'FullAdder' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:21]
+INFO: [Synth 8-3491] module 'Fulladder' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Fulladder.vhd:4' bound to instance 'FA3' of component 'FullAdder' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'sumador4bits' (3#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:10]
+INFO: [Synth 8-3491] module 'comparador_Magnitud' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/comparador_Magnitud.vhd:4' bound to instance 'u2' of component 'comparador_Magnitud' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'comparador_Magnitud' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/comparador_Magnitud.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'comparador_Magnitud' (4#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/comparador_Magnitud.vhd:10]
+INFO: [Synth 8-3491] module 'Mux2_1' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:4' bound to instance 'u3' of component 'Mux2_1' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:86]
+INFO: [Synth 8-638] synthesizing module 'Mux2_1' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'Mux2_1' (5#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:11]
+INFO: [Synth 8-3491] module 'sumador4bits' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:4' bound to instance 'u4' of component 'sumador4bits' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:88]
+INFO: [Synth 8-3491] module 'acarreoE' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/acarreoEntrada.vhd:4' bound to instance 'u5' of component 'AcarreoE' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:90]
+INFO: [Synth 8-638] synthesizing module 'acarreoE' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/acarreoEntrada.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'acarreoE' (6#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/acarreoEntrada.vhd:9]
+INFO: [Synth 8-3491] module 'Mux2_1' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:4' bound to instance 'u6' of component 'Mux2_1' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:92]
+INFO: [Synth 8-3491] module 'Mux2_1' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:4' bound to instance 'u7' of component 'Mux2_1' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:94]
+INFO: [Synth 8-3491] module 'PARTIR_OCTAL' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/PARTIR_OCTAL.vhd:4' bound to instance 'u8' of component 'PARTIR_OCTAL' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:96]
+INFO: [Synth 8-638] synthesizing module 'PARTIR_OCTAL' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/PARTIR_OCTAL.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'PARTIR_OCTAL' (7#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/PARTIR_OCTAL.vhd:10]
+INFO: [Synth 8-3491] module 'Mux2_1' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:4' bound to instance 'u9' of component 'Mux2_1' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:98]
+INFO: [Synth 8-3491] module 'Mux2_1' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:4' bound to instance 'u10' of component 'Mux2_1' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:100]
+INFO: [Synth 8-3491] module 'Mux2_1' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:4' bound to instance 'u11' of component 'Mux2_1' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:102]
+INFO: [Synth 8-3491] module 'Mux2_1' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:4' bound to instance 'u12' of component 'Mux2_1' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:104]
+INFO: [Synth 8-3491] module 'ref' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/ref.vhd:7' bound to instance 'u16' of component 'ref' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:107]
+INFO: [Synth 8-638] synthesizing module 'ref' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/ref.vhd:18]
+INFO: [Synth 8-3491] module 'mux' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/mux.vhd:4' bound to instance 'u1' of component 'mux' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/ref.vhd:50]
+INFO: [Synth 8-638] synthesizing module 'mux' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/mux.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'mux' (8#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/mux.vhd:13]
+INFO: [Synth 8-3491] module 'clk' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/conta.vhd:8' bound to instance 'u2' of component 'clk' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/ref.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'clk' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/conta.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'clk' (9#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/conta.vhd:14]
+INFO: [Synth 8-3491] module 'segmento' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/segmento.vhd:3' bound to instance 'u3' of component 'segmento' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/ref.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'segmento' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/segmento.vhd:7]
+INFO: [Synth 8-256] done synthesizing module 'segmento' (10#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/segmento.vhd:7]
+INFO: [Synth 8-3491] module 'deco' declared at 'D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/deco.vhd:7' bound to instance 'u4' of component 'deco' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/ref.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'deco' [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/deco.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'deco' (11#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/deco.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'ref' (12#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/ref.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'Sum_BCD_Bin' (13#1) [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:17]
+WARNING: [Synth 8-3331] design Sum_BCD_Bin has unconnected port selector
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1444.164 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1444.164 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1444.164 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/constrs_1/new/1.xdc]
+Finished Parsing XDC File [D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/constrs_1/new/1.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1444.164 ; gain = 0.000
+launch_runs impl_1 -jobs 4
+[Mon Sep 13 23:15:36 2021] Launched impl_1...
+Run output will be captured here: D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Sep 13 23:18:02 2021] Launched impl_1...
+Run output will be captured here: D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.3
+  **** Build date : Dec  7 2018-00:40:27
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1461.480 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AA10FAA
+open_hw_target: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2374.102 ; gain = 912.621
+set_property PROGRAM.FILE {D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/Sum_BCD_Bin.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/Sum_BCD_Bin.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Sep 13 23:24:13 2021] Launched synth_1...
+Run output will be captured here: D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/synth_1/runme.log
+[Mon Sep 13 23:24:13 2021] Launched impl_1...
+Run output will be captured here: D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/Sum_BCD_Bin.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Sep 13 23:42:36 2021] Launched synth_1...
+Run output will be captured here: D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/synth_1/runme.log
+[Mon Sep 13 23:42:36 2021] Launched impl_1...
+Run output will be captured here: D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/runme.log
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Mon Sep 13 23:43:51 2021] Launched synth_1...
+Run output will be captured here: D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Mon Sep 13 23:45:26 2021] Launched impl_1...
+Run output will be captured here: D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Sep 13 23:48:07 2021] Launched impl_1...
+Run output will be captured here: D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/Sum_BCD_Bin.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'reset_runs' was cancelled
+launch_runs synth_1 -jobs 4
+[Mon Sep 13 23:57:11 2021] Launched synth_1...
+Run output will be captured here: D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Mon Sep 13 23:58:42 2021] Launched impl_1...
+Run output will be captured here: D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Sep 14 00:01:13 2021] Launched impl_1...
+Run output will be captured here: D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/Sum_BCD_Bin.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Tue Sep 14 00:04:25 2021] Launched synth_1...
+Run output will be captured here: D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Tue Sep 14 00:05:52 2021] Launched impl_1...
+Run output will be captured here: D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Sep 14 00:08:21 2021] Launched impl_1...
+Run output will be captured here: D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/Sum_BCD_Bin.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Tue Sep 14 00:10:44 2021] Launched synth_1...
+Run output will be captured here: D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/synth_1/runme.log
+close_hw
+launch_runs impl_1 -jobs 4
+[Tue Sep 14 00:12:18 2021] Launched impl_1...
+Run output will be captured here: D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Sep 14 00:14:56 2021] Launched impl_1...
+Run output will be captured here: D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.3
+  **** Build date : Dec  7 2018-00:40:27
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 2387.711 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AA10FAA
+set_property PROGRAM.FILE {D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/Sum_BCD_Bin.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/Sum_BCD_Bin.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.

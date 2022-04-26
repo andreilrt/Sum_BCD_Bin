@@ -1,0 +1,2375 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 15320
+License: Customer
+
+Current time: 	Fri Sep 10 10:26:01 COT 2021
+Time zone: 	Colombia Time (America/Bogota)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 17 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	ETM9-PC-13
+User home directory: C:/Users/ETM11-PC-07
+User working directory: E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin
+User country: 	CO
+User language: 	es
+User locale: 	es_CO
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.2
+RDI_DATADIR: C:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/ETM11-PC-07/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/ETM11-PC-07/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/ETM11-PC-07/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado.log
+Vivado journal file location: 	E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado.jou
+Engine tmp dir: 	E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/.Xil/Vivado-15320-ETM9-13
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.2
+XILINX_SDK: C:/Xilinx/SDK/2018.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	201 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 482 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// HOptionPane Warning: 'This project was created with a future version of Vivado. It will be opened in read-only mode for the protection of unrecognized data. Please use 'File | Save Project As...' if you need to alter a copy of this project. The project may or may not open reliably with this version of Vivado. OK to proceed and open the project? (Future Project Version)'
+// [GUI Memory]: 63 MB (+63109kb) [00:00:06]
+// [Engine Memory]: 480 MB (+352111kb) [00:00:06]
+// HMemoryUtils.trashcanNow. Engine heap size: 482 MB. GUI used memory: 37 MB. Current time: 9/10/21 10:26:03 AM COT
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:05 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:05 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:05 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:06 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:06 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:06 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:06 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:07 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:07 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:07 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+selectButton(RDIResource.HExceptionDialog_EXIT, "Exit"); // a (ae, aa)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:11 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+// A (ck): Exit Vivado: addNotify
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:11 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:11 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:12 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:12 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:12 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:12 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:12 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:12 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+dismissDialog("Exit Vivado"); // A (ck)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:13 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:13 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:13 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:13 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:13 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:13 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:13 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:14 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:14 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:14 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:14 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:14 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:15 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:15 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:15 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:15 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:15 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:15 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:15 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:15 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:16 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+selectButton(RDIResource.HExceptionDialog_EXIT, "Exit"); // a (ae, aa)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:16 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+// A (ck): Exit Vivado: addNotify
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:16 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:16 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:17 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:17 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:17 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:17 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:17 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+dismissDialog("Exit Vivado"); // A (ck)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:18 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:18 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:18 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:18 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:18 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:18 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:19 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:19 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:19 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:19 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:19 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:19 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:19 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:19 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:19 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:19 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:19 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:20 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+selectButton(RDIResource.HExceptionDialog_CONTINUE, "Continue"); // a (ae, aa)
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:20 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:20 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:20 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:20 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:20 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:21 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+/*
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2018.2 (64-bit)
+# SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Current time: Fri Sep 10 10:32:21 COT 2021
+# Process ID: 15320
+# OS: Windows 10
+# User: ETM9-PC-13
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata (See E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado_pid15320.debug)
+*/
+selectButton("PAResourceOtoP.PABaseTab_THIS_PROJECT_WILL_BE_OPENED_IN_READ_ONLY_Cancel", "Cancel"); // JButton (A, G)
+// Elapsed time: 12 seconds
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // x (w, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// Elapsed time: 19 seconds
+setFileChooser("E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.xpr");
+// HOptionPane Warning: 'This project was created with a future version of Vivado. It will be opened in read-only mode for the protection of unrecognized data. Please use 'File | Save Project As...' if you need to alter a copy of this project. The project may or may not open reliably with this version of Vivado. OK to proceed and open the project? (Future Project Version)'
+// Opening Vivado Project: E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.xpr. Version: Vivado v2018.3 
+// bx (ck):  Open Project : addNotify
+selectButton("PAResourceOtoP.PABaseTab_THIS_PROJECT_WILL_BE_OPENED_IN_READ_ONLY_OK", "OK"); // JButton (A, G)
+// Tcl Message: open_project E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.xpr 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'. 
+// [Engine Memory]: 552 MB (+50468kb) [00:07:03]
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 583 MB (+3561kb) [00:07:05]
+// HMemoryUtils.trashcanNow. Engine heap size: 610 MB. GUI used memory: 42 MB. Current time: 9/10/21 10:33:06 AM COT
+// Project name: Sum_BCD_Bin; location: E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin; part: xc7a35tcpg236-1
+// 'i' command handler elapsed time: 33 seconds
+// Elapsed time: 12 seconds
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// y (ck): Project is Read-Only: addNotify
+selectButton(PAResourceOtoP.Project_SAVE_PROJECT_AS, "Save Project As..."); // a (y)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_PROJECT_AS
+// aE (ck): Save Project As: addNotify
+dismissDialog("Project is Read-Only"); // y (ck)
+// [GUI Memory]: 69 MB (+2965kb) [00:07:17]
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+// TclEventType: PROJECT_RENAME
+dismissDialog("Save Project As"); // aE (ck)
+// bx (ck):  Save Project As : addNotify
+// Tcl Message: save_project_as project_2 E:/VIVADO/Sum_BCD_Bin/project_2 -force 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 617 MB (+4555kb) [00:07:34]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 74 MB (+2327kb) [00:07:36]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PROJECT_RENAME
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 67 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (bx)
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (bx)
+// Tcl Message: save_project_as: Time (s): cpu = 00:00:04 ; elapsed = 00:01:06 . Memory (MB): peak = 836.961 ; gain = 5.660 
+// bx (ck):  Save Constraints : addNotify
+dismissDialog("Save Constraints"); // bx (ck)
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 939ms to process. Increasing delay to 3000 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 82 MB (+4667kb) [00:08:29]
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ntQueue.java:726)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:76)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: javax.imageio.IIOException: Error reading PNG image data
+	at com.sun.imageio.plugins.png.PNGImageReader.readImage(PNGImageReader.java:1337)
+	at com.sun.imageio.plugins.png.PNGImageReader.read(PNGImageReader.java:1606)
+	at javax.imageio.ImageIO.read(ImageIO.java:1448)
+	at javax.imageio.ImageIO.read(ImageIO.java:1400)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:269)
+	... 47 more
+Caused by: java.io.IOException: Recursos insuficientes en el sistema para completar el servicio solicitado
+	at java.io.RandomAccessFile.writeBytes(Native Method)
+	at java.io.RandomAccessFile.write(RandomAccessFile.java:525)
+	at javax.imageio.stream.FileCacheImageInputStream.readUntil(FileCacheImageInputStream.java:148)
+	at javax.imageio.stream.FileCacheImageInputStream.read(FileCacheImageInputStream.java:187)
+	at com.sun.imageio.plugins.common.SubImageInputStream.read(SubImageInputStream.java:61)
+	at com.sun.imageio.plugins.common.InputStreamAdapter.read(InputStreamAdapter.java:47)
+	at java.io.SequenceInputStream.read(SequenceInputStream.java:207)
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:238)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.FilterInputStream.read(FilterInputStream.java:83)
+	at com.sun.imageio.plugins.png.PNGImageReader.decodePass(PNGImageReader.java:1104)
+	at com.sun.imageio.plugins.png.PNGImageReader.decodeImage(PNGImageReader.java:1215)
+	at com.sun.imageio.plugins.png.PNGImageReader.readImage(PNGImageReader.java:1330)
+	... 51 more
+
+Fri Sep 10 10:31:53 COT 2021
+java.lang.RuntimeException: javax.imageio.IIOException: Error reading PNG image data
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:273)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:136)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:108)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:338)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:358)
+	at de.javasoft.plaf.synthetica.painter.MenuPainter.paintPopupMenuBackground(MenuPainter.java:203)
+	at de.javasoft.plaf.synthetica.painter.MenuPainter.paintPopupMenuBackground(MenuPainter.java:109)
+	at de.javasoft.plaf.synthetica.painter.SyntheticaPainter.paintPopupMenuBackground(SyntheticaPainter.java:461)
+	at javax.swing.plaf.synth.SynthPopupMenuUI.update(SynthPopupMenuUI.java:150)
+	at javax.swing.JComponent.paintComponent(JComponent.java:780)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JLayeredPane.paint(JLayeredPane.java:586)
+	at javax.swing.JComponent.paintToOffscreen(JComponent.java:5210)
+	at javax.swing.RepaintManager$PaintManager.paintDoubleBuffered(RepaintManager.java:1579)
+	at javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1502)
+	at javax.swing.RepaintManager.paint(RepaintManager.java:1272)
+	at javax.swing.JComponent._paintImmediately(JComponent.java:5158)
+	at javax.swing.JComponent.paintImmediately(JComponent.java:4969)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:831)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:814)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:814)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:789)
+	at javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at javax.swing.RepaintManager.access$1200(RepaintManager.java:64)
+	at javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1732)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:76)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: javax.imageio.IIOException: Error reading PNG image data
+	at com.sun.imageio.plugins.png.PNGImageReader.readImage(PNGImageReader.java:1337)
+	at com.sun.imageio.plugins.png.PNGImageReader.read(PNGImageReader.java:1606)
+	at javax.imageio.ImageIO.read(ImageIO.java:1448)
+	at javax.imageio.ImageIO.read(ImageIO.java:1400)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:269)
+	... 45 more
+Caused by: java.io.IOException: Recursos insuficientes en el sistema para completar el servicio solicitado
+	at java.io.RandomAccessFile.writeBytes(Native Method)
+	at java.io.RandomAccessFile.write(RandomAccessFile.java:525)
+	at javax.imageio.stream.FileCacheImageInputStream.readUntil(FileCacheImageInputStream.java:148)
+	at javax.imageio.stream.FileCacheImageInputStream.read(FileCacheImageInputStream.java:187)
+	at com.sun.imageio.plugins.common.SubImageInputStream.read(SubImageInputStream.java:61)
+	at com.sun.imageio.plugins.common.InputStreamAdapter.read(InputStreamAdapter.java:47)
+	at java.io.SequenceInputStream.read(SequenceInputStream.java:207)
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:238)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.FilterInputStream.read(FilterInputStream.java:83)
+	at com.sun.imageio.plugins.png.PNGImageReader.decodePass(PNGImageReader.java:1104)
+	at com.sun.imageio.plugins.png.PNGImageReader.decodeImage(PNGImageReader.java:1215)
+	at com.sun.imageio.plugins.png.PNGImageReader.readImage(PNGImageReader.java:1330)
+	... 49 more
+
+Fri Sep 10 10:31:53 COT 2021
+java.lang.RuntimeException: javax.imageio.IIOException: Error reading PNG image data
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:273)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:136)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:108)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:338)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:358)
+	at de.javasoft.plaf.synthetica.painter.MenuPainter.paintPopupMenuBackground(MenuPainter.java:203)
+	at de.javasoft.plaf.synthetica.painter.MenuPainter.paintPopupMenuBackground(MenuPainter.java:109)
+	at de.javasoft.plaf.synthetica.painter.SyntheticaPainter.paintPopupMenuBackground(SyntheticaPainter.java:461)
+	at javax.swing.plaf.synth.SynthPopupMenuUI.update(SynthPopupMenuUI.java:150)
+	at javax.swing.JComponent.paintComponent(JComponent.java:780)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JLayeredPane.paint(JLayeredPane.java:586)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintToOffscreen(JComponent.java:5210)
+	at javax.swing.RepaintManager$PaintManager.paintDoubleBuffered(RepaintManager.java:1579)
+	at javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1502)
+	at javax.swing.RepaintManager.paint(RepaintManager.java:1272)
+	at javax.swing.JComponent._paintImmediately(JComponent.java:5158)
+	at javax.swing.JComponent.paintImmediately(JComponent.java:4969)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:831)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:814)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:814)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:789)
+	at javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at javax.swing.RepaintManager.access$1200(RepaintManager.java:64)
+	at javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1732)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:76)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: javax.imageio.IIOException: Error reading PNG image data
+	at com.sun.imageio.plugins.png.PNGImageReader.readImage(PNGImageReader.java:1337)
+	at com.sun.imageio.plugins.png.PNGImageReader.read(PNGImageReader.java:1606)
+	at javax.imageio.ImageIO.read(ImageIO.java:1448)
+	at javax.imageio.ImageIO.read(ImageIO.java:1400)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:269)
+	... 47 more
+Caused by: java.io.IOException: Recursos insuficientes en el sistema para completar el servicio solicitado
+	at java.io.RandomAccessFile.writeBytes(Native Method)
+	at java.io.RandomAccessFile.write(RandomAccessFile.java:525)
+	at javax.imageio.stream.FileCacheImageInputStream.readUntil(FileCacheImageInputStream.java:148)
+	at javax.imageio.stream.FileCacheImageInputStream.read(FileCacheImageInputStream.java:187)
+	at com.sun.imageio.plugins.common.SubImageInputStream.read(SubImageInputStream.java:61)
+	at com.sun.imageio.plugins.common.InputStreamAdapter.read(InputStreamAdapter.java:47)
+	at java.io.SequenceInputStream.read(SequenceInputStream.java:207)
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:238)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.FilterInputStream.read(FilterInputStream.java:83)
+	at com.sun.imageio.plugins.png.PNGImageReader.decodePass(PNGImageReader.java:1104)
+	at com.sun.imageio.plugins.png.PNGImageReader.decodeImage(PNGImageReader.java:1215)
+	at com.sun.imageio.plugins.png.PNGImageReader.readImage(PNGImageReader.java:1330)
+	... 51 more
+
+Fri Sep 10 10:31:53 COT 2021
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:273)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:136)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:108)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:338)
+	at de.javasoft.plaf.synthetica.painter.ScrollPanePainter.paintScrollPaneBackground(ScrollPanePainter.java:253)
+	at de.javasoft.plaf.synthetica.painter.SyntheticaPainter.paintScrollPaneBackground(SyntheticaPainter.java:633)
+	at javax.swing.plaf.synth.SynthScrollPaneUI.update(SynthScrollPaneUI.java:83)
+	at javax.swing.JComponent.paintComponent(JComponent.java:780)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JLayeredPane.paint(JLayeredPane.java:586)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paintToOffscreen(JComponent.java:5217)
+	at javax.swing.RepaintManager$PaintManager.paintDoubleBuffered(RepaintManager.java:1579)
+	at javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1502)
+	at javax.swing.RepaintManager.paint(RepaintManager.java:1272)
+	at javax.swing.JComponent.paint(JComponent.java:1042)
+	at java.awt.GraphicsCallback$PaintCallback.run(GraphicsCallback.java:39)
+	at sun.awt.SunGraphicsCallback.runOneComponent(SunGraphicsCallback.java:79)
+	at sun.awt.SunGraphicsCallback.runComponents(SunGraphicsCallback.java:116)
+	at java.awt.Container.paint(Container.java:1975)
+	at java.awt.Window.paint(Window.java:3904)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:842)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:814)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:814)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:789)
+	at javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at javax.swing.RepaintManager.access$1200(RepaintManager.java:64)
+	at javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1732)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:76)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:184)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:229)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:227)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:227)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at com.jidesoft.dialog.StandardDialog.show(Unknown Source)
+	at java.awt.Component.show(Component.java:1671)
+	at java.awt.Component.setVisible(Component.java:1623)
+	at java.awt.Window.setVisible(Window.java:1014)
+	at java.awt.Dialog.setVisible(Dialog.java:1005)
+	at ui.b.c.aa.setVisible(SourceFile:305)
+	at ui.cs.a(SourceFile:128)
+	at ui.cs.b(SourceFile:29)
+	at ui.cu.d(SourceFile:81)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:76)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: javax.imageio.IIOException: Error skipping PNG metadata
+	at com.sun.imageio.plugins.png.PNGImageReader.readMetadata(PNGImageReader.java:680)
+	at com.sun.imageio.plugins.png.PNGImageReader.readImage(PNGImageReader.java:1248)
+	at com.sun.imageio.plugins.png.PNGImageReader.read(PNGImageReader.java:1606)
+	at javax.imageio.ImageIO.read(ImageIO.java:1448)
+	at javax.imageio.ImageIO.read(ImageIO.java:1400)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:269)
+	... 79 more
+Caused by: java.io.IOException: Recursos insuficientes en el sistema para completar el servicio solicitado
+	at java.io.RandomAccessFile.writeBytes(Native Method)
+	at java.io.RandomAccessFile.write(RandomAccessFile.java:525)
+	at javax.imageio.stream.FileCacheImageInputStream.readUntil(FileCacheImageInputStream.java:148)
+	at javax.imageio.stream.FileCacheImageInputStream.read(FileCacheImageInputStream.java:187)
+	at javax.imageio.stream.ImageInputStreamImpl.readInt(ImageInputStreamImpl.java:250)
+	at com.sun.imageio.plugins.png.PNGImageReader.readMetadata(PNGImageReader.java:666)
+	... 84 more
+
+Fri Sep 10 10:31:53 COT 2021
+java.lang.RuntimeException: javax.imageio.IIOException: Error reading PNG image data
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:273)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:136)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:108)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:338)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:358)
+	at de.javasoft.plaf.synthetica.painter.MenuPainter.paintPopupMenuBackground(MenuPainter.java:203)
+	at de.javasoft.plaf.synthetica.painter.MenuPainter.paintPopupMenuBackground(MenuPainter.java:109)
+	at de.javasoft.plaf.synthetica.painter.SyntheticaPainter.paintPopupMenuBackground(SyntheticaPainter.java:461)
+	at javax.swing.plaf.synth.SynthPopupMenuUI.update(SynthPopupMenuUI.java:150)
+	at javax.swing.JComponent.paintComponent(JComponent.java:780)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JLayeredPane.paint(JLayeredPane.java:586)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintToOffscreen(JComponent.java:5210)
+	at javax.swing.RepaintManager$PaintManager.paintDoubleBuffered(RepaintManager.java:1579)
+	at javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1502)
+	at javax.swing.RepaintManager.paint(RepaintManager.java:1272)
+	at javax.swing.JComponent._paintImmediately(JComponent.java:5158)
+	at javax.swing.JComponent.paintImmediately(JComponent.java:4969)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:831)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:814)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:814)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:789)
+	at javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at javax.swing.RepaintManager.access$1200(RepaintManager.java:64)
+	at javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1732)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:76)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:184)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:229)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:227)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:227)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at com.jidesoft.dialog.StandardDialog.show(Unknown Source)
+	at java.awt.Component.show(Component.java:1671)
+	at java.awt.Component.setVisible(Component.java:1623)
+	at java.awt.Window.setVisible(Window.java:1014)
+	at java.awt.Dialog.setVisible(Dialog.java:1005)
+	at ui.b.c.aa.setVisible(SourceFile:305)
+	at ui.cs.a(SourceFile:128)
+	at ui.cs.b(SourceFile:29)
+	at ui.cu.d(SourceFile:81)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:76)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: javax.imageio.IIOException: Error reading PNG image data
+	at com.sun.imageio.plugins.png.PNGImageReader.readImage(PNGImageReader.java:1337)
+	at com.sun.imageio.plugins.png.PNGImageReader.read(PNGImageReader.java:1606)
+	at javax.imageio.ImageIO.read(ImageIO.java:1448)
+	at javax.imageio.ImageIO.read(ImageIO.java:1400)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:269)
+	... 74 more
+Caused by: java.io.IOException: Recursos insuficientes en el sistema para completar el servicio solicitado
+	at java.io.RandomAccessFile.writeBytes(Native Method)
+	at java.io.RandomAccessFile.write(RandomAccessFile.java:525)
+	at javax.imageio.stream.FileCacheImageInputStream.readUntil(FileCacheImageInputStream.java:148)
+	at javax.imageio.stream.FileCacheImageInputStream.read(FileCacheImageInputStream.java:187)
+	at com.sun.imageio.plugins.common.SubImageInputStream.read(SubImageInputStream.java:61)
+	at com.sun.imageio.plugins.common.InputStreamAdapter.read(InputStreamAdapter.java:47)
+	at java.io.SequenceInputStream.read(SequenceInputStream.java:207)
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:238)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.FilterInputStream.read(FilterInputStream.java:83)
+	at com.sun.imageio.plugins.png.PNGImageReader.decodePass(PNGImageReader.java:1104)
+	at com.sun.imageio.plugins.png.PNGImageReader.decodeImage(PNGImageReader.java:1215)
+	at com.sun.imageio.plugins.png.PNGImageReader.readImage(PNGImageReader.java:1330)
+	... 78 more
+
+Fri Sep 10 10:31:53 COT 2021
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:273)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:136)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:108)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:338)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:358)
+	at de.javasoft.plaf.synthetica.GraphicsUtils.paintTableCellRendererSelectionBackground(GraphicsUtils.java:430)
+	at de.javasoft.plaf.synthetica.painter.LabelPainter.paintLabelBackground(LabelPainter.java:198)
+	at de.javasoft.plaf.synthetica.painter.SyntheticaPainter.paintLabelBackground(SyntheticaPainter.java:330)
+	at javax.swing.plaf.synth.SynthLabelUI.update(SynthLabelUI.java:174)
+	at javax.swing.JComponent.paintComponent(JComponent.java:780)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at javax.swing.CellRendererPane.paintComponent(CellRendererPane.java:151)
+	at com.jidesoft.plaf.basic.BasicJideTableUIDelegate.paintCell(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicCellSpanTableUIDelegate.c(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicCellSpanTableUIDelegate.paint(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicTreeTableUIDelegate.paint(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicCellSpanTableUI.paint(Unknown Source)
+	at javax.swing.plaf.ComponentUI.update(ComponentUI.java:161)
+	at javax.swing.JComponent.paintComponent(JComponent.java:780)
+	at com.jidesoft.grid.CellStyleTable.paintComponent(Unknown Source)
+	at ui.utils.i.j.ai.paintComponent(SourceFile:782)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at ui.utils.i.j.ai.paint(SourceFile:760)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JViewport.paint(JViewport.java:728)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at ui.b.c.b.p.paint(SourceFile:1080)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JLayeredPane.paint(JLayeredPane.java:586)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JLayeredPane.paint(JLayeredPane.java:586)
+	at javax.swing.JComponent.paintToOffscreen(JComponent.java:5210)
+	at javax.swing.RepaintManager$PaintManager.paintDoubleBuffered(RepaintManager.java:1579)
+	at javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1502)
+	at javax.swing.RepaintManager.paint(RepaintManager.java:1272)
+	at javax.swing.JComponent._paintImmediately(JComponent.java:5158)
+	at javax.swing.JComponent.paintImmediately(JComponent.java:4969)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:831)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:814)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:814)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:789)
+	at javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at javax.swing.RepaintManager.access$1200(RepaintManager.java:64)
+	at javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1732)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:76)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:184)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:229)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:227)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:227)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at com.jidesoft.dialog.StandardDialog.show(Unknown Source)
+	at java.awt.Component.show(Component.java:1671)
+	at java.awt.Component.setVisible(Component.java:1623)
+	at java.awt.Window.setVisible(Window.java:1014)
+	at java.awt.Dialog.setVisible(Dialog.java:1005)
+	at ui.b.c.aa.setVisible(SourceFile:305)
+	at ui.cs.a(SourceFile:128)
+	at ui.cs.b(SourceFile:29)
+	at ui.cu.d(SourceFile:81)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:76)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: javax.imageio.IIOException: Error skipping PNG metadata
+	at com.sun.imageio.plugins.png.PNGImageReader.readMetadata(PNGImageReader.java:680)
+	at com.sun.imageio.plugins.png.PNGImageReader.readImage(PNGImageReader.java:1248)
+	at com.sun.imageio.plugins.png.PNGImageReader.read(PNGImageReader.java:1606)
+	at javax.imageio.ImageIO.read(ImageIO.java:1448)
+	at javax.imageio.ImageIO.read(ImageIO.java:1400)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:269)
+	... 145 more
+Caused by: java.io.IOException: Recursos insuficientes en el sistema para completar el servicio solicitado
+	at java.io.RandomAccessFile.writeBytes(Native Method)
+	at java.io.RandomAccessFile.write(RandomAccessFile.java:525)
+	at javax.imageio.stream.FileCacheImageInputStream.readUntil(FileCacheImageInputStream.java:148)
+	at javax.imageio.stream.FileCacheImageInputStream.read(FileCacheImageInputStream.java:187)
+	at javax.imageio.stream.ImageInputStreamImpl.readInt(ImageInputStreamImpl.java:250)
+	at com.sun.imageio.plugins.png.PNGImageReader.readMetadata(PNGImageReader.java:666)
+	... 150 more
+
+Fri Sep 10 10:31:53 COT 2021
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:273)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:136)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:108)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:338)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:358)
+	at de.javasoft.plaf.synthetica.GraphicsUtils.paintTableCellRendererSelectionBackground(GraphicsUtils.java:430)
+	at de.javasoft.plaf.synthetica.painter.LabelPainter.paintLabelBackground(LabelPainter.java:198)
+	at de.javasoft.plaf.synthetica.painter.SyntheticaPainter.paintLabelBackground(SyntheticaPainter.java:330)
+	at javax.swing.plaf.synth.SynthLabelUI.update(SynthLabelUI.java:174)
+	at javax.swing.JComponent.paintComponent(JComponent.java:780)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at javax.swing.CellRendererPane.paintComponent(CellRendererPane.java:151)
+	at com.jidesoft.plaf.basic.BasicJideTableUIDelegate.paintCell(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicCellSpanTableUIDelegate.c(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicCellSpanTableUIDelegate.paint(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicTreeTableUIDelegate.paint(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicCellSpanTableUI.paint(Unknown Source)
+	at javax.swing.plaf.ComponentUI.update(ComponentUI.java:161)
+	at javax.swing.JComponent.paintComponent(JComponent.java:780)
+	at com.jidesoft.grid.CellStyleTable.paintComponent(Unknown Source)
+	at ui.utils.i.j.ai.paintComponent(SourceFile:782)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at ui.utils.i.j.ai.paint(SourceFile:760)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JViewport.paint(JViewport.java:728)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at ui.b.c.b.p.paint(SourceFile:1080)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JLayeredPane.paint(JLayeredPane.java:586)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JLayeredPane.paint(JLayeredPane.java:586)
+	at javax.swing.JComponent.paintToOffscreen(JComponent.java:5210)
+	at javax.swing.RepaintManager$PaintManager.paintDoubleBuffered(RepaintManager.java:1579)
+	at javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1502)
+	at javax.swing.RepaintManager.paint(RepaintManager.java:1272)
+	at javax.swing.JComponent._paintImmediately(JComponent.java:5158)
+	at javax.swing.JComponent.paintImmediately(JComponent.java:4969)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:831)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:814)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:814)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:789)
+	at javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at javax.swing.RepaintManager.access$1200(RepaintManager.java:64)
+	at javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1732)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:76)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:184)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:229)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:227)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:227)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at com.jidesoft.dialog.StandardDialog.show(Unknown Source)
+	at java.awt.Component.show(Component.java:1671)
+	at java.awt.Component.setVisible(Component.java:1623)
+	at java.awt.Window.setVisible(Window.java:1014)
+	at java.awt.Dialog.setVisible(Dialog.java:1005)
+	at ui.b.c.aa.setVisible(SourceFile:305)
+	at ui.cs.a(SourceFile:128)
+	at ui.cs.b(SourceFile:29)
+	at ui.cu.d(SourceFile:81)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:76)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: javax.imageio.IIOException: Error skipping PNG metadata
+	at com.sun.imageio.plugins.png.PNGImageReader.readMetadata(PNGImageReader.java:680)
+	at com.sun.imageio.plugins.png.PNGImageReader.readImage(PNGImageReader.java:1248)
+	at com.sun.imageio.plugins.png.PNGImageReader.read(PNGImageReader.java:1606)
+	at javax.imageio.ImageIO.read(ImageIO.java:1448)
+	at javax.imageio.ImageIO.read(ImageIO.java:1400)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:269)
+	... 145 more
+Caused by: java.io.IOException: Recursos insuficientes en el sistema para completar el servicio solicitado
+	at java.io.RandomAccessFile.writeBytes(Native Method)
+	at java.io.RandomAccessFile.write(RandomAccessFile.java:525)
+	at javax.imageio.stream.FileCacheImageInputStream.readUntil(FileCacheImageInputStream.java:148)
+	at javax.imageio.stream.FileCacheImageInputStream.read(FileCacheImageInputStream.java:187)
+	at javax.imageio.stream.ImageInputStreamImpl.readInt(ImageInputStreamImpl.java:250)
+	at com.sun.imageio.plugins.png.PNGImageReader.readMetadata(PNGImageReader.java:666)
+	... 150 more
+
+Fri Sep 10 10:31:53 COT 2021
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:273)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:136)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:108)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:338)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:358)
+	at de.javasoft.plaf.synthetica.GraphicsUtils.paintTableCellRendererSelectionBackground(GraphicsUtils.java:430)
+	at de.javasoft.plaf.synthetica.painter.LabelPainter.paintLabelBackground(LabelPainter.java:198)
+	at de.javasoft.plaf.synthetica.painter.SyntheticaPainter.paintLabelBackground(SyntheticaPainter.java:330)
+	at javax.swing.plaf.synth.SynthLabelUI.update(SynthLabelUI.java:174)
+	at javax.swing.JComponent.paintComponent(JComponent.java:780)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at javax.swing.CellRendererPane.paintComponent(CellRendererPane.java:151)
+	at com.jidesoft.plaf.basic.BasicJideTableUIDelegate.paintCell(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicCellSpanTableUIDelegate.c(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicCellSpanTableUIDelegate.paint(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicTreeTableUIDelegate.paint(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicCellSpanTableUI.paint(Unknown Source)
+	at javax.swing.plaf.ComponentUI.update(ComponentUI.java:161)
+	at javax.swing.JComponent.paintComponent(JComponent.java:780)
+	at com.jidesoft.grid.CellStyleTable.paintComponent(Unknown Source)
+	at ui.utils.i.j.ai.paintComponent(SourceFile:782)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at ui.utils.i.j.ai.paint(SourceFile:760)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JViewport.paint(JViewport.java:728)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at ui.b.c.b.p.paint(SourceFile:1080)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JLayeredPane.paint(JLayeredPane.java:586)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JLayeredPane.paint(JLayeredPane.java:586)
+	at javax.swing.JComponent.paintToOffscreen(JComponent.java:5210)
+	at javax.swing.RepaintManager$PaintManager.paintDoubleBuffered(RepaintManager.java:1579)
+	at javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1502)
+	at javax.swing.RepaintManager.paint(RepaintManager.java:1272)
+	at javax.swing.JComponent._paintImmediately(JComponent.java:5158)
+	at javax.swing.JComponent.paintImmediately(JComponent.java:4969)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:831)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:814)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:814)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:789)
+	at javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at javax.swing.RepaintManager.access$1200(RepaintManager.java:64)
+	at javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1732)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:76)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:184)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:229)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:227)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:227)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at com.jidesoft.dialog.StandardDialog.show(Unknown Source)
+	at java.awt.Component.show(Component.java:1671)
+	at java.awt.Component.setVisible(Component.java:1623)
+	at java.awt.Window.setVisible(Window.java:1014)
+	at java.awt.Dialog.setVisible(Dialog.java:1005)
+	at ui.b.c.aa.setVisible(SourceFile:305)
+	at ui.cs.a(SourceFile:128)
+	at ui.cs.b(SourceFile:29)
+	at ui.cu.d(SourceFile:81)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:76)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: javax.imageio.IIOException: Error skipping PNG metadata
+	at com.sun.imageio.plugins.png.PNGImageReader.readMetadata(PNGImageReader.java:680)
+	at com.sun.imageio.plugins.png.PNGImageReader.readImage(PNGImageReader.java:1248)
+	at com.sun.imageio.plugins.png.PNGImageReader.read(PNGImageReader.java:1606)
+	at javax.imageio.ImageIO.read(ImageIO.java:1448)
+	at javax.imageio.ImageIO.read(ImageIO.java:1400)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:269)
+	... 145 more
+Caused by: java.io.IOException: Recursos insuficientes en el sistema para completar el servicio solicitado
+	at java.io.RandomAccessFile.writeBytes(Native Method)
+	at java.io.RandomAccessFile.write(RandomAccessFile.java:525)
+	at javax.imageio.stream.FileCacheImageInputStream.readUntil(FileCacheImageInputStream.java:148)
+	at javax.imageio.stream.FileCacheImageInputStream.read(FileCacheImageInputStream.java:187)
+	at javax.imageio.stream.ImageInputStreamImpl.readInt(ImageInputStreamImpl.java:250)
+	at com.sun.imageio.plugins.png.PNGImageReader.readMetadata(PNGImageReader.java:666)
+	... 150 more
+
+Fri Sep 10 10:31:56 COT 2021
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:273)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:136)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:108)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:338)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:358)
+	at de.javasoft.plaf.synthetica.GraphicsUtils.paintTableCellRendererSelectionBackground(GraphicsUtils.java:430)
+	at de.javasoft.plaf.synthetica.painter.LabelPainter.paintLabelBackground(LabelPainter.java:198)
+	at de.javasoft.plaf.synthetica.painter.SyntheticaPainter.paintLabelBackground(SyntheticaPainter.java:330)
+	at javax.swing.plaf.synth.SynthLabelUI.update(SynthLabelUI.java:174)
+	at javax.swing.JComponent.paintComponent(JComponent.java:780)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at javax.swing.CellRendererPane.paintComponent(CellRendererPane.java:151)
+	at com.jidesoft.plaf.basic.BasicJideTableUIDelegate.paintCell(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicCellSpanTableUIDelegate.c(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicCellSpanTableUIDelegate.paint(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicTreeTableUIDelegate.paint(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicCellSpanTableUI.paint(Unknown Source)
+	at javax.swing.plaf.ComponentUI.update(ComponentUI.java:161)
+	at javax.swing.JComponent.paintComponent(JComponent.java:780)
+	at com.jidesoft.grid.CellStyleTable.paintComponent(Unknown Source)
+	at ui.utils.i.j.ai.paintComponent(SourceFile:782)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at ui.utils.i.j.ai.paint(SourceFile:760)
+	at javax.swing.JComponent.paintToOffscreen(JComponent.java:5210)
+	at javax.swing.RepaintManager$PaintManager.paintDoubleBuffered(RepaintManager.java:1579)
+	at javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1502)
+	at javax.swing.RepaintManager.paint(RepaintManager.java:1272)
+	at javax.swing.JComponent._paintImmediately(JComponent.java:5158)
+	at javax.swing.JComponent.paintImmediately(JComponent.java:4969)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:831)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:814)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:814)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:789)
+	at javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at javax.swing.RepaintManager.access$1200(RepaintManager.java:64)
+	at javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1732)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:76)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: javax.imageio.IIOException: Error skipping PNG metadata
+	at com.sun.imageio.plugins.png.PNGImageReader.readMetadata(PNGImageReader.java:680)
+	at com.sun.imageio.plugins.png.PNGImageReader.readImage(PNGImageReader.java:1248)
+	at com.sun.imageio.plugins.png.PNGImageReader.read(PNGImageReader.java:1606)
+	at javax.imageio.ImageIO.read(ImageIO.java:1448)
+	at javax.imageio.ImageIO.read(ImageIO.java:1400)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:269)
+	... 52 more
+Caused by: java.io.IOException: Recursos insuficientes en el sistema para completar el servicio solicitado
+	at java.io.RandomAccessFile.writeBytes(Native Method)
+	at java.io.RandomAccessFile.write(RandomAccessFile.java:525)
+	at javax.imageio.stream.FileCacheImageInputStream.readUntil(FileCacheImageInputStream.java:148)
+	at javax.imageio.stream.FileCacheImageInputStream.read(FileCacheImageInputStream.java:187)
+	at javax.imageio.stream.ImageInputStreamImpl.readInt(ImageInputStreamImpl.java:250)
+	at com.sun.imageio.plugins.png.PNGImageReader.readMetadata(PNGImageReader.java:666)
+	... 57 more
+
+Fri Sep 10 10:31:56 COT 2021
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:273)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:136)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:108)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:338)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:358)
+	at de.javasoft.plaf.synthetica.GraphicsUtils.paintTableCellRendererSelectionBackground(GraphicsUtils.java:430)
+	at de.javasoft.plaf.synthetica.painter.LabelPainter.paintLabelBackground(LabelPainter.java:198)
+	at de.javasoft.plaf.synthetica.painter.SyntheticaPainter.paintLabelBackground(SyntheticaPainter.java:330)
+	at javax.swing.plaf.synth.SynthLabelUI.update(SynthLabelUI.java:174)
+	at javax.swing.JComponent.paintComponent(JComponent.java:780)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at javax.swing.CellRendererPane.paintComponent(CellRendererPane.java:151)
+	at com.jidesoft.plaf.basic.BasicJideTableUIDelegate.paintCell(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicCellSpanTableUIDelegate.c(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicCellSpanTableUIDelegate.paint(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicTreeTableUIDelegate.paint(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicCellSpanTableUI.paint(Unknown Source)
+	at javax.swing.plaf.ComponentUI.update(ComponentUI.java:161)
+	at javax.swing.JComponent.paintComponent(JComponent.java:780)
+	at com.jidesoft.grid.CellStyleTable.paintComponent(Unknown Source)
+	at ui.utils.i.j.ai.paintComponent(SourceFile:782)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at ui.utils.i.j.ai.paint(SourceFile:760)
+	at javax.swing.JComponent.paintToOffscreen(JComponent.java:5210)
+	at javax.swing.RepaintManager$PaintManager.paintDoubleBuffered(RepaintManager.java:1579)
+	at javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1502)
+	at javax.swing.RepaintManager.paint(RepaintManager.java:1272)
+	at javax.swing.JComponent._paintImmediately(JComponent.java:5158)
+	at javax.swing.JComponent.paintImmediately(JComponent.java:4969)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:831)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:814)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:814)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:789)
+	at javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at javax.swing.RepaintManager.access$1200(RepaintManager.java:64)
+	at javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1732)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at ui.frmwork.b.d.dispatchEvent(SourceFile:76)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: javax.imageio.IIOException: Error skipping PNG metadata
+	at com.sun.imageio.plugins.png.PNGImageReader.readMetadata(PNGImageReader.java:680)
+	at com.sun.imageio.plugins.png.PNGImageReader.readImage(PNGImageReader.java:1248)
+	at com.sun.imageio.plugins.png.PNGImageReader.read(PNGImageReader.java:1606)
+	at javax.imageio.ImageIO.read(ImageIO.java:1448)
+	at javax.imageio.ImageIO.read(ImageIO.java:1400)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:269)
+	... 52 more
+Caused by: java.io.IOException: Recursos insuficientes en el sistema para completar el servicio solicitado
+	at java.io.RandomAccessFile.writeBytes(Native Method)
+	at java.io.RandomAccessFile.write(RandomAccessFile.java:525)
+	at javax.imageio.stream.FileCacheImageInputStream.readUntil(FileCacheImageInputStream.java:148)
+	at javax.imageio.stream.FileCacheImageInputStream.read(FileCacheImageInputStream.java:187)
+	at javax.imageio.stream.ImageInputStreamImpl.readInt(ImageInputStreamImpl.java:250)
+	at com.sun.imageio.plugins.png.PNGImageReader.readMetadata(PNGImageReader.java:666)
+	... 57 more
+
+Fri Sep 10 10:31:56 COT 2021
+java.lang.RuntimeException: javax.imageio.IIOException: Error skipping PNG metadata
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:273)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:136)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:108)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:338)
+	at de.javasoft.plaf.synthetica.painter.ImagePainter.<init>(ImagePainter.java:358)
+	at de.javasoft.plaf.synthetica.GraphicsUtils.paintTableCellRendererSelectionBackground(GraphicsUtils.java:430)
+	at de.javasoft.plaf.synthetica.painter.LabelPainter.paintLabelBackground(LabelPainter.java:198)
+	at de.javasoft.plaf.synthetica.painter.SyntheticaPainter.paintLabelBackground(SyntheticaPainter.java:330)
+	at javax.swing.plaf.synth.SynthLabelUI.update(SynthLabelUI.java:174)
+	at javax.swing.JComponent.paintComponent(JComponent.java:780)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at javax.swing.CellRendererPane.paintComponent(CellRendererPane.java:151)
+	at com.jidesoft.plaf.basic.BasicJideTableUIDelegate.paintCell(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicCellSpanTableUIDelegate.c(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicCellSpanTableUIDelegate.paint(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicTreeTableUIDelegate.paint(Unknown Source)
+	at com.jidesoft.plaf.basic.BasicCellSpanTableUI.paint(Unknown Source)
+	at javax.swing.plaf.ComponentUI.update(ComponentUI.java:161)
+	at javax.swing.JComponent.paintComponent(JComponent.java:780)
+	at com.jidesoft.grid.CellStyleTable.paintComponent(Unknown Source)
+	at ui.utils.i.j.ai.paintComponent(SourceFile:782)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at ui.utils.i.j.ai.paint(SourceFile:760)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JViewport.paint(JViewport.java:728)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at ui.b.c.b.p.paint(SourceFile:1080)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JCo

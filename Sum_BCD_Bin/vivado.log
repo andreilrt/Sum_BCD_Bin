@@ -1,0 +1,233 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Sep  7 14:35:51 2021
+# Process ID: 2928
+# Current directory: C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11536 C:\Users\lsras\OneDrive\Documentos\VIVADO\Sum_BCD_Bin\Sum_BCD_Bin\Sum_BCD_Bin.xpr
+# Log file: C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado.log
+# Journal file: C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.xpr
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'open_project' was cancelled
+open_project C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:10 . Memory (MB): peak = 763.867 ; gain = 105.930
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/constrs_1/new/1.xdc]
+Finished Parsing XDC File [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/constrs_1/new/1.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1051.395 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:25 ; elapsed = 00:00:16 . Memory (MB): peak = 1179.141 ; gain = 379.711
+startgroup
+set_property package_pin "" [get_ports [list  {hab[3]}]]
+place_ports {hab[0]} W4
+endgroup
+startgroup
+set_property package_pin "" [get_ports [list  {hab[2]}]]
+place_ports {hab[1]} V4
+endgroup
+place_ports {hab[2]} U4
+place_ports {hab[3]} U2
+save_constraints
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1706.531 ; gain = 0.000
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1707.328 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.147 . Memory (MB): peak = 1713.820 ; gain = 6.492
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1713.820 ; gain = 0.000
+[Tue Sep  7 14:38:42 2021] Launched impl_1...
+Run output will be captured here: C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Sep  7 14:42:00 2021] Launched impl_1...
+Run output will be captured here: C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.3
+  **** Build date : Dec  7 2018-00:40:27
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1738.848 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AA112BA
+open_hw_target: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2648.746 ; gain = 909.898
+set_property PROGRAM.FILE {C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/Sum_BCD_Bin.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/Sum_BCD_Bin.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2673.867 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.101 . Memory (MB): peak = 2677.754 ; gain = 3.887
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2680.730 ; gain = 0.000
+[Tue Sep  7 14:55:40 2021] Launched impl_1...
+Run output will be captured here: C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Tue Sep  7 14:57:52 2021] Launched synth_1...
+Run output will be captured here: C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/synth_1/runme.log
+[Tue Sep  7 14:57:53 2021] Launched impl_1...
+Run output will be captured here: C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/Sum_BCD_Bin.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/Sum_BCD_Bin.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AA112BA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AA112BA
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+close_design
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: Sum_BCD_Bin
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2821.336 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Sum_BCD_Bin' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:14]
+INFO: [Synth 8-3491] module 'Comparador_Entrada' declared at 'C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Comparador_Entrada.vhd:4' bound to instance 'u0' of component 'Comparador_Entrada' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:66]
+INFO: [Synth 8-638] synthesizing module 'Comparador_Entrada' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Comparador_Entrada.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'Comparador_Entrada' (1#1) [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Comparador_Entrada.vhd:10]
+INFO: [Synth 8-3491] module 'sumador4bits' declared at 'C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:4' bound to instance 'u1' of component 'sumador4bits' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'sumador4bits' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:10]
+INFO: [Synth 8-3491] module 'Fulladder' declared at 'C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Fulladder.vhd:4' bound to instance 'FA0' of component 'FullAdder' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:17]
+INFO: [Synth 8-638] synthesizing module 'Fulladder' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Fulladder.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'Fulladder' (2#1) [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Fulladder.vhd:12]
+INFO: [Synth 8-3491] module 'Fulladder' declared at 'C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Fulladder.vhd:4' bound to instance 'FA1' of component 'FullAdder' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:19]
+INFO: [Synth 8-3491] module 'Fulladder' declared at 'C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Fulladder.vhd:4' bound to instance 'FA2' of component 'FullAdder' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:21]
+INFO: [Synth 8-3491] module 'Fulladder' declared at 'C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Fulladder.vhd:4' bound to instance 'FA3' of component 'FullAdder' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'sumador4bits' (3#1) [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:10]
+INFO: [Synth 8-3491] module 'comparador_Magnitud' declared at 'C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/comparador_Magnitud.vhd:4' bound to instance 'u2' of component 'comparador_Magnitud' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'comparador_Magnitud' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/comparador_Magnitud.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'comparador_Magnitud' (4#1) [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/comparador_Magnitud.vhd:10]
+INFO: [Synth 8-3491] module 'Mux2_1' declared at 'C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:4' bound to instance 'u3' of component 'Mux2_1' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'Mux2_1' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'Mux2_1' (5#1) [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:11]
+INFO: [Synth 8-3491] module 'sumador4bits' declared at 'C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/sumador4bits.vhd:4' bound to instance 'u4' of component 'sumador4bits' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:74]
+INFO: [Synth 8-3491] module 'acarreoE' declared at 'C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/acarreoEntrada.vhd:4' bound to instance 'u5' of component 'AcarreoE' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'acarreoE' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/acarreoEntrada.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'acarreoE' (6#1) [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/acarreoEntrada.vhd:9]
+INFO: [Synth 8-3491] module 'Mux2_1' declared at 'C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:4' bound to instance 'u6' of component 'Mux2_1' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:78]
+INFO: [Synth 8-3491] module 'Mux2_1' declared at 'C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:4' bound to instance 'u7' of component 'Mux2_1' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:80]
+INFO: [Synth 8-3491] module 'Mux2_1' declared at 'C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:4' bound to instance 'u8' of component 'Mux2_1' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:82]
+INFO: [Synth 8-3491] module 'Mux2_1' declared at 'C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Mux2_1.vhd:4' bound to instance 'u9' of component 'Mux2_1' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:84]
+INFO: [Synth 8-3491] module 'ref' declared at 'C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/ref.vhd:7' bound to instance 'u10' of component 'ref' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:86]
+INFO: [Synth 8-638] synthesizing module 'ref' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/ref.vhd:18]
+INFO: [Synth 8-3491] module 'mux' declared at 'C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/mux.vhd:4' bound to instance 'u1' of component 'mux' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/ref.vhd:50]
+INFO: [Synth 8-638] synthesizing module 'mux' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/mux.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'mux' (7#1) [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/mux.vhd:13]
+INFO: [Synth 8-3491] module 'clk' declared at 'C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/conta.vhd:8' bound to instance 'u2' of component 'clk' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/ref.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'clk' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/conta.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'clk' (8#1) [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/conta.vhd:14]
+INFO: [Synth 8-3491] module 'segmento' declared at 'C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/segmento.vhd:3' bound to instance 'u3' of component 'segmento' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/ref.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'segmento' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/segmento.vhd:7]
+INFO: [Synth 8-256] done synthesizing module 'segmento' (9#1) [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/segmento.vhd:7]
+INFO: [Synth 8-3491] module 'deco' declared at 'C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/deco.vhd:7' bound to instance 'u4' of component 'deco' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/ref.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'deco' [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/deco.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'deco' (10#1) [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/deco.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'ref' (11#1) [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/ref.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'Sum_BCD_Bin' (12#1) [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/sources_1/new/Sum_BCD_Bin.vhd:14]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2821.336 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2821.336 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2821.336 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/constrs_1/new/1.xdc]
+Finished Parsing XDC File [C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/constrs_1/new/1.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2821.336 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:12 . Memory (MB): peak = 2883.957 ; gain = 62.621
+46 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:12 . Memory (MB): peak = 2883.957 ; gain = 62.621
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+[Tue Sep  7 15:55:07 2021] Launched synth_1...
+Run output will be captured here: C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/synth_1/runme.log
+[Tue Sep  7 15:55:07 2021] Launched impl_1...
+Run output will be captured here: C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Sep  7 15:57:50 2021] Launched impl_1...
+Run output will be captured here: C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.runs/impl_1/Sum_BCD_Bin.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Sep  7 16:02:04 2021...

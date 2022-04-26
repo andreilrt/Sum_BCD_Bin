@@ -1,0 +1,1274 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 11296
+License: Customer
+
+Current time: 	Fri Sep 10 15:53:35 COT 2021
+Time zone: 	Colombia Time (America/Bogota)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 79 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	ETM9-PC-03
+User home directory: C:/Users/ETM9-PC-03
+User working directory: E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin
+User country: 	CO
+User language: 	es
+User locale: 	es_CO
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.2
+RDI_DATADIR: C:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/ETM9-PC-03/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/ETM9-PC-03/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/ETM9-PC-03/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado.log
+Vivado journal file location: 	E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/vivado.jou
+Engine tmp dir: 	E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/.Xil/Vivado-11296-ETM9-03
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.2
+XILINX_SDK: C:/Xilinx/SDK/2018.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	198 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 501 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// HOptionPane Warning: 'This project was created with a future version of Vivado. It will be opened in read-only mode for the protection of unrecognized data. Please use 'File | Save Project As...' if you need to alter a copy of this project. The project may or may not open reliably with this version of Vivado. OK to proceed and open the project? (Future Project Version)'
+// [GUI Memory]: 60 MB (+60342kb) [00:00:04]
+// [Engine Memory]: 501 MB (+373705kb) [00:00:04]
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: E:\VIVADO\Sum_BCD_Bin\Sum_BCD_Bin\Sum_BCD_Bin.xpr. Version: Vivado v2018.3 
+selectButton("PAResourceOtoP.PABaseTab_THIS_PROJECT_WILL_BE_OPENED_IN_READ_ONLY_OK", "OK"); // JButton (A, G)
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// Tcl Message: open_project E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.xpr 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/lsras/OneDrive/Documentos/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 101 MB (+40364kb) [00:00:08]
+// [Engine Memory]: 565 MB (+40831kb) [00:00:08]
+// [GUI Memory]: 112 MB (+6169kb) [00:00:08]
+// [Engine Memory]: 602 MB (+9201kb) [00:00:08]
+// [Engine Memory]: 633 MB (+500kb) [00:00:09]
+// HMemoryUtils.trashcanNow. Engine heap size: 649 MB. GUI used memory: 43 MB. Current time: 9/10/21 3:53:39 PM COT
+// Project name: Sum_BCD_Bin; location: E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// y (ck): Project is Read-Only: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (y)
+dismissDialog("Project is Read-Only"); // y (ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Sum_BCD_Bin(Behavioral) (Sum_BCD_Bin.vhd)]", 1, true); // B (D, ck) - Node
+// [Engine Memory]: 667 MB (+2513kb) [00:00:16]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Sum_BCD_Bin(Behavioral) (Sum_BCD_Bin.vhd), u0 : Comparador_Entrada(Behavioral) (Comparador_Entrada.vhd)]", 2, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Sum_BCD_Bin(Behavioral) (Sum_BCD_Bin.vhd), u10 : ref(Behavioral) (ref.vhd)]", 12, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Sum_BCD_Bin(Behavioral) (Sum_BCD_Bin.vhd), u10 : ref(Behavioral) (ref.vhd), u3 : segmento(Behavioral) (segmento.vhd)]", 15, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 46 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (O, ck) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// A (ck): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (ck):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A (ck)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: Sum_BCD_Bin 
+// [Engine Memory]: 783 MB (+87456kb) [00:01:18]
+// HMemoryUtils.trashcanNow. Engine heap size: 783 MB. GUI used memory: 45 MB. Current time: 9/10/21 3:54:47 PM COT
+// [Engine Memory]: 891 MB (+71546kb) [00:01:23]
+// TclEventType: ELABORATE_FINISH
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 847 ms to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 604ms to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 957 ms to process. Increasing delay to 2000 ms.
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,034 MB. GUI used memory: 45 MB. Current time: 9/10/21 3:55:10 PM COT
+// [Engine Memory]: 1,038 MB (+107943kb) [00:01:41]
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 1,120 MB (+31605kb) [00:01:41]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Package: addNotify
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 984.801 ; gain = 51.723 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1033.910 ; gain = 100.832 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1033.910 ; gain = 100.832 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1033.910 ; gain = 100.832 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a35tcpg236-1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/constrs_1/new/1.xdc] Finished Parsing XDC File [E:/VIVADO/Sum_BCD_Bin/Sum_BCD_Bin/Sum_BCD_Bin.srcs/constrs_1/new/1.xdc] Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:29 . Memory (MB): peak = 1376.141 ; gain = 443.063 
+// Tcl Message: 47 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:30 . Memory (MB): peak = 1376.141 ; gain = 443.063 
+// 'dP' command handler elapsed time: 31 seconds
+// Elapsed time: 30 seconds
+dismissDialog("Open Elaborated Design"); // bx (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 16, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// [GUI Memory]: 120 MB (+1958kb) [00:02:11]
+// Elapsed time: 60 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aE (Q, ck)
+// Elapsed time: 57 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+// [GUI Memory]: 128 MB (+2017kb) [00:03:45]
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // aa (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V (q, ck)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // V (q, ck)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // aa (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V (q, ck)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // V (q, ck)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // aa (ck)
+selectMenuItem(PAResourceCommand.PACommandNames_NEW_PROJECT, "New..."); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// f (ck): New Project: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, f)
+// Elapsed time: 10 seconds
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "sumbinoctal"); // X (Q, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, f)
+// F (f): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "sum"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+// [GUI Memory]: 136 MB (+1553kb) [00:04:16]
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectComboBox(PAResourceEtoH.FPGAChooser_FAMILY, "Artix-7", 1); // u (B, f)
+selectComboBox(PAResourceEtoH.FPGAChooser_PACKAGE, "cpg236", 1); // u (B, f)
+selectComboBox(PAResourceEtoH.FPGAChooser_SPEED, "-1", 1); // u (B, f)
+selectTable(PAResourceEtoH.FPGAChooser_FPGA_TABLE, "xc7a35tcpg236-1 ; 236 ; 106 ; 20800 ; 41600 ; 50 ; 0 ; 90 ; 2 ; 2 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 5 ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 1, "236", 1); // v (O, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+// bx (f):  Create Project : addNotify
+selectButton("PAResourceItoN.NewProjectWizard_WOULD_YOU_LIKE_TO_CLOSE_CURRENTLY_No", "No"); // JButton (A, H)
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: create_project sumbinoctal E:/VIVADO/Sum_BCD_Bin/sumbinoctal -part xc7a35tcpg236-1 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 1397.523 ; gain = 2.664 
+// Tcl Command: 'file mkdir E:/VIVADO/Sum_BCD_Bin/sumbinoctal/sumbinoctal.srcs/sources_1/new'
+// Tcl Message: file mkdir E:/VIVADO/Sum_BCD_Bin/sumbinoctal/sumbinoctal.srcs/sources_1/new 
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property target_language VHDL [current_project] 
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property simulator_language VHDL [current_project] 
+// Tcl Message: close [ open E:/VIVADO/Sum_BCD_Bin/sumbinoctal/sumbinoctal.srcs/sources_1/new/sum.vhd w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files E:/VIVADO/Sum_BCD_Bin/sumbinoctal/sumbinoctal.srcs/sources_1/new/sum.vhd 
+// I (ck): Define Module: addNotify
+// Elapsed time: 10 seconds
+dismissDialog("New Project"); // f (ck)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+selectButton("FINISH", "Finish"); // JButton (j, f)
+// 'g' command handler elapsed time: 47 seconds
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 147 MB (+5013kb) [00:04:40]
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 160 MB (+5759kb) [00:04:40]
+// [Engine Memory]: 1,181 MB (+5397kb) [00:04:40]
+dismissDialog("Define Module"); // I (ck)
+// [GUI Memory]: 169 MB (+886kb) [00:04:41]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 186 MB (+9048kb) [00:04:41]
+// [GUI Memory]: 202 MB (+7227kb) [00:04:41]
+// [GUI Memory]: 226 MB (+13606kb) [00:04:41]
+// [Engine Memory]: 1,248 MB (+8062kb) [00:04:41]
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,259 MB. GUI used memory: 97 MB. Current time: 9/10/21 3:58:12 PM COT
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+dismissDialog("Create Source File"); // F (c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// Elapsed time: 24 seconds
+setFileChooser("E:/VIVADO/refres/refres.srcs/sources_1/new/ref.vhd");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 30 seconds
+dismissDialog("Add Sources"); // c (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse E:/VIVADO/refres/refres.srcs/sources_1/new/ref.vhd 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sum(Behavioral) (sum.vhd)]", 2, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sum(Behavioral) (sum.vhd)]", 2, false, false, false, false, false, true); // B (D, ck) - Double Click
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,280 MB. GUI used memory: 99 MB. Current time: 9/10/21 3:58:52 PM COT
+selectCodeEditor("sum.vhd", 8, 174); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("sum.vhd", 219, 194); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("sum.vhd", 28, 94); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 22 seconds
+typeControlKey((HResource) null, "sum.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("sum.vhd", 465, 144); // ce (w, ck)
+// Elapsed time: 27 seconds
+selectCodeEditor("sum.vhd", 52, 283); // ce (w, ck)
+typeControlKey((HResource) null, "sum.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("sum.vhd", 257, 400); // ce (w, ck)
+selectCodeEditor("sum.vhd", 8, 275); // ce (w, ck)
+selectCodeEditor("sum.vhd", 290, 339); // ce (w, ck)
+selectCodeEditor("sum.vhd", 299, 360); // ce (w, ck)
+typeControlKey((HResource) null, "sum.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("sum.vhd", 65, 229); // ce (w, ck)
+typeControlKey((HResource) null, "sum.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("sum.vhd", 348, 145); // ce (w, ck)
+selectCodeEditor("sum.vhd", 325, 131); // ce (w, ck)
+selectCodeEditor("sum.vhd", 327, 131); // ce (w, ck)
+typeControlKey((HResource) null, "sum.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("sum.vhd", 150, 168); // ce (w, ck)
+typeControlKey((HResource) null, "sum.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("sum.vhd", 354, 162); // ce (w, ck)
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ref(Behavioral) (ref.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ref(Behavioral) (ref.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("ref.vhd", 66, 258); // ce (w, ck)
+typeControlKey((HResource) null, "ref.vhd", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sum.vhd", 1); // k (j, ck)
+selectCodeEditor("sum.vhd", 102, 369); // ce (w, ck)
+typeControlKey((HResource) null, "sum.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("sum.vhd", 43, 277); // ce (w, ck)
+selectCodeEditor("sum.vhd", 37, 426); // ce (w, ck)
+selectCodeEditor("sum.vhd", 240, 429); // ce (w, ck)
+// Elapsed time: 16 seconds
+selectCodeEditor("sum.vhd", 104, 426); // ce (w, ck)
+typeControlKey((HResource) null, "sum.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("sum.vhd", 63, 237); // ce (w, ck)
+typeControlKey((HResource) null, "sum.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 181 seconds
+selectCodeEditor("sum.vhd", 67, 423); // ce (w, ck)
+typeControlKey((HResource) null, "sum.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("sum.vhd", 60, 384); // ce (w, ck)
+// Elapsed time: 29 seconds
+selectCodeEditor("sum.vhd", 46, 175); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("sum.vhd", 444, 381); // ce (w, ck)
+// Elapsed time: 17 seconds
+selectCodeEditor("sum.vhd", 41, 364); // ce (w, ck)
+selectCodeEditor("sum.vhd", 269, 356); // ce (w, ck)
+// Elapsed time: 17 seconds
+selectCodeEditor("sum.vhd", 70, 95); // ce (w, ck)
+// Elapsed time: 27 seconds
+selectCodeEditor("sum.vhd", 93, 436); // ce (w, ck)
+selectCodeEditor("sum.vhd", 145, 265); // ce (w, ck)
+selectCodeEditor("sum.vhd", 596, 289); // ce (w, ck)
+selectCodeEditor("sum.vhd", 197, 34); // ce (w, ck)
+typeControlKey((HResource) null, "sum.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("sum.vhd", 383, 339); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ref.vhd", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sum.vhd", 1); // k (j, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("sum.vhd", 182, 349); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("sum.vhd", 252, 309); // ce (w, ck)
+// Elapsed time: 36 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+// 'h' command handler elapsed time: 6 seconds
+dismissDialog("Add Sources"); // c (ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ref(Behavioral) (ref.vhd), u1 : xil_defaultlib.mux]", 2, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ref(Behavioral) (ref.vhd), u1 : xil_defaultlib.mux]", 2, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ref.vhd", 2); // k (j, ck)
+selectCodeEditor("ref.vhd", 473, 250); // ce (w, ck)
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// Elapsed time: 25 seconds
+setFileChooser("E:/VIVADO/MuxClase/MuxClase.srcs/sources_1/new/mux.vhd");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 34 seconds
+dismissDialog("Add Sources"); // c (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse E:/VIVADO/MuxClase/MuxClase.srcs/sources_1/new/mux.vhd 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// Elapsed time: 19 seconds
+setFileChooser("E:/VIVADO/7SegmentoVHDL/7SegmentoVHDL.srcs/sources_1/new/segmento.vhd");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 25 seconds
+dismissDialog("Add Sources"); // c (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse E:/VIVADO/7SegmentoVHDL/7SegmentoVHDL.srcs/sources_1/new/segmento.vhd 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ref(Behavioral) (ref.vhd), u3 : segmento(Behavioral) (segmento.vhd)]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ref(Behavioral) (ref.vhd), u3 : segmento(Behavioral) (segmento.vhd)]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("segmento.vhd", 243, 360); // ce (w, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // aa (ck)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// Elapsed time: 28 seconds
+setFileChooser("E:/VIVADO/DecodificadorClase/DecodificadorClase.srcs/sources_1/new/deco.vhd");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 36 seconds
+dismissDialog("Add Sources"); // c (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse E:/VIVADO/DecodificadorClase/DecodificadorClase.srcs/sources_1/new/deco.vhd 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// Elapsed time: 55 seconds
+dismissFileChooser();
+// 'h' command handler elapsed time: 64 seconds
+dismissDialog("Add Sources"); // c (ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Sum_BCD_Bin(Behavioral) (Sum_BCD_Bin.vhd), u10 : ref(Behavioral) (ref.vhd), u2 : clk(Behavioral) (conta.vhd)]", 14, false); // B (D, ck)
+// Tcl Message: current_project Sum_BCD_Bin 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Sum_BCD_Bin(Behavioral) (Sum_BCD_Bin.vhd), u10 : ref(Behavioral) (ref.vhd), u2 : clk(Behavioral) (conta.vhd)]", 14, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// Elapsed time: 21 seconds
+setFileChooser("E:/VIVADO/ContadorClase/ContadorClase.srcs/sources_1/new/conta.vhd");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 24 seconds
+dismissDialog("Add Sources"); // c (ck)
+// Tcl Message: current_project sumbinoctal 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse E:/VIVADO/ContadorClase/ContadorClase.srcs/sources_1/new/conta.vhd 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ref(Behavioral) (ref.vhd)]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// Elapsed time: 17 seconds
+dismissFileChooser();
+// 'h' command handler elapsed time: 22 seconds
+dismissDialog("Add Sources"); // c (ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Sum_BCD_Bin(Behavioral) (Sum_BCD_Bin.vhd), u9 : Mux2_1(Behavioral) (Mux2_1.vhd)]", 11, false); // B (D, ck)
+// Tcl Message: current_project Sum_BCD_Bin 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Sum_BCD_Bin(Behavioral) (Sum_BCD_Bin.vhd), u9 : Mux2_1(Behavioral) (Mux2_1.vhd)]", 11, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "mux2a1"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 12 seconds
+dismissDialog("Add Sources"); // c (ck)
+// Tcl Message: current_project sumbinoctal 
+// Tcl Message: close [ open E:/VIVADO/Sum_BCD_Bin/sumbinoctal/sumbinoctal.srcs/sources_1/new/mux2a1.vhd w ] 
+// bx (ck):  Add Sources  : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files E:/VIVADO/Sum_BCD_Bin/sumbinoctal/sumbinoctal.srcs/sources_1/new/mux2a1.vhd 
+// I (ck): Define Module: addNotify
+dismissDialog("Add Sources"); // bx (ck)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,300 MB. GUI used memory: 102 MB. Current time: 9/10/21 4:13:23 PM COT
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux2a1(Behavioral) (mux2a1.vhd)]", 2, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux2a1(Behavioral) (mux2a1.vhd)]", 2, false, false, false, false, false, true); // B (D, ck) - Double Click
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("mux2a1.vhd", 125, 479); // ce (w, ck)
+selectCodeEditor("Mux2_1.vhd", 91, 372); // D (w, ck)
+typeControlKey((HResource) null, "Mux2_1.vhd", 'c'); // D (w, ck)
+selectCodeEditor("mux2a1.vhd", 196, 276); // ce (w, ck)
+typeControlKey((HResource) null, "mux2a1.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("mux2a1.vhd", 189, 276); // ce (w, ck)
+selectCodeEditor("mux2a1.vhd", 99, 145); // ce (w, ck)
+typeControlKey((HResource) null, "mux2a1.vhd", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sum.vhd", 1); // k (j, ck)
+selectCodeEditor("sum.vhd", 129, 200); // ce (w, ck)
+typeControlKey((HResource) null, "sum.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("sum.vhd", 45, 222); // ce (w, ck)
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mux2a1.vhd", 4); // k (j, ck)
+selectCodeEditor("mux2a1.vhd", 385, 214); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sum.vhd", 1); // k (j, ck)
+selectCodeEditor("Mux2_1.vhd", 45, 348); // D (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Sum_BCD_Bin.vhd", 2); // k (j, ck)
+// Elapsed time: 13 seconds
+selectCodeEditor("Sum_BCD_Bin.vhd", 432, 412); // D (w, ck)
+typeControlKey((HResource) null, "Sum_BCD_Bin.vhd", 'c'); // D (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("sum.vhd", 85, 397); // ce (w, ck)
+typeControlKey((HResource) null, "sum.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("sum.vhd", 0, 314); // ce (w, ck)
+selectCodeEditor("sum.vhd", 3, 316); // ce (w, ck)
+selectCodeEditor("sum.vhd", 3, 316); // ce (w, ck)
+selectCodeEditor("sum.vhd", 3, 316); // ce (w, ck)
+selectCodeEditor("sum.vhd", 3, 316); // ce (w, ck)
+selectCodeEditor("sum.vhd", 3, 316); // ce (w, ck)
+selectCodeEditor("sum.vhd", 53, 296); // ce (w, ck)
+selectCodeEditor("sum.vhd", 9, 328); // ce (w, ck)
+// Elapsed time: 22 seconds
+selectCodeEditor("sum.vhd", 157, 332); // ce (w, ck)
+// Elapsed time: 48 seconds
+selectCodeEditor("sum.vhd", 358, 397); // ce (w, ck)
+selectCodeEditor("sum.vhd", 419, 390); // ce (w, ck)
+selectCodeEditor("sum.vhd", 422, 403); // ce (w, ck)
+selectCodeEditor("Sum_BCD_Bin.vhd", 365, 111); // D (w, ck)
+typeControlKey((HResource) null, "Sum_BCD_Bin.vhd", 'c'); // D (w, ck)
+selectCodeEditor("sum.vhd", 287, 177); // ce (w, ck)
+typeControlKey((HResource) null, "sum.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("sum.vhd", 124, 79); // ce (w, ck)
+selectCodeEditor("sum.vhd", 417, 401); // ce (w, ck)
+selectCodeEditor("sum.vhd", 482, 242); // ce (w, ck)
+// Elapsed time: 17 seconds
+selectCodeEditor("sum.vhd", 203, 402); // ce (w, ck)
+selectCodeEditor("sum.vhd", 243, 409); // ce (w, ck)
+selectCodeEditor("sum.vhd", 243, 408); // ce (w, ck)
+selectCodeEditor("sum.vhd", 242, 401); // ce (w, ck)
+selectCodeEditor("sum.vhd", 74, 310); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("sum.vhd", 166, 329); // ce (w, ck)
+typeControlKey((HResource) null, "sum.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("sum.vhd", 159, 338); // ce (w, ck)
+typeControlKey((HResource) null, "sum.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("sum.vhd", 16, 367); // ce (w, ck)
+selectCodeEditor("sum.vhd", 16, 365); // ce (w, ck)
+selectCodeEditor("sum.vhd", 20, 365); // ce (w, ck)
+selectCodeEditor("sum.vhd", 51, 380); // ce (w, ck)
+selectCodeEditor("sum.vhd", 35, 383); // ce (w, ck)
+selectCodeEditor("sum.vhd", 155, 371); // ce (w, ck)
+selectCodeEditor("sum.vhd", 81, 371); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("sum.vhd", 118, 177); // ce (w, ck)
+selectCodeEditor("sum.vhd", 70, 195); // ce (w, ck)
+selectCodeEditor("sum.vhd", 219, 463); // ce (w, ck)
+selectCodeEditor("sum.vhd", 13, 258); // ce (w, ck)
+selectCodeEditor("sum.vhd", 58, 279); // ce (w, ck)
+selectCodeEditor("sum.vhd", 58, 279, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("sum.vhd", 97, 284); // ce (w, ck)
+selectCodeEditor("sum.vhd", 75, 286); // ce (w, ck)
+typeControlKey((HResource) null, "sum.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("sum.vhd", 59, 284); // ce (w, ck)
+typeControlKey((HResource) null, "sum.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("sum.vhd", 25, 263); // ce (w, ck)
+selectCodeEditor("sum.vhd", 53, 280); // ce (w, ck)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("sum.vhd", 59, 280); // ce (w, ck)
+selectCodeEditor("sum.vhd", 57, 314); // ce (w, ck)
+selectCodeEditor("sum.vhd", 314, 122); // ce (w, ck)
+selectCodeEditor("sum.vhd", 165, 450); // ce (w, ck)
+selectCodeEditor("sum.vhd", 207, 453); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("sum.vhd", 174, 445); // ce (w, ck)
+selectCodeEditor("sum.vhd", 238, 449); // ce (w, ck)
+// Elapsed time: 14 seconds
+selectCodeEditor("sum.vhd", 62, 432); // ce (w, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// aj (ck): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (aj)
+// bx (ck):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// f (ck): Launch Runs: addNotify
+dismissDialog("Save Project"); // aj (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectComboBox(PAResourceItoN.NumJobsChooser_NUMBER_OF_JOBS, "12", 11); // e (aU, f)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: launch_runs synth_1 -jobs 12 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Sep 10 16:20:11 2021] Launched synth_1... Run output will be captured here: E:/VIVADO/Sum_BCD_Bin/sumbinoctal/sumbinoctal.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 6 seconds
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 16, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+selectButton(PAResourceItoN.NetlistSchematicView_SHOW_IO_PORTS_IN_THIS_SCHEMATIC, "21 I/O Ports"); // h (f, ck)
+selectTableHeader(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "Name", 0); // m (O, ck)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1036 ms. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 698 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1053 ms. Increasing delay to 3000 ms.
+// TclEventType: RUN_COMPLETED
+// ah (ck): Synthesis Completed: addNotify
+// Elapsed time: 37 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -jobs 12 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Sep 10 16:20:59 2021] Launched impl_1... Run output will be captured here: E:/VIVADO/Sum_BCD_Bin/sumbinoctal/sumbinoctal.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, ck)
+// aS (ck): Cancel Implementation: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (aS)
+dismissDialog("Cancel Implementation"); // aS (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15, true); // u (O, ck) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bx (ck):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a35tcpg236-1 
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,408 MB. GUI used memory: 107 MB. Current time: 9/10/21 4:21:12 PM COT
+// [Engine Memory]: 1,437 MB (+132376kb) [00:27:43]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.2 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0,0
+dismissDialog("Open Synthesized Design"); // bx (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Schematic]", 27, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+selectButton(PAResourceItoN.NetlistSchematicView_SHOW_IO_PORTS_IN_THIS_SCHEMATIC, "21 I/O Ports"); // h (f, ck)
+// [Engine Memory]: 1,515 MB (+5977kb) [00:27:50]
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, ck)
+// aS (ck): Cancel Implementation: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (aS)
+dismissDialog("Cancel Implementation"); // aS (ck)
+// [Engine Memory]: 1,710 MB (+125396kb) [00:27:55]
+// PAPropertyPanels.initPanels (SEG[5]) elapsed time: 0.3s
+// [Engine Memory]: 1,915 MB (+125301kb) [00:27:55]
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "SEG[5] ; OUT ;  ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ;  ; N/A", 0, "default (LVCMOS18)", 7); // m (O, ck)
+// RouteApi::initDelayMediator elapsed time: 11.4s
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 934ms to process. Increasing delay to 5000 ms.
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// HMemoryUtils.trashcanNow. Engine heap size: 1,915 MB. GUI used memory: 123 MB. Current time: 9/10/21 4:21:28 PM COT
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS25 [get_ports [list {SEG[5]}]] 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "SEG[6] ; OUT ;  ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ;  ; N/A", 1, "default (LVCMOS18)", 7); // m (O, ck)
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "SEG[6] ; OUT ;  ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ;  ; N/A", 1, "default (LVCMOS18)", 7); // m (O, ck)
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS25 [get_ports [list {SEG[6]}]] 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "B2[2] ; IN ;  ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ;  ;  ; NONE ; NONE ;  ; N/A", 2, "default (LVCMOS18)", 7); // m (O, ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS25 [get_ports [list {B2[2]}]] 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "SEG[2] ; OUT ;  ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ;  ; N/A", 3, "default (LVCMOS18)", 7); // m (O, ck)
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS25 [get_ports [list {SEG[2]}]] 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "A1[2] ; IN ;  ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ;  ;  ; NONE ; NONE ;  ; N/A", 4, "default (LVCMOS18)", 7); // m (O, ck)
+editTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "default (LVCMOS18)", 4, "I/O Std", 7); // m (O, ck)
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "SAL[1] ; OUT ;  ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ;  ; N/A", 5, "default (LVCMOS18)", 7); // m (O, ck)
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS25 [get_ports [list {SAL[1]}]] 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "A1[2] ; IN ;  ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ;  ;  ; NONE ; NONE ;  ; N/A", 4, "default (LVCMOS18)", 7); // m (O, ck)
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS25 [get_ports [list {A1[2]}]] 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "B2[1] ; IN ;  ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ;  ;  ; NONE ; NONE ;  ; N/A", 6, "default (LVCMOS18)", 7); // m (O, ck)
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS25 [get_ports [list {B2[1]}]] 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "B2[0] ; IN ;  ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ;  ;  ; NONE ; NONE ;  ; N/A", 7, "default (LVCMOS18)", 7); // m (O, ck)
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS25 [get_ports [list {B2[0]}]] 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "A1[1] ; IN ;  ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ;  ;  ; NONE ; NONE ;  ; N/A", 8, "default (LVCMOS18)", 7); // m (O, ck)
+// TclEventType: SIGNAL_MODIFY
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1407 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1407 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1673 ms. Increasing delay to 3000 ms.
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "A1[1] ; IN ;  ;  ;  ;  ;  ; LVCMOS25 ; 2.5 ;  ;  ;  ; NONE ; NONE ;  ; N/A", 8, "LVCMOS25", 7); // m (O, ck)
+// Tcl Message: set_property IOSTANDARD LVCMOS25 [get_ports [list {A1[1]}]] 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "Control ; IN ;  ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ;  ;  ; NONE ; NONE ;  ; N/A", 9, "default (LVCMOS18)", 7); // m (O, ck)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2533 ms. Increasing delay to 3000 ms.
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS25 [get_ports [list Control]] 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "A1[3] ; IN ;  ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ;  ;  ; NONE ; NONE ;  ; N/A", 10, "default (LVCMOS18)", 7); // m (O, ck)
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS25 [get_ports [list {A1[3]}]] 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "SEG[3] ; OUT ;  ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ;  ; N/A", 11, "default (LVCMOS18)", 7); // m (O, ck)
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS25 [get_ports [list {SEG[3]}]] 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "SEG[0] ; OUT ;  ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ;  ; N/A", 12, "default (LVCMOS18)", 7); // m (O, ck)
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS25 [get_ports [list {SEG[0]}]] 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "SAL[2] ; OUT ;  ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ;  ; N/A", 13, "default (LVCMOS18)", 7); // m (O, ck)
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS25 [get_ports [list {SAL[2]}]] 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "A1[0] ; IN ;  ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ;  ;  ; NONE ; NONE ;  ; N/A", 14, "default (LVCMOS18)", 7); // m (O, ck)
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS25 [get_ports [list {A1[0]}]] 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "SEG[4] ; OUT ;  ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ;  ; N/A", 15, "default (LVCMOS18)", 7); // m (O, ck)
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS25 [get_ports [list {SEG[4]}]] 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "clk ; IN ;  ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ;  ;  ; NONE ; NONE ;  ; N/A", 16, "default (LVCMOS18)", 7); // m (O, ck)
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS25 [get_ports [list clk]] 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "SEG[1] ; OUT ;  ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ;  ; N/A", 17, "default (LVCMOS18)", 7); // m (O, ck)
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "SEG[1] ; OUT ;  ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ;  ; N/A", 17, "default (LVCMOS18)", 7); // m (O, ck)
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS25 [get_ports [list {SEG[1]}]] 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "SAL[0] ; OUT ;  ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ;  ; N/A", 18, "default (LVCMOS18)", 7); // m (O, ck)
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS25 [get_ports [list {SAL[0]}]] 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "B2[3] ; IN ;  ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ;  ;  ; NONE ; NONE ;  ; N/A", 19, "default (LVCMOS18)", 7); // m (O, ck)
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS25 [get_ports [list {B2[3]}]] 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "SAL[3] ; OUT ;  ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ;  ; N/A", 20, "default (LVCMOS18)", 7); // m (O, ck)
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS25 [get_ports [list {SAL[3]}]] 
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+dismissDialog("Implementation Completed"); // ah (ck)
+selectTableHeader(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "Name", 0); // m (O, ck)
+// Elapsed time: 41 seconds
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "A1[0] ; IN ;  ;  ;  ;  ;  ; LVCMOS25 ; 2.5 ;  ;  ;  ; NONE ; NONE ;  ; N/A", 0, (String) null, 4); // m (O, ck)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {A1[0]} R3 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "A1[1] ; IN ;  ;  ;  ;  ;  ; LVCMOS25 ; 2.5 ;  ;  ;  ; NONE ; NONE ;  ; N/A", 1, (String) null, 4); // m (O, ck)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {A1[1]} W2 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "A1[2] ; IN ;  ;  ;  ;  ;  ; LVCMOS25 ; 2.5 ;  ;  ;  ; NONE ; NONE ;  ; N/A", 2, (String) null, -1); // m (O, ck)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {A1[2]} U1 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "A1[3] ; IN ;  ;  ;  ;  ;  ; LVCMOS25 ; 2.5 ;  ;  ;  ; NONE ; NONE ;  ; N/A", 3, (String) null, -1); // m (O, ck)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {A1[3]} T1 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "B2[0] ; IN ;  ;  ;  ;  ;  ; LVCMOS25 ; 2.5 ;  ;  ;  ; NONE ; NONE ;  ; N/A", 4, (String) null, -1); // m (O, ck)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {B2[0]} W13 
+// Elapsed time: 10 seconds
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "B2[1] ; IN ;  ;  ;  ;  ;  ; LVCMOS25 ; 2.5 ;  ;  ;  ; NONE ; NONE ;  ; N/A", 5, (String) null, 4); // m (O, ck)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {B2[1]} V2 
+// Elapsed time: 16 seconds
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "B2[2] ; IN ;  ;  ;  ;  ;  ; LVCMOS25 ; 2.5 ;  ;  ;  ; NONE ; NONE ;  ; N/A", 6, (String) null, 4); // m (O, ck)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {B2[2]} T3 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "B2[3] ; IN ;  ;  ;  ;  ;  ; LVCMOS25 ; 2.5 ;  ;  ;  ; NONE ; NONE ;  ; N/A", 7, (String) null, -1); // m (O, ck)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {B2[3]} T2 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "clk ; IN ;  ;  ;  ;  ;  ; LVCMOS25 ; 2.5 ;  ;  ;  ; NONE ; NONE ;  ; N/A", 8, (String) null, -1); // m (O, ck)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports clk W5 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "Control ; IN ;  ;  ;  ;  ;  ; LVCMOS25 ; 2.5 ;  ;  ;  ; NONE ; NONE ;  ; N/A", 9, (String) null, 4); // m (O, ck)
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports Control V17 
+// Elapsed time: 31 seconds
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "SAL[0] ; OUT ;  ;  ;  ;  ;  ; LVCMOS25 ; 2.5 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ;  ; N/A", 10, (String) null, 4); // m (O, ck)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {SAL[0]} W4 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "SAL[1] ; OUT ;  ;  ;  ;  ;  ; LVCMOS25 ; 2.5 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ;  ; N/A", 11, (String) null, 4); // m (O, ck)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {SAL[1]} V4 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "SAL[2] ; OUT ;  ;  ;  ;  ;  ; LVCMOS25 ; 2.5 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ;  ; N/A", 12, (String) null, -1); // m (O, ck)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {SAL[2]} U4 
+// Elapsed time: 16 seconds
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "SAL[3] ; OUT ;  ;  ;  ;  ;  ; LVCMOS25 ; 2.5 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ;  ; N/A", 13, (String) null, -1); // m (O, ck)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {SAL[3]} U2 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "SEG[0] ; OUT ;  ;  ;  ;  ;  ; LVCMOS25 ; 2.5 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ;  ; N/A", 14, (String) null, 4); // m (O, ck)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {SEG[0]} U7 
+// Elapsed time: 11 seconds
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "SEG[1] ; OUT ;  ;  ;  ;  ;  ; LVCMOS25 ; 2.5 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ;  ; N/A", 15, (String) null, -1); // m (O, ck)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {SEG[1]} V5 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "SEG[2] ; OUT ;  ;  ;  ;  ;  ; LVCMOS25 ; 2.5 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ;  ; N/A", 16, (String) null, -1); // m (O, ck)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {SEG[2]} U5 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "SEG[3] ; OUT ;  ;  ;  ;  ;  ; LVCMOS25 ; 2.5 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ;  ; N/A", 17, (String) null, -1); // m (O, ck)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {SEG[3]} V8 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "SEG[4] ; OUT ;  ;  ;  ;  ;  ; LVCMOS25 ; 2.5 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ;  ; N/A", 18, (String) null, -1); // m (O, ck)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {SEG[4]} U8 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "SEG[5] ; OUT ;  ;  ;  ;  ;  ; LVCMOS25 ; 2.5 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ;  ; N/A", 19, (String) null, -1); // m (O, ck)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {SEG[5]} W6 
+selectTable(PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, "SEG[6] ; OUT ;  ;  ;  ;  ;  ; LVCMOS25 ; 2.5 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ;  ; N/A", 20, (String) null, -1); // m (O, ck)
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: place_ports {SEG[6]} W7 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 29, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// aj (ck): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (aj)
+// A (ck): Out of Date Design: addNotify
+dismissDialog("Save Project"); // aj (ck)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// a (ck): Save Constraints: addNotify
+dismissDialog("Out of Date Design"); // A (ck)
+setText(PAResourceAtoD.CreateConstraintsFilePanel_FILE_NAME, "1"); // X (C, a)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// bx (ck):  Save Constraints : addNotify
+// Tcl Message: file mkdir E:/VIVADO/Sum_BCD_Bin/sumbinoctal/sumbinoctal.srcs/constrs_1/new 
+// Tcl Message: close [ open E:/VIVADO/Sum_BCD_Bin/sumbinoctal/sumbinoctal.srcs/constrs_1/new/1.xdc w ] 
+// Tcl Message: add_files -fileset constrs_1 E:/VIVADO/Sum_BCD_Bin/sumbinoctal/sumbinoctal.srcs/constrs_1/new/1.xdc 
+// Tcl Message: set_property target_constrs_file E:/VIVADO/Sum_BCD_Bin/sumbinoctal/sumbinoctal.srcs/constrs_1/new/1.xdc [current_fileset -constrset] 
+dismissDialog("Save Constraints"); // a (ck)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DESIGN_SAVE
+// Tcl Message: save_constraints -force 
+// A (ck): Synthesis is Out-of-date: addNotify
+dismissDialog("Save Constraints"); // bx (ck)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 
+// TclEventType: RUN_MODIFY
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -jobs 12 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Sep 10 16:26:04 2021] Launched synth_1... Run output will be captured here: E:/VIVADO/Sum_BCD_Bin/sumbinoctal/sumbinoctal.runs/synth_1/runme.log [Fri Sep 10 16:26:04 2021] Launched impl_1... Run output will be captured here: E:/VIVADO/Sum_BCD_Bin/sumbinoctal/sumbinoctal.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 17 seconds
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1941 ms. Increasing delay to 4000 ms.
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 136 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// bx (ck):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 12 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Sep 10 16:28:24 2021] Launched impl_1... Run output will be captured here: E:/VIVADO/Sum_BCD_Bin/sumbinoctal/sumbinoctal.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 2619 ms. Increasing delay to 5000 ms.
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 71 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bx (ck):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2   **** Build date : Jun 14 2018-20:42:52     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AA0F92A 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,578 MB. GUI used memory: 130 MB. Current time: 9/10/21 4:29:54 PM COT
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/VIVADO/Sum_BCD_Bin/sumbinoctal/sumbinoctal.runs/impl_1/sum.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// [Engine Memory]: 2,580 MB (+596577kb) [00:36:26]
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+dismissDialog("Program Device"); // bB (ck)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/VIVADO/Sum_BCD_Bin/sumbinoctal/sumbinoctal.runs/impl_1/sum.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 118 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mux2a1.vhd", 3); // k (j, ck)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sum.vhd", 0); // k (j, ck)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         †L    Ú{m †LÇAj´÷ÚªÚ9oTÅ> öÏc…œjçñk/Ùð!ó0SÇ¹iáß­âýzÛ@0HÁŠÑÅÑ:“UGP—JrqÉÿzÁÝ^²õdG§`þŽs&È±ç`Å ¸Ýìp“­¹^¦¡£+zl:P€–Ž(Lù—-‘ÑZ`ö1vÔGR¥ ¿GÓ1Ò¯™x† æPM‚B³qƒ½‡BÌÑV°³ôV{ža‡MÈí™6Àîw‹v•€Qý,{Ú9Ð×h”ˆÊj[A¥$²Ðµªïà®%p{L%½1?5’*U…ð³‘Î¶2b!‹Ì€
+jR 'ü‹¾Á+PIÆ3*Œ>HžŠÚÞ9F&º
+ W“B…-"ñ¸ž&È“0”ÉLTUrGá®Ï ”||@?+}È\ËÑ´ˆUÿ®ÔcP˜Çõþ.Áì&-ùþòÃ`ßG¥ZÝc¨±6¯¯×!ƒpT+Dü¹1^¡ò‰þ7:É€7êè[ÈÆ‘@>·%šÒÈ¥¼ÆH•$À¶5eá GµÍœw¢Bq2ŸÐI:µ°ôSÌ¡…	¬aVëø*ÉâàÀÊ•å5&QìÖÆ3îæÒÐØ—¦Yá^"A´åÂ'ªàuk<x/»1nãKj›=cðtSrk‰!Úã²;‚Ì ˆL    ø{m ˆL‰Cjð÷Úõ9ošÊ> x[e…Ôçñ	\ðð«Èú0•d¢á½ä@I(•@ gÍòAþÑã
+	zy6³PY£‡÷<‰Á;’òÐv'’`€‘6ÿ1â‚±…†2TnÒápÕáõŸüÚm¡;hÏ¢¶e€˜|Èï]‘ïLœ9I~œ	‚(ñ9³Çž_±nÜ hJšåÃCq!\
+¸’°õe›·%£aeùì·›*Àðœ”6,šQ2µò‡œÐ™ï‰„ÚA
+Aà¯¬kà0–ÏdQ(1ÝÌ)ÈõòAðõ sëC	!i½»ð‹Ü )Ø!„A©gª)ðæ®þ
+üp#ïé—Äž#±¹ Ù„M\$€ñ¸ÈŠ}>¦Ï0ÖÂ!Lb†µáŒjú¥˜¢Ä@A>¬š~ñÑÒ¥P¬d+PZ·b‚ë‹¢ÁJ¾Èó&êè`a&Ã	“vn±´?oòþ<p–»„å¤¶ô¡ÐýÆâ?oÛ€9ß¨êŽ‚¢‘^å?™….Š1lOYèžçV7ÆÎ» ÉŠ¿»XqÐ!aÒÉÑ?°6û°Ä£la4¸^6ÏXyÀËŒXìzQ
+æ?8B¤ÀÐšz¾œë…‰A/)ÿhSÍàÂi4911_2òkÓIð¶‘óa_Â…!¸‰E­MõÉ ŠL    |m ŠLKEj,øÚf:oàÏ> úæf…Œ=èñ§ˆñ5‚0×qÑ)-á›Ÿ&u@"žR$÷÷ïÑD×`%bPüœ}:x—Á™Å2¬ˆ}`”ù×›6†±#¬Ÿ$ÇÖp[#@W5¡_KV‚Ù2{€šjDFŽ‘?Ø|`†dË±«á´¼íjÉd~± êCçHÕÒuq¿úŒåižÎ°7±BäóB¨aCbè‚ÀòÁOâœ³Q9]>j5ó#Ð[v§ŠZYAaïÏï©®çà²/NV+c1{dÁtÁþð7ãTÑß«!GPùlw g +´›ƒFW…Ž¶LÑ¾ÌYÙ¼ÒMõB¼ ¨h [ìì2ÞñVÙvôV„0¼öCoš#áju+È@CQÛl Æ4ÑðÂÙ ©ôòPlÂ=áÁ¨UdîNá`ãá¸H‰4±RI/5&õpØKÅÎ;‹¡®qEÉí€;©gìÁ<~‘|êZ˜8ÍL½Øi;| 9€8– K`aáÿfmqn¤´ÔIiÊ°x¢•çÁÏa…ÄAÕÎÀÌƒ;‘£ÏQ(õ¸<–a®Ð\]Ößõ¬ðApxíÄðà“h,úô¦1ªÚz<i0ðøÏtX5ï!–/Øv ŒL    4|m ŒLGjhøÚÄ):o&Õ> |rh…§èñEµñ¿;
+0ŸÌ…5¸áyRý:åÁ—@$Õ×Uè®áÑ}¥GÁPÝT²s´¥Á÷ør‡šçg`„–¼°‹‰±ÁÑ»Ù»ËpYJÀ¦ƒÓü¡=[D5¯€œXÀ0¾‘+1ÀwŽ,á.Ò/Š°K7¿àZú† l=4¬žâ§q]™·¸„
+°yüé*0`­a!Ëµ3LŸÀôæ¦h˜ ÍQWˆÇáâÏ«Ðý°‹¢¶ØA¿Ô^ÿ£°cà4wŽ7[.61üX!.»ðyÅ6%^¶P!%’5þtñ -#æm[£r|²ó~Ž·AVº…SÁÙûž ÝSÂÀ	<ñôébkobG0ZµË;|®‘áH ï°¡îT@Ed
+?Â›éÑà›ñ¦„ºPÞ "ùÖ¥‰ÁíÿèvØ2`eãþgþ›ú±ðRïwM®pÜ¸zÀ!¡ŒåW8K# €=s&îôöY‘šÀ@t—ëkIË`zŽ“ÚGé;:¢p Í5«DÉ‚q'×É U°ºIz
+à2aðQ*MÛDªÀÍzæÉZ$QF2AêœÐ@î" ÔWAÎÁõÛ ¬à[f$»×1HVÿÿð:öNHX!tÕjäF" ŽL    R|m ŽLÏHj¤øÚ"D:olÚ> þýi…|éñãá5ñIõ0[<(9ACáW‰[O³@&]‡ÙeÓÑ=¶s.åÀPŸ­Ç‰«ð³ÁU,³b¬ÇR`™‰oßŒ±_÷yn°Àp›~%*ÇOÄ¡k2èF+¦€žFô;Côî‘I#P–ôO²Âªõ¤©oøPv\ î6hòÙqû7’ˆkF°»G‘ql}²aÿ3ƒW¡Àö°N¤æQu³PY¬3ÐßƒºŒêÏWAºíž²ßà¶çí `1	1·“ðÍXÌwð»§BëŒõ!ÔqÏ„é{ /l«HË‚´ÁVB?Pªï,¢½±?÷ò•Æ _»|•àšñ’úNâ‡@ƒ0œ® 3‰Âÿá&;j6¦@Gw9äpžÑ,ý]B¤‚P Õ´Ì2ýÁd„›ãžÏW`çÁ´®À±Ž\¯ºtþfp\lF¡eE¸¡jY ãP}€?=åï'±5‘¸–nŽ–ž
+ÐÔzéŠá8x2>ôK Oõ%ˆ+˜qª©[ÙI˜ß°üð^-þ•uaÎXáºBÀÎq‘yQd«E>Ü‰Ðà"f
+û¾A,\Ê|Ø6à—§d|º’1æÑå‰Ý”ýð|LwEáŠÁ!R{ý°oÎ L    p|m L‘JjàøÚ€^:o²ß> €‰k…ôyéñMñÓ®0ÙƒíLÎá5À¹c[š@(Câ¸ÊÅÑ[ïA	ónPaÝä,ÂÁ³_ó=¾§=`ˆ›BbÙ3±ýç!E¥µpÝ²Š­
+Ì‹¡ùz ›}§»€ 4ç·UK‘gŒF¦ž¼A5³%a™ÐGò1 p0Îr1q™ÖZVQ‚°ý’8¸¨š·aÝœP{à¢úÀø0¹š( Q“ÞÙÐ=‰»Ð¡
+Ä2éÖA{Ÿ|˜´[à8XM
+e4Ü1U+ˆz$j4ðý‰ú^xcš!á®€^ 1H3«˜ß:~8ÿs‰AŠõ¾éŒu á"7j·ÿ÷ñ0;Y ¿0Þ§u+–ÖmáÖä»ª:å@IŠhãFSÑJ “¡¤IPbŠáoÂ¿pÁÂ7ÞÆÆ|`i :ÆiÁ†±,foý›õpžü†ŠPÊN¡HÍèV×$€A¤ñZk‘Ölœ¨•Q©’`*r›4ˆ–¨{@®u% Ñà>HÌ­qH,¯ÛÉ/j°>˜CPùça¬ëõcç0ÛÀÏh<;ÉÍQ‚"$J’™wÐ¢©"&AŠTÂ¸ØZàôb=1„MÌ®*äð¾Šø;·Í*!0!s{˜z ’L    Ž|m ’LSLjùÚÞx:oøä> m…lãéñ;dñ]h!0ßvß¡XYá÷xO¨@*zgê»Ó¶Ñy(ü,âP#_ò•iÐÁ“3Ð‡(`
+ž;Cˆ“±›BTÕú™ªpçï0NHS¡×ŠN´#Ñ€¢"Ú3h¢O‘…È‰½¦„Óp¸£ ÌeœÎ'=n ò)Öú>q7u—+¥7¾°?Þßþä·¼a»Ÿª¤îÀúUÂ³º«Q±	cHëeCÐc‘ÍŽzVAÙ„.’¶×àºÈ¬ói7¯1óÂ'ðñð?lÜ{:?!¿Wê1’Ò 3$»P®fý÷ÍãZ¿ÔÐz"Vr-m<2àƒ$ cŠñ>ŽöUñÎ'Ð¸üú0 ¡J#£êÛáâp_A¯`-@K—µ'Ñh7âãž4P$?A+¸LäÁ ³ÒØî½¡`ë~XuÔL±Êo/@ÃìØpàŒÇs;Oå¡&A±8\17€CÑbó%í‘ôBÊÂ”HTìÙú«‡ôØÄBhßÿ S¶ˆjðÂqæ®ÞIÇô°€?(s:\ZaŠ¸[oí¦sÀÐ_çs€"Q 1NæVeÐdè5ìIAè(§41}à›@aþ~1"É²™~ÀÊð Éy2”!Ç"åFÁ& ”L    ¬|m ”LNjXùÚ<“:o>ê> „ n…äLêñ½g{ñç!)0!;Udäáñ-vŒõœ@,±ì­Š¨Ñ—aÞâPÑÌPå·U¥ÞÁoÆsôág`Œ È­Ü–±9hÁˆ°ŽŸpaU´‘Ä¡µšü ëŸæ€¤Í¯zù‘£ùÍÔ®L• ;”8‚Ãh~?3êÜ t#h9Ä!pqÕýóú°)‡E!ÕÁa™nëÂt¦âÀüzËÌp/3QÏ4ì¿˜BËÐ%×ÂÕA7jš=Œ¸Sà<9Ýn:‚1‘Z·Ó»¥­ðN¾˜’ä!™&ãG 5 CpÄ¿í“I}–.ã»jZeËºO×zÓ åñ«eí³ñl,GÑÚ60bš°þIáÀÚÆ³†u@M°Æ‡Ið¼Ñ†T¤4œÄØPæó æ­ÙWÁ~JnÓµÆ`m]v$Õæ±hyï‚êã‘p"]&Ô{¡µyãa‹I€E›!õÀßÈ‘øÜ“·æx‰ƒ¼Ú|R	E"IÚ Õ‹ÒŒTRØq„1VàÉ^°Âæ–X¿Ìah…ÁzóÀÑV’¬7wQ¾@S:SÐ&ËM/)pôAFçŽ•] à_¿bô1ÀD™!OV±ðBû(cSý!ìlµVêÒ –L    Ê|m –L×Oj”ùÚš­:o„ï> ,p…\¶êñ[”’ñqÛ00c±–	poáÏdÔ ëA@.èqMžAšÑµš¬ÉtÀ{P§¢áìÁÍù³ÏóGþ`£‹ì1š±×.<fƒ”p£Oº7Õ@â¡“ªê³!ü€¦þ¿+P°‘Áë?ì¶WÐ¾„–£v!5.W)f² öµœ1¢qs²œÎB6°Ãt.Œ]òÆaw×¸æ>¨ÖÀþŸÔå&³LQí_u7FSÐçžà
+5TA•O)M†ºÏà¾©kÆs=U1/òN€‡CjðÃ0 µçˆ!{Ûb”Ÿ»¥ 7ÜÊÒÔÙ9çâY¯Ÿ?XŒKUB)9mÎq‚ gYfè;äñ
+=ÿ½é¸r0¤“ô½¸áž¦TL¸¬½@OÃõYkÅqÑ¤qf…™T P¨¨ ¢£fËÁÜá	Î>¬ë`ï;”ÓŠùØ±ƒ¯ÅÛJpd­HFY¡â(BŽgå[€Geàöó™¤‘0ï%÷’j…Ø9Í-÷°9WGÜ²´ Wa¯˜´íq"´©âIö	°Žñ¸v"?aFR'†ù’¤ÀÒM=åîËQÜOWŽÑ@Ðè­er3—[A¤0õƒì‰ÃàŸÙ]üEj1^À©ì—ð„E|9–f!ÊHÈÝ ˜L    è|m ˜L™QjÐùÚøÇ:oÊô> ˆ·q…ÔëñùÀ©ñû”80¥Nò½{úá­›2µ¹ŽŸ@0÷~ø‹ÑÓÓz°˜¯*Pii2(ÆûÁ+-ôª(é`¥NÅ€…±u³›ïx‰påƒ»½©¡qºØfX˜€¨ì²§Ÿ§à‘ßÝ{S¿Ü BukÞnâ‡ x WAÔqQ ‘êq°ÀÕÒ™ÌaU@†
+	ªÊÀ ÅÝþÜ6fQ‹þ®óûÚÐ©%ê‘RNÓAó4¸\€¼Kà@Ë¯x@(1Í‰æ,Sá&ð‚Ò¬½-!YŸE&00 9¸R5—ïqWËØÂÿê³î“*Õ‡·ŠÅh1 éÀ ½Ûoñ¨Më4—®0æŒÉ
+Ê&&á|AÏÑ¼Ò@QÖ$,š&ÑÂŽ(Ö–ägPj]`]™ó>Á:y¥Èf£`q²‚@Ÿ±¤Œo9Òp¦=‰/üÝ¨¡Àœ
+9m?n€I/Ÿø&T€‘NÅS’$šè”Ý€qj I– Ù6fÑÜqÀ6ýäÉ”°F5ÖÛ”…±a$‘ÿ=À!ÓDè¦ Qú^\âŽ.Ðª}µ=¾ÂAz[rH¶æà!&\ô@(à1ü;f1ð~ðÆƒýÙÏ!¨¸Ú9©;+ šL    }m šL[SjúÚVâ:oú> 
+Cs…L‰ëñ—íÀñ…N@0çëMq‡…á‹ÒÉ‡Û @2V|°€¯}ÑñI—¼žÙP+ÂG®þY	Á‰`4†Ô`¨žêÙ ±Ù£Ñl~p'¸„>\9q¡OÊÆ'€ªÚ¥#²þ‘ýÏ·–Ç¤Û/ÅeŒz_ÝÍ†^] úOc Qq¯ï¡qàÐ­°G}Ö,Ña3©S.Ó«¾Àêæ“ºQ)¶‡&¡ØbÐk¬ó’šgRAQGlz¾ÇàÂŠ*™}Cû1k!~ÙãðGõcï9”Ò!7_Ûö¬¤º ;”Ú—YËu¯Îåzä¿ÜGˆ¨å5¨	¼_à k(Û‘éÑÍñF^×«uê0(†ž×:”áZÜIWÁøM@SéSþ®oÛÑà«ê&”t/P,À€²Á˜AÃŽš5`óøÏ1öe±B–/K`É¼pèÍÉçb?¡žÓãr™€€Kù]úY\‘l›+‘ÐÂ\˜îÓëlšéKP†i [°ó yq^¹PçI%°ˆÜºþ²è#aìòœÕÀ#Ô;“V]uQn`6LÐls•øGå)A`ÃÁ`¤â	à£rZìV1š·L¹ÀeðÂ~å9!†^m«td× œL    $}m œLUjHúÚ´ü:oVÿ> ŒÎt…Äòëñ5ØñH0)‰©%“ái	ïÝU(¢@4âqfoÑF~àˆPí]47–Áç“ta)è¾`”ªÔvT.¤±±þuV‡aspiìéÁŸµ8¡-Ú´ÌÅ<€¬È˜ŸÄUA‘ÂóÙ1Ïl_HVæS;š=žÚ2 |	œÆé`8qMŽ$C/·é°‰V$`JÖa!R­²Àð0I>™QGážNµêÐ-3ý“â€ÑA¯ÿÕ{tÀCàDû‰‚‚FÎ1	¹†ê ð‰×EÇjw!¡¨3E =pbú$““Ä«à€ž¥„!½úDC´Å³V í•fÀÈ+ñänÃ"3S&0jsúãNá8wÄÜÅ–@Uü‚ÐÐDÑþÈ¬w‘÷PîÆÔ„&Áö§Ü½¶‘Z`u×íà«1+±àŸï‡Àup*^
+ÒçÕ¡|„›Žxó’€MÃüŒÈ7‘Šq¯Eƒa§G¦þ&fÊÊ2N
+ðC ÝáùeÛ-qü;¤éÉ¼©°ÊƒŸ!ÑK–aà¸X¨õmÀ%Õ2>ÊQ6}údŠ	
+Ð.V­;R‘A¾(O -à%¿XäÂíË1833A‘­KðJ  »^¢!d @ƒ žL    B}m žLßVj„úÚ;oœ? Zv…<\ìñÓFïñ™ÁO0k&Ùž›áG@Mò#u#@6Ä†caÑ-åd}7P¯srºoÒ%ÁEÇ´<;È©`­—O¾‚§±O$ã	=Vhp« OEã1 ¡ê¢üR€®¶‹×¬q‘9´/I×4_ËF‚QH™fíµV þé)³pjqë,§~%°Ë¡Ë¦NgÛaïzîug¯¦À4ùIÿÁ²Qešü‘rÐï¹•*šPAåd‹nÂ¿àÆkék‡I¡1§P­2¶º\ðË¹')TA!óâSYºÏ ?Lê\Þ0}±wºqF)@`íºÑâ|¡2ãªM> o÷O;—¿‰ñ‚¯™K1b0¬xHòðbpá?bÊDÞ@W²¢òEÑænÈŽ”¾P°{zš™ÁT?x¸Þˆ`÷µaDñ±~©¯Ð®·.plîJë¼ll¡Zøc9~M¥€OÛý¿‚‘¨GÝ_6 à2÷.zà(û{PÄY _·C8©=Cqš¾÷ëIT4°+„Dï®a¾…¾³kÀ'Ö)éÇËQTŒsiÞÆ÷Ðð8Å~\3øAVŽ=\;Pà§WÜƒÐA1Ö®ÉaC2ðŒ>ù¡!Bª’Ž¶/  L    `}m  L¡XjÀúÚp1;oâ	? åw…´Åìñqsò#{W0­Ã`ª&á%w«òÁ¤@8ûETÔRÑK¸³K(læPqÌ‡@¨4Á£úôM¨”`˜¯Z((×ª±íIP½òJ]píT´È&®Ç¡éù23‰g€°¤~—é¢‘W¦k``ßü!¿N7ý¼<÷2Í÷ÑÝ €ü5|€œq‰Ë)æÌƒa°íríŠ„àaÍã»™1±šÀYcµEÌQƒ7#©núÐ±@–r³ÏAkÊóšhÄ;àHÜHUŒLt1EèDßXðœ	FáÁ!Ñ$
+AZ A(r¿ FÖÏ[°7¬K "aUTæÊ´ÿ° ¡Dí ñ^
+n¶çñ ›dž0îqêývÞáô¬¹çÎj&@Y"átïùÑ:1Œ$†Pr0ßJp'Á²Ö³€¤`y”)?W·±³oÖ®çp®~‹Ô§ñ¡8l,äƒ§·€QWšÿò<ï‘ÆzŽéž¢¾¦·ÍZ†+ÅR~Ãø áŒZíŸXq8AKîÉë¾°NÒhg{aœR$¿ážÀ)× ” ƒsQr›ìm2„åÐ²ÝÁfZ_AzŸô+¸gsà)XUÔD³·1t* Q2ÙðÎ|ðfät! P% ×ÞÛ ¢L    ~}m ¢LcZjüúÚÎK;o(? qy…,/íñ ò­4_0ï`¼ A¶±á®	À&@:2‘vE‹DÑiñ2L[•P3%ÆàJBÁ.5ó^ˆ`²’+®±‹o½p¨?Rp/‰Lj*¡Ç	åi}€²’qüZÒ‘u˜§£wçÄãîÑ'x(1UÿLåíM³ ö‚ðEÎq'j¬·j°O84Ç¡åa«L‰½û²ŽÀ
+~|kÉåQ¡b¬WK‚ÐsÇ—ºÌNAÉ¯‚ªbÆ·àÊL¨>‘OG1ãÜ‹MöÕðO~ëbnîe!¯fÌ»Çvä Cú!c\/í?¦ýnÀä¾½íú²ì]/þ—;œ sÆÄäD­Eñ¾ ‡‡|íÙ00kòá
+‹LáÒG4mÓn@[5G6Ä®ÑX ói‰´MP4å>f´€Án¯­.wÉ`ûrGîÌi}±º¼/Vý¥ pðÌ½’v™¡àôŽ‰Ê€S!Y&÷Ê‘äó8”œ=dJV@0 Õä[U8-Ó cb×|1nqÖÃžðIƒI°yMŠ+uíazŠÊW7À+Ø?9:ÈQªer†AÓÐtþôqÆAØèZ”–à«¤SÌ–-1¦æØoÿð»ƒæ<'Þ!þõ·q¢ˆ ¤L    œ}m ¤L%\j8ûÚ,f;on? ”üz…¤˜íñ­Ì4ò7îf01þ"õÁ<ááäg/Ž[§@<i¨6B6Ñ‡*PpJDPõ}²L‡PÁ_auÎphj`œ´àÙû±±)•*$^4Gpq½~Ï­¦V¡¥m˜ ’€´€d²‘“ŠãæŽïŒ¥Uó“%³ËüüãÉˆ „ïÏS  qÅ/‰jPÙ°‘ƒÁz¿êa‰µVáÅ´‚À£•!MÿQ¿5|(
+Ð5N#˜æÍA'•º\È3àL½(–R1t8”’ð‘`ÍûÄ
+!¨mNën Eà„%rˆ$œÃw€¦&‡›$»­;ûŽ2K õ-¹¤£ñ\±sþ”Ë0rdÇÙŸºá°â®ò×¶¶@]H?X™cÑv=µº†DPö™žÁ[AôÁnK¨Vnî`}Qe‚|C±XÆï˜$Yp2Ÿ§}û/¡ôS½9[Ü€UëY±¦‘Êf®ŒOÜ&ÖÉ@sOBŒWWò–­ å7!ŸudƒqtFòòÉÔ°Ò 2­IØ_aXìïÕ#ÍÏÀ-ÙêqñQ®¹ÞvÚþÀÐ6áH{¨-A62ÁpÀ¹à-ñQÄÆx£1°!Í`ÓæðRùÝjG!Ü›Jãm04 ¦L    º}m ¦Lç]jtûÚŠ€;o´? ˆ|…îñKùKòÁ§n0s›s#©ÍÇá¿ÆC\¨(@> ›Ù'ù'Ñ¥c ”9óP·ÖÇÒQÃ^Á½”µ©‚HU`·£²eÔ´±Çº—×)<p³ñãRñ"¡ƒ)[K×ý§€¶nW!	3‘±|*¦÷TgNØnÿ˜¬ÚE^ é·Ø¯2qc§±Z¹6°ÓÎhÁ?Üïag$¶vÀÈ®×ÐQÝ¸¾ó±’Ð÷Ô,™JÿLA…z ÉVÊ¯àÎ-g›Uí1¯åä1OðÓB¯œˆ›¯!kêDÕ_ù G¼	çç‡á)’‰Ý²@hzŽ $ƒ\,Yø…)ú w•9ŽòšñúÁ_u­©Q0´]œÑ$³(áŽ})xÜÜþ@_[nëynÑ”Zw„ÔÜP¸Nþ|QÎgÁÌœæ¢~e`ÿ/ƒL8	±öÏ¯ÛK”pt/Mh€Æ¡ÒÇ…ä”µî€WµÖŒk‚‘  ”È‹{èaµQQÆÉ ¼ Y¬ ˆ gkÁ¹Æ˜qÉEõI²^°ÈÐg;Òa6¹Uá)ChÀ/Ú•ª¨qQÌÈW{.¼®ÐøÃ$‹…Ï”A”{'÷ËìÜà¯=P¼‡[1N³è£šÌð”7†Óè¬°!ºAÝT9Yà ¨L    Ø}m ¨L©_j°ûÚèš;oú? ˜~…”kîñé%còKav0µ8Ï$]ÙRáR$X*õ©@@× °ÑÃœìæ·(¢Py/ÝXŠÿlÁÈõ„”(@` ¹f‹Ï(¸±eà‹É1põ%IÖ4Ÿå¡a9Iþz½€¸\J‡3`c‘Ïn[m½ÿ)~[ùèjod\,ÐÁ3 ˆâi¢¿dqF4,Q°|ùôaE‡ñ(Z¸jÀí&ÇT2QûãGk_áÐ¹[6š’ÌAã_/ÙPÌ+àPžÆúŸXÀ1½F£‘°Ïð%‘¹rT!I,Ï[Ôƒ I˜‘Iª:Gì‡OCÕ *Øö¹8k”wªvõ| © ùüóbÉ‘_ñ˜ÒKìÅ‡0öVqÉ1Ç–ál¤ýàG@an½›CÍÑ²w9\d¤Pz^8G[ÛÁ*4‚¦\8`¡ûí¡Ï±”Ùos‹Ëp¶¿yS]¡°;Nš€Y•¿%^‘>vÂâŠµªídÚaDþìé[fjb éâ´ãý(®q°K™÷ÉIé°Voûò…žDa†»ì/¹ À1Ûü?ã_ÆQê×Ð‚yœÐº¦<ÎöûAòÄå' à1ŠN´H>1ìšpt0³ðÖuÊ¾ï!˜çoÆ‚Œ ªL    ö}m ªLkajìûÚFµ;o@$? Ÿ…Õîñ‡RzòÕ~0÷Õ*&åÝá{‰‚løA+@B¦<
+gÑáÕºÍÛQP;ˆòÞÂ;{Áyû5`¦+`"¼)d9}»±r>&p7Z®Yx­¡?I7±DöÒ€ºJ=F·“‘í`—°Ôåë­ÞécÖÍ0DÆ=	 
+Ü¶}kÏ–qŸä¶ýV°We·N¸úa#ð¾L$º^À0àCØKQÑâ¾¡Ð{â?›Ú1KAAE¾èJÎ§àÒ&ä¤[“1[Þ:>|mÈðWsÖ¢Hù!'n½€âH Kt¬l³“eÐ}©÷Àì5_SMSÌÕ(”òsX {d®7 ˆ½ñ6ã7cÞeÉ08PFÁ>ÛáJ³ƒå(@cÌ½‚ÑÐ”û¬~ôkP<¸½ó<èNÁˆË˜ÎS]`í¾ª£´•±2ã/aš‚„pøOÎb>Šó¡Ž¯: i€[ITòß9‘\Lðü‰h¸lycrl¾\3^ Ô< k¸þB‹ÃqNÎìùIás°˜à¤·aòR!ø5/™À3ÜóêQçI„Ö6ŠÐ|‰TšcAPôÓƒE#à³ÖL¬	!1Š”€øDÆ™ð´ˆÀ”2ƒ!v8Ðª8 ¬L    ~m ¬L-cj(üÚ¤Ï;o†)? œ*…„>ïñ%‘ò_Ô…09s†'ÅðháYÀà€ÆŽ¬@DE+nûýÑÿ‰´ÿ Pýàeûw‰Á×.v;¸è`¤¾ì<£Ñ¾±¡+ßñ4pyŽÝ»—t¡Y%d{rè€¼80XÄ‘SÓóë­­ÝaÚÞA÷+ý»[¼¹Þ ŒÕá4ßÈq=ƒ9Ï¥éÈ°™°^•ô3ÿaYŒpî»RÀ79ùù[eQ7:ZZºš)Ð=iIœ"KÊAŸ*MøDÐ#àT…Í©^f1ùuÒêG…ð™éTó/ž!°ù1i½˜ MP¡/Éìƒ´sÛ®“Çìa;3§±ïj ýËhwñÔó#ÚöC0zI¹Kïrá(N™êN×@e”ûaßí6Ñî±½ý{„3Pþl¯2uÂÁæb¹’öJ‚`…ËÜYYÇ[±Ðìï£Áy=p:àL)Š¡l#ßä¥Ã%€]
+%š‘z"‰W.Äë‚¿8ºM|`Ú= íH(†íØqìP@üÉxþ°Ú½Ä8Âd)aÐ‡<¥1À5Ýê•TÎoQ&öÂˆ*ôwÐ>llT¤DÊA®WZÂßqFà5#K¤Ê{1(g€\€ðZò	·juì!T3•©›Óä ®L    2~m ®LïdjdüÚê;oÌ.? ¶‚…ü§ïñÃ«¨òé0{â(yüóá7÷>•”Û-@F|°ŸìÔîÑHW›#ö®P¿9ë3´—Á5b¶ÊÈ `&Á¯&Â±?QL¥êûp»Âx`ÿ<¡ûh²îý€¾&#ûjeô‘)E7uoåÊY­ë‰Éks²5´ ÏPDþîúqÛ!¼ ôÏ°ÛûÜ0QaßÁY”¸½FÀ\B°ß~QUeãÑgw±ÐÿïRjdIAýÜ?ÒŸàÖïä¶®a91—j—©AðÛË6½õB!ãñ5ãï1# O,)qñÞE¡˜i¡t<Apñ/†v#<‘%Ïìa¶ 3#áMvyñrQ"A0¼Bð°XááéŽît@g§*4ÃëÑÏNyûPÀ!}j(6ÁDúTB§`ªúÚ!±nö¯æèpöp|pO5” ¡J—§«8€_ÝÑXTñ‘˜øK1ˆÎõðst“³~Åb”§ñ oc’JÊOîqŠÓ“þI‰°e©[àÇ›a®ììBÊÀ7Þá@…ÄQD<~±eÐ O„—®k1A¡À°;žià·oIœ‹æð1Æ‹Mæñfðœ0‹­@¸U!2Ù'gü °L    P~m °L±fj üÚ`<o4?  A„…tðñaØ¿òsG•0½­=*-á.©b(¯@H³5ÑÝ‹àÑ;%‚Gå]P’2qlð¥Á“•öñÛ¨ë`¨ÃrîvzÅ±Ýv¹X ðpýöÝãB¡ÙxÊèj€Àw}¼$‘G7Kz =1=h»Ôàç•‹¨±‰ È§Çþ,qyÀ>rC¶@°G­"mn	a½*'¸‚¿:ÀK+fc˜QslIT9ÐÁv\ž²}ÈA[õj9ÔàX`D ³d15¥DßFþð®-JÌç!Á3r”v¦­ Q±Ó³ôž¿|_gÚ^2O˜‹tï£ìéXüd ›Ýµ$m×ñüÇ' }0þ;Å¨eOáäƒŽóšg@iºY#˜ Ñ*ìAŸv¤ÂP‚ÖÜ%©Á¢‘ð‡F9Ì`‰ˆ¸Äìç± p)h¯p¾ ÿ·¡(p:±wJ€a§‹Í‘¶ÎyK‡”²#ý£e-v®eNÌ ñ8Ül²q(Vç Ê§°^Ž~þ*aŒ¹RH‘bÀ9ßØëÅ<Qbµ‘ÒnSÐÂ1œÚ¸’˜Ajê&Ÿ—ÊŒà9¼G”LÉf1d4¶‡MðÞn¤û¾!ºŒ2%= ²L    n~m ²LshjÜüÚ¾<oX9? "Í……ìzðñÿ×òý 0ÿJ™+á
+áódû½0u0@JêºÏBÒÑYºóhkÔPCëG÷¤,´ÁñÈ6ÍíˆÖ`*Æ5ÇàÎÈ±{œ&Våùp?+Cg†Ë¡·ˆï|ç(€Â	óU‘e)‡½1(ólë«O„ÔEbË¢ž-_ Âê
+‘_q_ÁC’œ|°_’Ti©‹a›“ôÛLÁ.À¦TDç±Q‘»õÀÂ0ÁÐƒýeŸú–GA¹Úù&3Ö—àÚÐ£‰¸gß1Ó<™ðªäºð_úI×¢Œ!Ÿu®Eý8 Sä86v
+øÝ`U-@Áô¬ ¹Ÿó«M"
+çOó ƒ˜Šûc5ñ®%è>@Þ¸0@5š r+½áÂ	™÷À¯@kÍˆØDmUÑH	ðs4ŠPD‹<áÁ )Œ‚n0ñ`g6gzÿ­±ª	0l7_hp ‘ÐêM¡8å¶Ñ\€cqO¾È¨‘Ô¤§e†43t¨Ò…´¸§ÔÞWg{¦ s&RqÆØ:J?ž° ³r¡Ž€aj†¸%NûÀ;àÏ–þómQ€#.–&,AÐ„´Ã¹ÿAÈ3óö¯à»FŒ¬Ü1ƒ‡4ð ­šì=(!î$MþýMé ´L    Œ~m ´L5jjýÚ9<ož>? ¤X‡…däðñ1îò‡º¤0Aèô,••áÑ›YÒþÁ±@L!@4ÀùÃÑwóÁOÃ»PD]}ÝhÂÁOüv¨ÿhÁ`¬ÈøŸJ#Ì±Â“¿Úîp_¨êÉˆ’¡•˜Ý/Vc>€Äðûn¢j…‘ƒÃ I0ÍµœnœÊïÈ£.{º”©4 ”»7nZ‘qµýCá‚¸°¡Ýû¯å¨ayüÁÿÃ"ÀË]]ÒjËQ¯æ~8pIÐE„o B°ÆAÀˆ6-Øà\As½j²1qÔ0v‚wð¡rÜfdy1!}·êöƒÂ UÀÀ˜8 QûDKó¥£¶
+iR´Ûã« 'äFêÂ jR_ÒZ“ñL6ÔµX¼ô0‚.o˜?+á ¹ƒüæ÷@mà·ªfB
+Ñf&Æ@qÄQP@œœ	©Á^À'}–'`ET0t±Hð®^V!pB!ñÔ"ä¡äò ¼+o€e;ñ‚„‘òzÕ…çÑ64‚Å"2¡iÂä€ õão±–v.qd[ŽÊÖ(°âZWÄ:ñòaHS1T}“À=áÆA7«ÂQž2§šzé.ÐF÷Ë`ÍàfA&}ó{O#Óà=UD„ÎŽR1 þ  W³ðbë‘Â€‘!ÌÊßoÉv• ¶L    ª~m ¶L÷kjTýÚzS<oäC? &äˆ…ÜMññ;^ót¬0ƒ…P.I+ á¯Ò·æÌ3@NXÅe±°µÑ•,6³²jPÇœr¥ÐÁ­/·ƒI¬`.Ë»x´wÏ±·ç sÁÎãpÃ“nZ¡s¨ËâŒßS€ÆÞîê´Áµ‘¡ÿC`8•wÌñŒE[½û*ÒŠ%
+ µ„Ñ#.ÃqSœÆæ/iô°ã(£ö!ÆaWe#áÄÀðfvˆîäQÍ°êÐÐy¡ŠÉEAu¥F'ÚàÞ±b\Âm…1lÈIB 4ðãT¾ƒñOÖ![ù&¨
+M WœHûú5ª)A¹ÆAxhÑëÈÃ	Eá=áq ‡Ñ4©QññêFÀ,qš00Ä'DŒS™á~Tþ£ @@oóæ|ˆ¿Ñ„Cˆ‘nTPÈôûWÿ5Á¼WÃw¾;`$rÅå$:±æ°ñ…MÚp„±QÚ¿§z¡ÂfÉ:Â…€gÍ$=`‘Qš„špø¿1—Õ^œ?êk|N[ w¹¹ÓÚØCqÞáJn³°$<çXTea& „<Zó+À?â½ìobQ¼A ŸÎ¦ÐÚã£×ÎA„ÆYj«Oöà¿¡B|qÈ1>zç'(Ið¤)‡˜Ãú!ªprá”ŸA ¸L    È~m ¸L¹mjýÚØm<o*I? ¨oŠ…T·ññÙŠó›-´0Å"¬/ý6«á	ûš[´@PJ—¢g§Ñ³e^×¡P‰õ‡‰NáÞÁc÷^#)—`°Í~QÌÒ±Un&wÃØpÈrñP!¡Q¸¹•Ã[i€ÈÌáfÇæ‘¿ÿ:‡w@]9üt}ÀÆ±_ÇÚé€¡ß ˜®Ñ4í=õqñ:I¸~O0°%tJ=^ãa5Î\G«Æ
+À p>rþQë<‘'ËÆXÐÉ‘‚¢ÒâÄAÓŠ¦U!Üà`"ÂEÇpX1­`ö¾ðð%7  ~&{!9;cY‘x× YxÐ]½K77qè:Æ9…Ý«SgbÞ4Ø  	9Ç€HOñˆW¬£‰xl0!ˆ™gá\ïx)3ˆ@qOªìsÑ¢`JâkäàPŠ©[õÂwÁï^ræ``‘t›7 ±„&p4­D“pÆA’Ãª,¡ Ú‘åÇß“€iÏ‹W÷;‘.'1´ƒMºKáæ±îo3n6¸5 ùŽö;Yq `5
+Ê>°f© 
+w·×aíéG`iÄÀAã´—¨lQÚP™£"d
+ÐÊ¼ûæá.5AâÀX|àAî@tPT>1ÜõÍ¯øÞçðæg~nd!ˆS`Èí ºL    æ~m ºL{ojÌýÚ6ˆ<opN? *û‹…Ì òñw·3ó%ç»0À1±B6ák@ti¨5@RÆÏÈ“™ÑÑž,ûÈPKN‡íÁi–7:5	‚`2ÐA*ˆ Ö±ó2ÛÙ,¸ÍpGü×t”ýè¡/È§Hú×~€ÊºÔâÙo‘ÝñvÊŽH%û+øm;2¦½“Šwµ ¨˜¶M'qÙË‰Í5l°g¿ñƒš #a7*kuÈþÀ":y¨ôõQ	hŸx£àÐ‹Œ£üCA1p5eÞ‡àâ’!/Ìs+1K›÷¢Ù[­ðg‚½ý!}Ÿ
+ía [TXÀa\Uñ,E×
+Âü#¢ò“‹Å€Û+ÏÏ ‹ ÝV?­ñ&h˜¢V¨0Hî¦{uá:Šó®	YÐ@sE!ÌÁ(ÑÀ}3it¨PL^»ÎêOëÁx†úl…`á­#QJÆ±"00wÔ;LpÒÒ¬•±§¡~NZÍ9¦€k™JŠ±‘Lý^Î‚ ®|×¨ö‘L |pð! {dMcnq>ãˆJÈ°¨P-•Jaâ¹OSfß\ÀCä«BáÐÀQø_¨v!øÐŒŸ*ìUœA@Y&Gc¨<àÃ:?l7´1zq´7ÉtÎð(¦’tDIÍ!f¼—Ä+ñ™ ¼L    m ¼L=qjþÚ”¢<o¶S? ¬†…DŠòñäJó¯ Ã0I]c2eNÁáIwÒ#7õ¶@TýTú„ÕŠÑï×úê€wP§²•¿YûÁÇÉwGél`´ÒòtÙ±‘XHâ¬Âp‰0=ø×y°¡Ø•û0T”€Ì¨Ç^ìÆF‘ûã²¦Pí½[{^¶š`:m™Š œ¡kû]Yq-xN[¨°©
+™ÊÖ(añŸ÷Ž?ÊòÀ$_‚Áªy1Q'“£&€hÐMŸ•¤bÃAUÄtààdÑvþ1é2O¥ùið©ûcÚ˜ÓÄ!õ¾Û»žaì ]0à"BwµsÕ"=-‚¾
+¸|Ã#šØ"Æ~ <²-6ñÄx„‘º4ä0ŠÃw³ãá%n4@u,tóí–ÝÑÞšÎƒfpPŠàÜ^ÁÖ–g6ª`•¿ËÒ]Œ±À9ð¹û2pJb–€6>¡\Â";Ó“¸€mc	½kó‘jÓŒè³L>c@1XªÐÅrª‹ê ý9—:§ÿƒqÜeÜÊ4S°ê÷éO³}¼aÀ†µ^lUõÀEå¢íˆQo‹¬ÊÞåÐN‚+mö|Až¢Œ5¿Ô_àE‡=dÒ*1íš¿™
+µðjäkŒ6!Db*6÷F ¾L    "m ¾LÿrjDþÚò¼<oüX? .…¼óòñ³bó9ZË0‹ú¾3ZLá'®08B8@V4Ú+vŒ|ÑÉÑBo&PÏÿÇø•	Á%ý·ðXÉW`6ÕÇÛ[ÉÜ±/~µ@˜¡·pËd¢{öw¡ëçƒ®gÐ©€Î–ºÚþw‘ÖîP½Xµ‹þN1	y,ê0c` ›¸^Im‹qËÑ,kä°ëU@;-aÏÅ²	ÌæÀ&„‹Ú`ýJQE¾,ŽÓ\ðÐ&Ÿ¥ª.BAí:S„âàæsàÖyÑ1‡Ê&üp—&ðëÝE÷%ªi!Ó m%Öv _h…‘¹Ñ¢OB€ßrQdû»Õ½- oö†-iñb‰pÓ 0Ì˜oÀ£Qáö¿è¹¥`@w?£Ål’Ñü·Ôc”7PÐÇzEÖiÒÁ4µ1b^ûÎ`žé¼oR±^C°ü"*¾pŒòSk»Ô¡:6ëåØíÊ€o-Èð%Ï‘ˆ©ºfë ïï¹«…udõÄ á\ëa™qzè/JÌÝ°,ŸÎrÑà.ažSjrËÀGæ™˜R?jQ4~±œÓÐeC° ¤jAüëò#ƒàÇÓ;\“üŸ1¶hGj ›ð¬"•aðÎŸ!"½§ÂBò ÀL    @m ÀLÁtj€þÚP×<oB^? °…4]óñQ=yóÃÓ0Í—5Íe×áåŽLÓŽ¹@Xk_]gCnÑ+J—¸f^ÕP‘XÝ¡0ÒÁƒ0øËj©B`¸×Š´Åà±Í£"ôM–¬p™ÿ^r?¡É÷qažL¿€Ð„­Vu§‘7È*”Ô`}A»?¬tƒ×ø™HY‘5  ”Â}½qiµSþ¹è°-¡çWOX2a­q’ÖÓÍÚÀ(©”ódQcéµ9xÐÑ¬¨¦òGÁAK â“	äûàhä?ëÚ|¤1%b¾¨<5ãð-À'³€!±BT¬J aèïçÆ¢g¯—rB=Ûê/L3ß–ØÒ´Ü ×°[Û#Çñ š\ëð[0mgÍ·¿áÔZc?Ë¨@yRÒ—1AGÑÕR%a$ÿP’|Ú ÌöEÁ’LÍ\†òó`™|1r‚±üLp?J!wpÎ‚”hV@k¡ª³ÞGÝ€q÷†#àª‘¦è€ŠÂzŸB(þÿf1Xw_Ÿ å*/Ä®qkƒÊch°nF³•ïC¡a| uxA&ÀIçC‹ö¾QR}µrYÁÐÒG[ó
+ËÑAZ5Yw-¦àI :TTß1TägÏ:6‚ðî`XÆ	! ®OŽkž ÂL    ^m ÂLƒvj¼þÚ®ñ<oˆc? 2)’…¬ÆóñïióMÍÚ05v6qbáãí`¡Û:@Z¢äŽXú_ÑIƒeŸŠM„PS±ò'i&Áác8§|‰-`:ÚM/rã±kÉ§‹¡pOÍl‚¢î¡§`ÕÈÔ€Òr Ò#Ì×‘Uºf×ëhEë0'àw5ÅI`O "ŽR%ÜŒïqTÖÏÏ[°oìŽž‹u7a‹Ú_úÏÎÀ*ÎÍ~Q?}. Ð“3²§:a@A©q£æwàêTŸÔßw1ÃùUUÓŸðo¢	1@W³!„Ï2¿‹ cÄwJ‰¸ÀÍ]n”Â›C„D4k=öÏ«‹ “>k0²%ñžªHöÏ—0PÿA_ÚË-á²õÝÄñð@{ejSüÑ8òv^´ÆPT1:¼Áƒ¹ÁðãhW®é`[%à'•Þ±šV0‚q0pÕQAÅ¡ö|;ä¡ï€sÁEVš†‘ÄU7Ì(„OË8QzÄa¡yØÈy ƒºt¡s&Äq¶íÖJûò°°í—¸§aZíæ€~·¾ÀKè‡îÃ­Qpœö¹Æ¯Ð”*s6ò8A¸~¿ ÓYÉàËl8LÂ‹1ò_NWÌhð0Ÿ—NœTr!ÞSâŠY”J ÄL    |m ÄLExjøþÚ=oÎh? ´´“…$0ôñ–§ó×†â0QÒÑ75}íáÁRKuo(¼@\ÙiÀI±QÑg¼3†®<3P
+®¡J4Á?—x‚Ži`¼Üf™Ææ±	ïüZ¹–p‘ÒæjÎ¡…NÇEê€Ô`“N6#‘s¬¢qÅˆ ¢Kl“‘ùwE‰à ¤‡Ÿˆ¥œ!q¥òX¡Wµ—°±76åÇ’<aiC-hÑÂÀ,ó¦%ƒˆ—QŸ?ÈôÛò‡ÐUº»¨‚z¿Aëÿ²ýçóàlÅþ½ä‚J1a‘íÔp\ð±„ëMÍ-X!mÆÌ€¹3 e ÿ¬KÎëeú"Ô¶‚Æø«Y£›“Íþ¡: ¦%‰ƒñ<»4m­Ó0’øWçß›áXJ 9@}x0<uë°ÑV×Æ[DŽPæ™w·-ÁN{RÖà=`9CÝ§¤±8`ðÄ˜épR£;,J˜¡Ô‘Dæéû€u‹‰Tb‘â+DQ~ÇF’þSI¤ô"’ê{’2T ¾Ã·ˆÙqTp*Ê’}°ò”|Û+
+†a8ºLŒ„-WÀMé~™üdhQŽ«o¾ÔœÐV‹y AÈ%ï.†ìàM¹6DÖ¤1Û4ßÛaOðrÝEr—Û!¼ùtü$½ö ÆL    šm ÆLzj4ÿÚj&=on? 6@•…œ™ôñ+Ã¾óa@ê0“o-9éˆxáŸ‰©‰=u=@^ïñ:hCÑ…õmÒ+âP×b4Ú†BÁÊ¸] I`>ßÓ>ê±§jot‹pÓ57‰)ç•¡c'<zBÁÿ€ÖN†ÊHz8‘‘žÞ]yÕ‡J·`ñ]©;¶ &ìën¬SqC‘Ûr¦›Ó°ó‚Ý+°AaG¬úA2Ó¶À.°>9±Q½jQl‰ÏÐAÅ©Ê“>AeÐŽÂ÷éoàî5^§é…1ÿ(…®ŸðófÍjZý!K	2@¨  g|‡är	Jðè9ÙBˆV·mÛù1Êõ˜é —àÙ_áñÚË ä4‹0ÔñëNôó	án+ÓÏ$=@‹_—ÀeÑt,™YÔUPØšù2­ Á¬ Lþ×b`a>“ºj±Öi°À¢p”3V$Ï.¡²‘ïU€wUÃ ¼>‘ rk}2f®ÜY÷n€Â3~Lœ. ‡eæûêîqòò}J*°4<aþImøa‡²—Š£ïÀOêuD5½Q¬ºèÂn‘ŠÐð¢¼)@AtŒÝŠ²àÏ5<—‡w1.Wg¬÷5ð´š;HÚD!šŸnðå¢ ÈL    ¸m ÈLÉ{jpÿÚÈ@=oZs? ¸Ë–…õñÉïÕóëùñ0Õ‰:”á}ÀžÂ¾@`Gt#,5Ñ£.ÐSö‘P™»2ºÃPÁûýø8²)î`Àá–moí±E:×Á$i€pjœmc]¡A7*-y=€Ø<yF[Ñh‘¯¡1IzŽ˜"UO*Y§1‹ ¨z9O8¼…qá/^Dõ°5Î„r@ÍFa%ÈeüÔªÀ0=¹WïÊQÛ•Úã6¬—ÐÙÇÎª­½AÃµÒñëëàp¦½îˆð1À[k¬Õð5I¯‡çÚ¡!)JEãÆ+ iXrÐùË'.æ®ŸûJ´|P‚ìWNÇì˜ uš®6ÿ>ñxÜ[MiK0ëÀFxáLÆMU)cÉ@žŽà¸•Ñ’I[hVdPšOYî¢*Á
+ª;G&Ï‡`¡ö~íHÍ0±tspJçýZpÖÃ–TÅ¡yÕ;õ¯&€y‚"ïÈ‘ØŸ…|åÊ©]ejJéÞò|€	 	;R@MquÑÊÁ’°vãE!hÐjaôS£ˆÀQëlïmÓQÊÉaÇÂNxÐÚÒºÿ3gnAÒZòËæÞ2àQR34Xjí1ÌÒï|ðöY2®!xEšß»O ÊL    Öm ÊL‹}j¬ÿÚ&[=o x? :W˜…Œlõñgíóu³ù0ªä;Q Žá[÷e²Ù@@b~ùTÖ&ÑÁgž:
+@P[H@Kÿ^ÁY19Ä	Ù`BäYðÖÃð±ã_DuÚ]upWž°ß$¡Gà¯¹*€Ú*lÂm(™‘Í‚VäH‰eªòŽI­ö¿'ý` *t†²Ì·qÎàDhK°w,¹|êKa~•‰ÆÖžÀ2bÂp¥äQùÀc[äˆÐ›NØ«ZÆ<A!›¬áëígàòzó‹Ã1;X´7J’ðw+‘¤t±F!Œ”M‘µ k4—Ô’%EÜtÃåé–ÔJµlÄã†G ›ÜTƒöœñíøÑeG‡0Xä•>æá*aÈÚ-‰@ƒ±½²ÚjÏÑ°f¹SôäP\¹©˜·‡ÁhA×ANÆ¬`#Õœœþßö±}0õpT×öìØ[¡níæú	9€{é@$"ƒõ‘<®ÍŸ{˜£Œ5îzc<#Æ‚Àoã ‹œ*„¯q.ø$JY°¸Š*D†3ÝaÒ ~®– ÀSìcš¦ŠfQèØÚËfÐœµÒB>ŽÕA0¤XºBVàÓž1,Mc1jNèvM#ð8˜œ(ô_!Vë,Q‡7û ÌL    ôm ÌLMjèÿÚ„u=oæ}? ¼â™…ÖõñIôÿl0YG@=¬á9.ÄÆ§[Á@dµ~†Ñß l!>ùîPm]Æƒ;mÁ·dyïÕéÃ`ÄæÉ@ô±…±(Rjp™Òfô[ì¡ýV“æ5@€Ü_>€É‘ët’'`‘-ÍÙ”âù=Ã¸Öy6 ¬mÓËÛéqmcç’N‡°¹dÓÿ¸Qaáæb­Ø’À4‡Ë‰[—ýQììÒ‘e§Ð]Õá¬¢ß»A€;ñåïãàt‡|cøŽ–1ÙïK´èNð¹sÁˆë!åÍ½EÔ@ m7U%~cöÑ:k@ƒÎoMƒ«¼‚‰ÁÚ}ö DXäìúñ´ýäH~%Ã0šÝj60TáüB`2¯Y@…Äì„ü?„ÑÎƒß	Q„¬P¹eŽDûÁÆØr<v½Ñ`¥³ºK´ò¼±°†ðÏ5ìÌpZäà×]ò¡Laf‘ dK€}³ÿ%U=Ñ‘Z„û¹zKBNÁ¼v‹ðÝšS…zÙ½ æåLÈ/qÌzx!Êð§°ú1g¤–Oa°íã¹œ¹ÀUíZEßA»QèSÐjÉSÐ^˜ê…Hµ<AŽí¾¨ž7yàUë/$Ú/Ù1ÊÎþ¹éðzÖÊ¢€!4‘¿ÂR`§ ÎL    €m ÎLj$ Ûâ=o,ƒ? >n›…|?öñ£uô‰&	0›ä›>¹·¤áe"Ûu¨B@fì¸ÿC
+ÑýÙ:bèPßÅrL¼w{Á˜¹ÊçÉ®`Féß¡ªl÷±«ÜEG_pÛÌ–7Ø³¡ÛfôE²U€ÞRº’Öù‘	gÎjw™õ	Óe2ihîõ .g y”ëq»æ¸á4Ã°û¯zFõ$Va¿O0ÑZÚ†À6¬Ô¢Q5vJ?B/Ð\ë­êø:AÝeÊ àñ_àö÷ÛLý‘i1w‡ã`Î…ðûïTÞŽ^!ÃúöZzÊ oì¦™;×ÚÇ ÑbCÍµÀ¤ºq§¾Ñt¥ Ÿ«É,»ãXñRÑ¿–ÿ0ÜÖ?.(DÂáæ–½å6Õ¡@‡×W9Ñì ¡ZNtPàmx „ÑnÁ$p7ž´ö`'’Øúiƒ±N°]ã…pœtXÉÂâˆ¡*Õ.<¾]€}¾'ˆ÷¬‘xZ)ÔyþàMlÿ›CXøƒX‡4C˜ »/otDqjýË#Jˆ2°<Ùó‰ÂùÁaŽºIÅ¢{QÀWîQðùQ$÷ÌÔ¾†AÐ {ÉRÜ£Aì6%—úcœà×7.›O1¦Eµ†îNÐð¼Ÿ åé!7R4‰S ÐL    0€m ÐLÑ‚j` Û@ª=orˆ? Àùœ…ô¨öñA¢2ôà0Ý÷?mÃ/áõ›€ïCõÃ@h#‰éðúûÑ	ï…×LP¡ˆÒô³‰ÁsËù¥ù©™`Èë¢zÁú±½Ð‹û;Tp;1{T{¡¹vâøS.k€àôD6¥-*‘'Y
+®Ž¡½Q9›ÃƒÐ&Ç[
+qá °`mÜ]ûMqYªhŠ0ÿ°=û!1B[a¸ýô$ÜzÀ8ÑÝ»Çž0QSBÿÁì·Ðáâô®2ºA;KYÚóÛàxh;6•<1{š#Èð=Ò6û55!¡Q6¨áîT qÈ.üÙP0Ÿ¾½Æ6…R+¶ÔŒòÏ‰Ä»ÈkT !„’Ú¶ñð½6¯á:0Ð&5X0áÄ18k;ûé@‰êJ)@êíÑ
+¾c«K¤;P¢"ØÛy^âÁ‚ª1Æ«`©pö©I±ì™pU„Ú>pÞ™²­g¡I÷æp€G})»±ˆ‘–0Wîx±ÒØˆ¬–ÒV´¡‰î¬r ‘y‘PÖYq€&Ê½°~€Ø¬à\4al‡¯Ð¨ñéÀYïH›P°dQBFÙD/Ðâ]]AJ€‹…V¿àY„,\õÄ1DÁ›¿ä¶ðþR v(S!ðÜä¥é±ÿ ÒL    N€m ÒL“„jœ ÛžÄ=o¸? B…ž…l÷ñßÎIô™0SA!ÏºáÓÒÞBE@jZâ±íÑ9L×Õ©ÆûPcwX-ð—ÁÑþ9Š„`JîeS~þ±[öøB±0Ip_o–¾ÐB¡—†Ð«Šª€€ââ7²·„Z‘EKFñ¥©…i´þ;%(È í¶ 2Zº?'€q÷Hë[;°FÉÓm_`a{!ËïÝnÀ:öæÔ}"JQqmˆ9šû>Ð£iþ¯z+9A™0èÔõWàúØš˜1³¶ºeÁ„ð´©Ú!“rYhcß s¤¶^œf‰½¢³Œœ§Ã‰†Oét*-â¸¿b £z>ÖhÑñŽ/©­Ç¿v0`ÉéBlžá¢Ì²ð?!2@‹ýyûa¿¢Ñ(Û%üH4Pd×7—oëUÁàžE,î¢@`+OYÕ*±Š£0˜«Ñ÷p •Ù›˜ìµ¡æ¼¿‘r‚€ƒ<+îkd‘´…xd”dË½éL´äê‹¨M “fÃ³”8oq¦s(J·G°À'½Ïþ¿¦aJTÜ®g‚À[ð?F‰g¹Q`¿ÝfÐ¤@2Og*rA¨Éñs²¼âàÛÐ*Ø:1â<‚–zð@‘¡Lk¼!Î‚wµÚ« ÔL    l€m ÔLU†jØ ÛüÞ=oþ’? Ä …ä{÷ñ}û`ô'S 0a¼®BÕÚEá±	=àŽÆ@l‘“LÓhßÑW…¥¼ÍµªP%Ð²Þe,¦Á/2z\jo`Ìð(,èi±ùföf%>p¡£û M
+¡u–¾^Á&–€äÐ*.ÊÛŠ‘c=‚4½±MÕ˜¡¤y§ƒôw5öhŒ ´S£ð²q•çm-Îçv°Á‘pª|eaYŠ˜<¹ßbÀ<ðí3¦cQ˜±GØÆÐeð±ÂD¸A÷w/Î÷Óà|Iú›â1QNªf1_AðÁ–ú46â~!]Õ®
+ï×i u€>Á^|âÛ†©RÊƒÖæîèý\b‹†ÿµ¶Y² %âøª?Èrñ,@•$à²0¢Â¾O€á€g-vDGz@©Íƒ”WÑFøçLFÄÊP&Œ—RexÉÁ>6á&še`­-2‹=Õ±(­ðÚÒÈ°pb%…ƒqL¡Ä0ˆ<Ì”€…Ûú,!&@‘ÒÜ²"w½Vðz™Í<Ç4Žb€' <ÖØš„qD…Æ*ÊNÒ°Ï¡ò#a(!{ç´ÝÀ]ñ6ñÁQ~$8âº¾
+Ðf#J’qQÙAXbéà])Þº°1€¸h`„ð‚Ï"ù!®%!¬(
+‰€X ÖL    Š€m ÖLˆjÛZù=oD˜? Fœ¡…\å÷ñ(xô±(0£Y
+D‰æÐá@›,®ÛG@nÈ~ÄÑÑu¾s£ñ¤YPç(Èdžh´Áeº7/JZ`NóëR¾±—AÓ©3pã×`¤EÉÑ¡S¦¬ø¢«€æ¾ªÜ2»‘/¾wÔ¹—È$•ôáÀ'Mìäa 6MTº*äq3†ðþÎ²°Ýaæ™ja7óe`ƒáVÀ>@ùê)}Q­Ãš(õ´NÐ'w²
+^7AUû?ÈùOàþ¹Yòžµ1ïåAýüýðyÜQÃ¸#!;ë»uLô w\Æ#!’;ùjŸhìC˜DW‚Ešé³­Pa §I³¿ÐñÊP›ø{î0ä»“\”zá^¨ûHmÂ@#ØŸ¥iÑdªCT’Pè@÷[=ÁœÍ|!>‘Š`/P·@P›±Æ¶°ú¿ip¤µZnnöâ¡¢¤Pç&§€‡¥¹.Tà‘ð²à<vÊ[|*"ÞApE}ê —Wøý™qâ-Jæ\°Dv†;†‹aîàòºS³À_ò-œúÕbQœ3±æ|øÐ(bÕ{x@Ad\¾Pj)àßi'üž&14O¦0¦jðÄ¤ï÷ðŽ!ŠÎœúK, ØL    ¨€m ØLÙ‰jPÛ¸>oŠ? È'£…ÔNøñ¹Tô;Æ/0åöeE=ò[ámwù@|(É@pÿ¯µÖÂÑ“÷AŠ”P©ÝêÖ¤ÂÁë˜úA*E`Ðõ®Ý»±5g@]Ò(p%Æ'‰E™¡1¶šÄ.Á€è¬&ï‰ë‘Ÿ!úºëÁÝYø§…o~ø?×dâ`7 ¸F¡iƒ:qÑ$sÐk´î°E(¿§"·oa\3„MãJÀ@e  ­–QËî# ¢‘ÖÐéý³Rw¶A³à”NÂûËà€*¹Û¡ˆ1}Ù¿ÈšºðE[¾nPÈ!Y'müÀ~ y8N†ã§”O•ÞÍZ¢¿'-ÒGƒ:°¤G )±mTíµ.ñhamZ*0&µhi¨èá<"M“
+@‘6rÇ>ÁÑ‚2lî@äYPªõVÉP’°Áúdfˆ¯`±êmföba±dÀp`!·"pæE›WY{y¡€’"€¹€‰ox0‡š÷‘‰Wu}úÚÚªîâ»ÎuÆ’ÖSÜ ç a_¯q€Šm/Ê}ç°†k8YéýaäºFþÀÉKÀaó$G3·QºB*ëb9æÐêèy†Ÿ§AÂ¥$?ÆALàa¶%ô_€œ1¼¯5.<QðL%æÍ3ø!ht/lU° ÚL    Æ€m ÚL›‹jŒÛ.>oÐ¢? J³¤…L¸øñW¦ôÅ70'”ÁFñýæáK®WUJuJ@r6#á¦´Ñ±0q9ƒ·PkÚòpáÐÁIÌ:îR
+0`Røq¶%g±ÓŒ­ˆpg@+«ÌÁ`¡Æˆwe›Ö€êš¢á‘½6þÊ¥(+vêéìY‡|ØÜ :@îÌLJHqoÃõ¡ºš*°‡sfî^ÔtaóÄ ¨å>ÀBŠ9V1°Qé­Pn^Ð«„$´š5AÆ#^¼ýGà›Å¤[1+ql”8wð‡= ‹Ýem!÷šcƒ5	 {Öè¥½í53‹¤31Ä (µ;
+¥X­›>¿ «()Ä¬ŒñrY‰)8f0h®=ýu¼Vá8R¹R@“I6DévÑ O.?>t!Plª¶„F$ÁXü³ŽÔ`3É‹¬u'±Ê0£H®Ûp(ÖÛ@D ¡^Œá<(ÚË€‹972ºTÓ‘,_<qt0™œ“‰3ÿ56,¦•½¶ ›¼ê<¥ÁÄqÁ1Jr°ÈÄO[wLpaÂ‡¬	Ç?äÀcôòkDQØQ£ï¶öÓÐ¬Ë‘[ÆA ïŠ-"noàã$ì c1Z+¶ÑÑ7ðHŠ¦Ü£va!FÂÝâ}\ ÜL    ä€m ÜL]jÈÛtH>o¨? Ì>¦…Ä!ùñõ­½ôO9?0i1H¥	rá)åµiÂË@tm¨˜D¦ÑÏiÞW]rfP-3÷GßÁ§ÿzÉdê`Ôú4»±q²Ä=øp©t.>(¡íÕv*œì€ìˆö8L‘ÛrAÒmÝW®feUáû%7”ÎXâ ¼9;0Zzqbxs	f°É¾5›ñyaÑ-ÎËáæ2ÀD¯RµÉQE6ýJæÐm.µâ©´Ao«²m¶ÿÃà„x®§.1É¬`Ö3ðÉ‚¨j<!ÕÜŸÏ	ª“ }ð]KhÓFSj™S„Þ]NPýA€uª’5n -€âýš£êñ¤‚E B¢0ª§õ‚ÐÄáøÒŒVßš@•\eé*Ñ¾lð;éP._@<¬—Á¶“O¶vù`µ§©Äaˆí± Óðåo¥”pjf*/…¦¡< ªç-4Þ€ö3í¯‘J5j‹sã7^9¼‰°ŠÖX—J'‘ ’4_é#Úq¼4Ê¬ü°
+l4~•¯âa TÍµ|Àeõ¤û`Qö`ô
+´ÁÐn®©žšíuA~8ñ~š’àeO"äáEˆ1ø¦>¢gðŠÈ'Óy¹Ê!$ÀTO®¦ ÞL    m ÞLjÛÒb>o\­? NÊ§…<‹ùñ“ÚÔôÙòF0«ÎxIYýá~æM@v¤-D‰û—Ñí¢¬>aPï‹}€YíÁ3»¤vÊ`Vý÷gù±Ø‡wóìpë¨õ±Sºï¡ËådÝÒ“€îvé™&|‘ù÷­„1Ú5Ÿ‡1WàÀÕYòæ«ÄÔ· >3ˆ“ßi¬q« ûDXg¢°
+µ{×a¯–›ï«è&ÀFÔkÂ8ãQ%p¿«'nÐ/’7¶*Ã3AÍA}°@à|×—$ª1gD Å+tððdÅ÷·!³Ü€ Ìå­*éŸqûv0ÿuD »øçdåyaþ’§‰, ¯çœÒqšHñB“1wZôÝ0ì çìä2áÖm’[ã@—o”è,¾ßÑÜ‰²à8”°Pðvû19Á+ëÞm`7†Çs›³±>Ý°(—œMp¬ö\
+=¡tr’3Žð€Í´5 ÉŠ‘h˜¥r–Ö «èD Ü*è¢™‘k Ÿg~-†ïqZh6JD‡°L¡³Ua~!x Ó+Àgö	HÝ²µQp•ø^q¯Ð0‘Áá¤ÝAÜW
+ÚÆµàç› Ü¢(þ1–"éÅrýðÌ©ÉOü3!fçÀyÏ´ àL     m àLáj@Û0}>o¢²? ÐU©…´ôùñ1ìôc¬N0íkÔJ!ˆáåRr’´[Î@xÛ²uz²‰ÑÜz%¥PÄP±ä2¹•ûÁcfûˆªð`Øÿº@cd±­ýô*©áûp-ÝZ5—6·¡©õR	€ðdÜ9æ¬‘êéÇHâýa·´G[,Ê·¾–ÃºP À,Õö¨yÞqIŸ}§MÞ°MU\Â,„aÿhvêÀHù&„x¼üQC›H~XöÐñA·rÜ²A+vÐŒª¼àˆì6)­Ô1Ü7r÷­ðMäEâ„é[!‘`2“¨ ¨míþøßlöd˜bayÍ±¿|°¤€#Ì 1OW§H‘¦ñà£îrÒ0.š¼äœø á´—_++@™‚ÃºN“”Ñú¦t16$xP²ÈÕ¶'Æ~ÁrÂ†eC`¹då"Í­y±Üæpk¾“pî†üÓ¡øç:=9è€‘—s7Sƒf‘†áÅ¿qIuâ6˜Í0/¥F7ë›¾úE !=È£qèqø”»8ÊÛ°ŽºýÃÑuÇa\îÝ+Ù¡­Ài÷ ój
+Q2ý².ÐòsÙ$¯;DA:Ë½ø5óØàièÔct14žÏMC“ëðE*À%?!àz2Eø` âL    >m âL£’j|ÛŽ—>oè·? Ráª…,^úñÏ3õíeV0/	0LÁ,áÃ‰Ð¦‚¨O@z8§ki{Ñ)IÉ?sPs=H‰ñÑ	ÁÁ™;[šŠÛ`Z~Í¸±K#bÞ^ÖðpoÀ¸Ú²~¡‡AC@Œ,€òRÏ‘K=Ý‘5Ü%`êÅ#ç78Ö—¾‹FÛ°Ìb B&"Zr‰qç= èõ3° 	PI‰akh67@ìÀJ0.@QaÆÑõá}Ð³ŸJ¸ºõ1A‰[_œ¤8à
+]–j.°§1£sÏÃ¯iðÆ'ÿÀ !o¢Tã3 ƒ„õr¯R­Ãb¼ÊºÄ$wÉŽµéûÍ¡w{ ³¶|ˆñ~´	e‹°U0p“‘Ü©á’£‡dQs@›•òŒphIÑÄ6‚3´?Pt}5rSòÁÐY".\h`;CÒ‚À?±zð0®åŠ¿p0Þåïj¡Ö[è>B€“a29†=B‘¤·óÙpü¤ÂGVA‚¤g4žxd  £ÆµJq–;Jsœ°ÐaâæïØ9a:»C7ßFÀkø÷N!_QPŽ‡ìŠÐ´Vñg¹b«A˜$ç‘üàë4Ì$îé1Ò¶Õ)ÒðPƒ«¶û!¾±¤! äL    \m äLe”j¸Ûì±>o.½? Ôl¬…¤Çúñm`õw^0q¦‹Mu8žá¡À.»PõÐ@|I½Ø\ mÑGNóì."P5–]*ÁÍ{6¬jÆ`ÜAò6±éHÏ‘Ëåp±E%</F¡e/övB€ô@Â^”‘SÎaNwòå»(Q³sWöò¦H8 Äo½;™Bq…Ü‚¹DV°ÑëªOŒfŽaIÑ[
+îÀLC9¶äÃ/QñZm³½Ðu&T¹±Aç@î«ž´àŒÍõS3³z1AgËŽM&ðÑ¨	Ÿ–¥!Mä”$|½ …`}Õq*«Ë§X‚0Ý„æÔ1´¢!{yëžn* 5ÌPö~bñÅõÛ£Ž‘0²ŒfÔ¶ }áp>¢hw»@¨!_’=þÑ6áøÒ0DP62•-àeÁ.ñ½ûUS`½!!8Ó±úðð‚xpr§ÏÚ˜ ¡´ÏË’Dœ'€•+ñ:¹÷‘Â!ôo¯²fN÷ÞQÕ™˜} 2Îú %è[èù¬/q4šb=Ê
+'°	Ç	<¬aˆ©BåÞÀmùîH‡Ø³Qn [©xÐv9	«Ã‰Aö]ŠÕíKàmÄåÐ_1p•œ]ä¾¸ð’Á,­ÑÄo!œWŸÜI¹ æL    zm æL'–jôÛJÌ>otÂ? Vø­…1ûñ1õÙe0³CçN)D)á÷ŒÏBR@~€B
+N×^Ñe‡åÙÑP÷îr•bJ&Á} ¼¾J±`^Ë a±‡n<EÊ¿ÚpóyŠ¿a«¡C%©­„W€ö.µ‰pë=‘qÀ‘ŽúU§F>Ìn§Ñ#¦
+Ä F¼ ©tq#{‹“ ’°7R–Èƒ“a':Ñ~ÔïöÀNhBÏšGIQää`šÐ7­]ºJ(0AE&}»˜	0à>U=8¶M1ß¢þwZëâð‹ë8,mJ!+&ÍE«ðG ‡<84@é‹NH–ÿD¨2šM·…YÙ÷œeÙ ·…†%ÍuÀñºÕáR¼lÍ0ô…;ÌÃ4ëáNÙ|'m@Ÿ»P1´³ÑTþº#.ÔÎPøæôèmÙÁŒˆYö}J²`? ?0îåË±¶±34y1p´7_¸Å—¡’C”=Jö9€—õ¯<ì±ù‘àcOobQ(Ú¦gb(`ÈÆ¢ì7Õ §½¥
+>EqÒ¶?J¢±°T°«,,ŸaöTNëwÀoúåó¿QŒ¬y
+¯ffÐ8!îÍ°yAT§ðÃIxBàïÍ¼¦³Õ1ƒå´TŸðÔÿ­£§Ù!zý1‡§re èL    ˜m èLé—j0Û¨æ>oºÇ? Øƒ¯…”šûñ©¹Hõ‹’m0õàBPÝO´á].ëãìŽÓ@€·Ç;?ŽPÑƒÀ³À4€P¹Gˆ›†4ÁÛ3üìÏ*œ`à	Ç£
+¶"±%”©ø´Ïp5®ïB¥'Õ¡!5\ä m€ø¨ƒBn‘²ÙÔ¥ivÁ	GÚ›/ðU"“@ã È	„Î¸¦qÁˆ\âæÍ°U‚ùÜ¡˜a£ž¢žñêÀPKèPËbQ»Gm\wÐù3g»’A¯A£Ë’¬à®´&=¹ 1}:–$&‰ŸðUmÍU¹Cï!	h	÷1eÒ ‰šöU]pDü!jçËm‘7v&™\ÿ‡ 9í@ú£lñXæÍÉÔJ	06ÄÐHYá,t÷¬qÃK@¡ÎÖçgÑr}t+d–Pº›T¤þùLÁêõð¥A×`ÁÞ\ß£ø‘±Tqv[pêpöÇŸ¡°¢-¡p·\èOPL€™¿n>lÕ‘þ9}(nðêeVðr{Ž¾ø¥¦¡¯ )“ï,‚qZqpŸ	BÊ9<°–WOJ‘aÔ!uYñyÀqûÜžøF]Qª»ò$TÐúþ81Ø×àA²ðV²¥¤eàq´g–K1¬Œim…ê…ð>/š}JB!X£Äør› êL    ¶m êL«™jlÛ?o Í? Z±…üñGæ_õLu07~žQ‘[?á;eIøºÛT@‚îLm0EBÑ¡ù§Xü.P{ ¡ÓÂBÁ9g<Èá
+‡`bŠ|t
+&±Ã¹¬5©ÄpwâTÆè£œ¡ÿDù}‚€ú
+›•™ž‘­¤½
+æ+¦DúÁE¼:‰¼¸ JVç—ÈØq_¸
+.1Í	°—Í #A¾aãlÆhóÞÀR²TO|QÙröÓ»SÐ»ºp¼ÚZ.AñšÚŒ(àB¼ó1Ò-Ññ&\ð—O¯rF”!ç©E¨¸Ù\ ‹ôý¸k¶%T:ÔaDÅ,îj€àUÉ•ôC–Sö6 »TûÎzc|ñöö¹@í(E0xxå»Ý\Çá
+r2vé“@£á®Õ÷¼Ñ8?Å(ô]P|P´_ô†ÀÁH·ëÍ8ü`C½zŽYX±ò1¹‚g£p8XàŠ›'Ä¡N+%“Uª^€›‰-@R&±‘«BmÈŽ¬ñyƒÎ)Y§`Š «h9OÆÓoq"]DJÑÆ°Øþtrhea²îÚd÷ï§ÀsüÓI1þ±QÈÊkWáAÐ¼áPtâþGA:½ Ñˆàóf¬(yÁ1JPõU€lðX|°S«!6IWj>Ä½ ìL    Ôm ìLm›j¨Ûd?oFÒ? Üš²…„müñåwõŸ}0yúREgÊáœ§‰(Ö@„%Òž!ü3Ñ¿2PŽ|ëÝP=ù²'ÿPÁ—š|£óêq`äMUÞ^)±aßƒ_ë¹p¹ºI, d¡ÝTçÁQù—€üøý§ðÎ‘Ë–Q[Ô®íÕÇê<±„ëˆµQ8Ž Ì£JaØ
+qýVÿ³E°ÙHj}Û¢aÁt9ê2õÒÀT×]½Ò•Q÷Ki0%Ð}Az½"t­A_Ö)ê†¤à”sùF¿Æ1¹iÅ}½ÄðÙ1‘Óð8!ÅëY?Nç Ðœ_{C80šÇf…îKÓõ=óra“Jíå =¼µ£QZÚñ”¦·0ºqº³êp5áè©ì·zÜ@¥ôÝ§’ÑÑ®U&„%P>ê4Á¦N,æõ/!`Å›˜=± ñû©^\pzè t†¬Z¡,Ÿí=[q€SìA…àŒ‘:æØ\l{-n}µ”!ƒzY¢©ud ->ƒq
+6…q¬¤°FÊhQ°¦Y•†Èua»@pýe@ÀuýÊôiµQæÙä«ž/Ð~Äh·ì%¯Anƒ#]ý«àu³¤é[71èƒ6}&Sðšº1‡)Ð!ïéÛ	íi îL    òm îL/jäÛÂ5?oŒ×? ^&´…üÖüñƒ?Žõ)¿„0»¸UTùrUá÷Ò!WuW@†\WÐ³%ÑÝku ÚŒPÿQÈ­D;_ÁõÍ¼~Ë\`f.H³,±ÿñ¡’®pûJÍoœ+¡»dÕtˆu­€þæ€yºGÿ‘éˆžëv¯KÛ·yIUeiu´c Nÿï­*è<q›õÑÎ™°dï°¹ø§aŸÝýöÆÀVüf3sV¯QÉÃ­Ð?Èƒ¾j,A½»¸ù€ à ÓâKÂ™1W]*‰bÕðs¬`ÇÝ!£-¾
+ÆÂq ¬$Â=—ha&`-‰E°©;³	&9Qñ~Aä” ¿#px(Q8ñ2’.å¼0üj«÷„£áÆDg=5$@§z;g†ÑÌrÃf#íP ºsÖß §ÁæÇà'F`Gz¶ìÄ0ä±.*±>ÑUp¼xa]q1ñ¡
+¶è`^ƒ€Ÿ«C¸šh‘X¼wk.Ì0	eŠ¤týØ‰ë«ÔÞ> ¯Í“N˜šqJ'IJ Ü°\M>¸¤+èanˆ¦{ÜØÀwþÁŸ¢l[Qé]ÿ[Ð@§€úöLAÌÌ‰}¹)Ïà÷ÿœª>­1†ÿ÷«9ðÜø²}ÿ~!ò”|MÕ ðL    ‚m ðLñžj Û P?oÒÜ? à±µ…t@ýñ!l¥õ³xŒ0ýU±U­~àáÕ	d5%ÂØ@ˆ“ÜjÑû¤ì[ÄÉ;PÁªÝ3}wmÁSýY«G`èÓ²0±*^ÆV‡£p=„P³ó¡™tÃ'¿ñÂ€ ÕsõÌž/‘{Éá#>q5ÎË2ˆm§!k09 Ðø<ô÷nq9”’¢€½°]¯–÷õ­a}FÔ1ÇøºÀX!pL)ÚÈQ3ô‘:Äé4ÐO¿²¦«A¡G	{œà˜p2ÌPÅl1õ˜ôÖT ’ð]öTÉí‚!oú»L7ü ‘ˆ¬$ ­Á &“«r¤Lq¯oœ8ÛC A‹*MÿG–ñÐ(~¥6Ãø0>dd£™á¤ßáÂƒ[l@©<L]<;Ñê…· ¤´PÂnÓ‘Õ-Áb}cÛEk`ÉXÔ›zCª±Ì3qøLÎpþ¢F\¶‡¡è†~“f¸•€¡çiEëTD‘v’4‘jájò”µÇw6º4®ŽH 1é¶’ú¯qè©WKÊ—f°žô"ÛÂŽZaLU‡	RqÀyÿ¸JÛ#°Q"øÖ SÐŠ˜=t}A*ðkVòàyL”k!#1${ÇA ð74tÕUç!Ð:¿ >Â òL    .‚m òL³ j\Û~j?oâ? b=·…ì©ýñ¿˜¼õ=2”0?óWaŠká³@ÂIóZ@ŠÊa3õ 	ÑÞºBè¸êPƒó¹µ³{Á±4=5)‹2`j–ß\3±;PËy|˜p³éÓö”º¡w„±ÚõmØ€Ãfqßõ_‘%m%+3eQ¼­óaîÄ˜a¬ Rò‰t½¡q×2tlfù°Ÿú=>23²a[¯¡U‘ú®ÀZFyeß]âQQ²qÆ¼ÐÃÕ–Àú¿*Ay†Öuàá‘µUÈ?1“0Œƒ žNðŸØ6æzt'!_±6mÓ«† “d4‡ÂÂäìøÍÅ4eæ2ö¨î¹Š/Òò Ãòä!Ö>ôñn9jO¡40€]9›­á‚z\Hˆ´@«-kðÑ­G4|P„#3MËºŽÁÀÿÕm`K7òJ0Vp±j=1ÄD‡p@™â/G;¡ÆúF>l¨€£±(G ‘”hb«i”	´ Ä›Åò”ê}°H²ó ³¾`ØÖ\Åq†,«MJ/ñ°à›þàñÌa*"r’È	À{ °õÛQ@P%§ÖøÐÄl°€›äAˆ_VZq‚àû˜Œ,™1Âöé˜×ð`uµj«˜P!®à¡0lgn ôL    L‚m ôLu¢j˜ÛÜ„?o^ç? äÈ¸…dþñ]ÅÓõÇë›0hX–öá‘w ^Á[Û@Œçdæ×úÑ7‰)¨™PE\@îï‰Áh};k`ìY¸…°6±Ùu8-ÂppÁçNW:‚¡U”Ÿ,êí€±YíñL‘C_Ah13Îõ”Ô¬(_Vcºt°W(ä ÔëÖ×†ÓquÑ—E»L5°áEå„nP·a9oy[ü¢À\k‚~•áûQoJ¤)£DÐ…\ ÁBÙ©A×ke(o”àœQñžZË11È#0ì;ðáºKÌ!=órZ  •@¼é„Øs»È²^ð…öÂtGÞàkl×‡&É¡ EZŸö¬5RñJV“gp0ÂV“Áíá`×ÍŒ§ü@­@šð æ¤Ñ&Ê	YÄCPFØ’ÁGÁ¬šÐ•µ`Íúåh6±GñG;@p‚)#2À´¡¤néqlº€¥{çHQÉû‘²>ÅhG¨v¬s$ÖmlòÇ²Î 5”ªú¿Úq$¯þOÊÆ{°"Cì ÿT?aï×>¢À}§ L’YQ^É)û“æÐ†OÈÃÂKAæ¨¼HÍ®8à}å„íæ1`rÐœhmíð¢³6aÛ¹!Œ†4¢7 öL    j‚m öL7¤jÔÛ:Ÿ?o¤ì? fTº…Ü|þñûñêõQ¥£0Ã-ÄYÉ¡áo®~r¨\@Ž8l–×ŽìÑUPW0—HPµÆ&,˜Ám›½ëLK`n‘ï:±w›¥àwe‚p´Ú}I¡3¤@cf€ŸLi¤À‘aQ}«H;–·ÄW£ÊJÁ†$ÈM¤¹ Vå#;P'qp
+3q°#‘ŒËªm¼a<%þ–À^‹—KeQu-¡ÌÌÐGã©ÂŠò(A5Qô7iàÂPˆ_Îå1Ï_»Ü·ÙÇð#ú•!q!5¯Ïà”› —DLGîÌÙ¬ýwÄF¸ Ý\ÆÉêô„ÀP ÇÁYËƒ,°ñªZB
+€]¬0PãŠ+Õ[á>°QS‘ÍD@¯SÉÂÂ»YÑDçË©TPòÃ¶ÔuÁ|C6Ë½Ú`Oô-©›{ü±¦P±In2ùpÄ¹cEK¡‚â×“wÆÌ€§E¦J„ƒ×‘Ð¾ßgúF88#­æÀæPKµ¼…¨ ·iô_!ðqÂ1RRJ^°dêÐC¸±aæ»=©´:ÀžK…I®Q|%B.OQÔÐH2à é²ADò"7)Û[àÿ1|®É„1þí¶$9Ôðäñ·WW#!j,Ç¹Æ øL    ˆ‚m øLù¥jÛ˜¹?oêñ? èß»…Tæþñ™öÛ^«0Ë[}­áMåÜ†]õÝ@oñÇÈEÞÑs‰%÷S†÷PÉ3L_h¦ÁËÎýÆ^+ó`ðßiYY=±Á”-ZwpEP^Á	¡´{ó™â€?åûð‘C¹î_C^yôÚ6?SÔßC  ØÞpž77q±èX­°eÜ3çŠÁaõé	ÁïÿŠÀ`µ”°é.Q« ¶z\TÐ	j³ÃÒ¨A“6ƒGcŒà 2°qdÑ¸1m÷R‰ƒw„ðeÜ<"ø!ùvë€g	& ™øË®	&÷ó=*5z~E²p®P'i‚·ÿ I) Z#ñHk.˜;è0FI¸‚8éÉáKÌØ•óŒ@±fø”äÑbŽúäÒPÊAR¬aéÁÚÚÑÅåúþ`ÑÒKXQŽÂ±DZqŒ•)²pJ¤ëÊá¡`V >} ß€©eL·=³‘îêëùf­åúÃÒ5÷a®{Y·vï‚ 9?>?£ƒq`´¥TÊõ°¦‘µf;$aÄˆ£´!*ÓÀ•ö½ Qš4»2£ÂÐ
+øI*A¢;‰%…à~
+to¬ú1œi¬	™ºð&09N-aŒ!HÒY…Îár úL    ¦‚m úL»§jLÛöÓ?o0÷? jk½…ÌOÿñ7Köe³0Gh{\1¹—á+;›+B_@’¦vù¹üÏÑ‘ÂóÝwu¦P‹fHÒ—¤´Á)>¢pÞ`r ¢BÃ­@±³æGãNlp‡„~á†Ø¡ïÃi¦Ð^.€
+{2a)R!‘5õ1wK&;$^~™¡3}„÷9œd ZØ½ãFiqO­º§ÿè°§'ÛX#¨ÆaÓR×ä¹ÀbÚÉ·lHQÉË?'9ÜÐËð¼Ä%'AñW]à"£[iÔ‹1ê5OAð§a¾Y¯Îº!×¸'2î}° ›ÔSÌuéWÆ<Ü­K…–ˆ…ç/®® ËÎt1lñæ{ø°$0ˆBzEý7áúåF^šÕ@³y'gfÃÑ€!PKtšPŒö±:¢î\Á8rmÀò#`S±i¡ˆ±âc1Ï¼ kpHÚäÔòNx¡>Êhé‚zñ€«Ù#Nê÷Ž‘Áf`„¼O‚¾gÛ¬¢¹0Y] »ˆaçåqþ6ùVJ°è8š‰Y~–a¢U	À' kÀƒŒ¡ö·WQ¸C47÷Ë¯ÐÌ÷47A …ïá3¢àËl0p1:åƒ4Ú.¡ðhnºD¤õ!&xìö™
+ üL    Ä‚m üL}©jˆÛTî?ovü? ìö¾…D¹ÿñÕw0öïÑº0‰×]åÄ"á	S™¯ùŽà@”Ýû*«³ÁÑ¯ûÁÄ›dUPM¿]XÐàÂÁ‡5~}‚ëÈ`ô"e-D±Qíú˜CapÉ¸ãdH ¡ÍÓWYÛC€i%Ý;©Q‘»'1uŽSîýSán(Ûë30: ÜÑ
+e¬V›qíK¢‹öå$°ér‚Ÿ_ÅËa±»¤„sÀdÿ¦âmðaQçöÈÕdÐwÆÅb>¦AO¡fW„à¤oDn×^1©&‚â³ýðéC v<¥_!µúcãtò: °ÛsŽ/Ø3YßÉõy†þ9å™~ÀãeM|¥] MøˆIÊñ„ŒoÉ÷_0Ê;brR¦áØ€Áãž?@µŒV9(;xÑž>œbPN«ö—{ÐÁ–		»5éH`Õ‡¶¼³N±€mñä$pŠj%¾ÝÓ¡>1”ˆÔ€­£âO²j‘*—G.e#~Û1GºUjÜë»êÂ7 =êÑƒ+H0qœ¹LYÊ$¦°*à~¬wáa€"oË-À…ƒL/o¬QÖR­;K‰ÐŽÚ'Ð>^èA^ÎU=`Åà…dñqæ1Ø`j¼ªÄ‡ðª¬;;Ùæ^!he3Ë þL    â‚m þL?«jÄÛ²@o¼@ n‚À…¼" ñs¤Göy‹Â0Ë¢2_™Ð­áç‰÷ÃÇÛa@–\œj³ÑÍ4«¿SPsÞÑÁåh¾X”Ë³`v%(ô–VG±ï1Z®N8VpíHè‹~g¡«ãE>WY€WYN ‚‘Ùm¸¥[¶¿ƒd_x9¸ã&&” ^ËWÈufÍq‹ê$]EÌ`°+¾)æ›âÐa$r,NgÀf$°û#t{Q"R‚òëÐOþÏÆªW%A­æ/vQ! à&„Î-sÚ11G¾æPºð+&‚“É{!“< ”ûfÅ ŸŒcÖPE1Q=Õ[œFÀ—~~®føAäjyù› Ï_Cß(ñ"òåáÕ›057j_%á¶<i£ee@·Ÿ…J-Ñ¼[Ôì”)P`q±DÁô ¤µ]àm`Wn¥erÆ±w±TÝpÌúe§ÈX¥¡ú±ù>Ž.€¯m¡QPlF‘HmuHdÆÁ@gáÏ(ÐÈ5¾¤, ¿¿¦oªEq:< [J¼0°l‡cÏ•D{a^ïÔÖ3ŒœÀ‡z÷g&Qôa&@ŸF‹ÐP½?I…OA¼¼ð˜Œèàd\²T\1vÜPD{Znðìê¼1¯)È!âÃÚ0\w  M     ƒm  M­j Û#@o@ ðÂ…4Œ ñÑ^öEÊ0@Ž`MÜ8áÅÀUØ•(ã@˜KŽ!¥Ñëm^’ãB³PÑpˆdAYßÁCœþ3¦«ž`ø'ëÌ «J±WÇa-KpM!®kÏú.¡‰ó3¿tÓn€EÕ`W²‘÷©û¼c~³çO
+ä—„“>å àÄ¤+?vÿq)‰§.”²œ°m	Ñ,ØÿÕam?P[ÀhI¹Ú÷”Q#MÛö/ÏsÐ…ÙÇòp¤AÌ¾…K#|à¨ô-xÝ1åU±;²îvðmd°VR©!q~ÜE‚ÛO ¡hë8[Šo!ËUÁ¾‚õæÃN0Ÿbˆvð’» QÇýòµþ…ñÀ­Þ\ú³×0N.bl9‚á”¶¶î§‹­@¹²´ÝkåáÑÚx–=$ñPÒÑlƒ•·ÁR8@°…×’`ÙLÃ(ÙÚ±¼€q—2–p‹¦³Ý;¡Ø%Âé“ˆ(€±7`Sƒ&"‘fC£bcy`óX9`J&=~À^–ì A•eÈ³[qØ¾ó]ÊS»°®.Hò³§ía<¼:â95À‰q¢ ÝUQqŸDóyÐ WVS¬¶Aa"ßô¸à‰°Ts7Ò1X7ÌKðTð.)>(…l1!Ài¤Kü„# M    ƒm MÃ®j<Ûn=@oH@ r™Ã…¬õ ñ¯ýuöþÑ0OÝéaèÃá£÷³ìcud@š‚‹¿~Ø–Ñ	§,y2bP“Éêy•íÁ¡Ï>¸‹‰`z*®¥jÿM±+}4º!@pUïwö¡g"r«O„€3þPs®â‘þä>ÔkFCãj@…OõPCVŒº b¾ñŽ†1qÇ'* ã˜Ø°¯TxsÛaKötâOÀjnÂ-{®QAxdnÝ«ûÐÓãÈ:Š#Ai±M•E%øà*e }à×1ƒíHè}Œ3ð¯êEÍã(N!OÀ÷PÚ £Ds›ÕpãÁ'áÆDSO±×6hýà¥sç‰j Ó.¸ÇŒõãñ^¾ÊÓ’0'áYyMðárQ1t¬±õ@»Åã¯º–Ñø•XŽ´¸P”É0(y"+Á°ÏÛª­Î·`[+áÃÝë ±ZŠ1ÚYýNpPçyžbÒ¡¶™Š”™â:€³U¶àý‘„Ñ|b,ÿÄ~@áI³Ä„mÇÂ Ç Ãj¯ê÷npqvAG`JëE°ðÕ,Ò
+`a‰ í?xÍÀ‹hMÙ”ªQ0€IGÁfÐÔ‚o™]ÓAxªˆÍPå.àýL4H1²ÓT†;ðpg¿[¯š!ž7½Ç­Ï M    <ƒm M…°jxÛÌW@oŽ@ ô$Å…$_ñM*ö¸Ù0‘zEcµóNá.2Âå@œ¹ñoˆÑ'àú_+!PU"³p²ÑûÁÿêÉkt`ü,q~ÔSQ±É¢¡Èo5pÑ‰xrVó½¡E%âË™€!ñÌ…‘3ð ‚ësî0 »ùSóm ä·>òÑ•cqeÆ¬Ñ1°ñŸºP:àa)_Ú—¬
+CÀl“ËFFÿÇQ_£íåŠˆƒÐ•’ìÉ‚£¢AÇ–Ü¤?'tà¬Õìéãª1!…à”I*ððñÌ'êpÿò!-U¨Äd ¥ ûý—†<«é¶áŒ‡±·Jì [_ÃpÞ€ U–rœcìAñüÎ¶J+pO0Ò ¶Q†a^áPì«ù°×=@½Ø‚¯KÑ³ßD€PV~ãn¯žÁgw¥ÕÅÜ`Ý	ÿr“þf±ø“ñôp’«'c‰çh¡”S?Ÿ<M€µËÝVéšÙ‘¢ïþ–aß†
+ðiZ?âÅÒi¡ E@ù<Ñ…qÄšbÊ‚Ð°2}8ðmÒaøUùEîeÀ	_øLÿQN‘M›~TÐ–e‡Ügú„AÖóî»¬RàI Dõü½1POÜì"ð²¥@1ò!|µÉ.“Ö{ M    Zƒm MG²j´Û*r@oÔ@ v°Æ…œÈñëV¤ö¡qá0Ó¡diÿÙá_ep g@žð•"aFzÑEÉFOÀP{Èöê
+Á]6¿ÅÛK_`~/4W>¨T±gÈ|%*p¾Ýõ™o…¡##þ×H¯€äH˜\C‘Qâ\Å|ÖÇBq!{&î±é¢…þƒe f±‹U›¥•qe/£€eP°3ëÆ WåaÈ§»v7Àn¸Ô_ü‚áQ}Îv]8eÐWöÊÊ¼!A%|k´9)ðà.FLÓ†æ}1¿xAÈ¬ð3¯	þÕ—!D‘Y9ï §ü‚`Zœ•ÉÍ¬§ò%GÈ ä Ø¹ÝàmÕwÈ ×ý,q:ãŸñšß¢ÁCN‹0‹I“uÌá.‡&µý…@¿ëATÑd Ñ4ÐÜ/ÔGP3ðžd<Álþ ý¼`_è"I-±–±_¨ëÀpÔ;hLtlÿ¡rê¤–_€·•œXUµ‘ÀÅ,±`’<H–ŸòjY¹@ÎYÇŒÓ{ ÇC/€3›q²FîdJ[°t$öZÑDaÖ"lLdþÀ
+V£JTQlž
+Rï;BÐXHŸr!ìA4=Uª>uà–þ;¶ß31îÊêc½±ðôãÁ5m!Z[\ ^ÿ' M    xƒm M	´jðÛˆŒ@o@ ø;È…2ñ‰ƒ»ö++é0µüeeá=œÎ)Î[è@ 'TRýkÑcR—-sÿnPÙÓÝ|#JÁ»iÿ í+J` 2÷/¨üW±î{/ÛÿpUòByÝëL¡3ìŠOÄÄ€ýÖÄª³s‘oÔ˜„ž‰rôö‘â¶Rôÿ: èªØ¸dµÇq¡²tÏKŒ°u6nGÉtêaå0uß@+ÀpÝÝx²ûQ›ùÿÔåA“Ð ÿËÖ AƒaúÃ3+là°¶«¼‹éP1]´îàeiðu‘ë#‹¬<!é…Í
+­y ©Ø
+Ã²îç±¢mXHŠlˆ}ï\þjÌnw YeçEÚýñ8ðŽ8\,Ç0V`A ‰:á"¡º#Î@Áþp&ó9µÑRíž€ dPÚçOZZÉ…ÁÊ•®š%´&`áÆ:Ñþ#ó±4§q¢ÏâypÌ¨5_ñ•¡Põã”ªðq€¹_[ZO‘‘Þ›ZË_EÛ
+"O{{¬3žþ¢ÉF=V IëŒQÄ•°qPÉAgÊ±å°¶ËÚ},4·a´ïÑRÚ–À‘MNƒº¨QŠ­ƒVCù/Ð+·b|HSA’†»˜dj˜à‘âü3wÂ©1ŒFÑëGïð6"CÝwÖ!8ï*(Ô 
+M    –ƒm 
+MËµj,Ûæ¦@o`!@ zÇÉ…Œ›ñ'°Òöµäð0WRXgÑðáÓ,>œ¨i@¢^ …C´]Ñ‹e—îP›,ó\†&Á?|ÿ5`‚4ºQ[±£éâôp—&¨ü h¡ßBÚ=†@Ú€ëÉ@½
+¤‘ÆÔK1ŒfK¢wqýÖm‚µê{ j¤%.Åùq?¢4F2È°·Ž’ïaÃ™BÀrç‘hŠQ¹$‰L“ÐÛ&	ÍZïAáF‰Ó--èà2'¦ì#1ûK§š¬&ð·sÍ@ƒá!ÇÇ	¼#" «´’%ßÇG–˜3¾jÇLÊð*×GuÚhÃe& ÛÌ¡èÐ[ñÖ {¯t
+0˜59­¨áê¼Š¾I@Ã øjÑp
+aÑýóÖPœœ¯PVùÁ(-J•M«K`c¥X€´6¹±Ò°1åöÙ2pX\éJv,¡.i¬?°J„€»)\‚Él‘üqˆå^øyÌ­þŒÿ­ü.ìË §0 ËÀÖsøÅqîK•iJIp°ør¿ J—)a’¼7XP/À“Dù»qýQ¨¼üZ—¶ÐÜÏ¥†oºAðÏ!‡À–»à/û+8¥1*Â·s^ÝÕðx`Äø²º?!§ƒõP€ M    ´ƒm M·jhÛDÁ@o¦&@ üRË…ñÅÜéö?žø0™ï³h…"{áù	‹Rjõê@¤•%·4kOÑŸÄ3ûºÝÌP]…‰”Â4ÁwÐWì`7}á{¥^±A9V–FépÙZ€däÛ¡½RÈð¼¼ï€Ù¼¼ÏaÔ‘«¸H”.ÒúòëhËËN²Ìà÷å ìr÷Ô+qÝ@·m°ùÌ¼ÔA¯ôa¡'ÕÀt'ðª.Q×OÄ@û¢Ð­Î¢ŸA?,ã'/dà´—j•ïö1™ã>Gx¡âðùU¯]¥Y†!¥	Fmª–Ž ­ˆ¡Ý #zŽù#‡(Y°>¿ÓX9eº\Õ ]4\ï¾Ç¹ñtg&è>0Ú
+1º±áÈW–Ão^@Å$ÏÊ6äÑŽ'#"ûƒžP^QÑEãlÁ†Äåu¢p`åƒv/jI±pºñ'Ñëpšì)5ûÂ¡Ýtêµ¤–€½óØ]µƒH‘H¶ÿ]«Ž9®ŒœR(Z_5Îº M– –LZÛqŒÎèkÊàú°:¤Ãhú›ap‰&^ÆÇÀ•;¤ô(RQÆËu_ësÐžðæè–!ANˆuÃÞà•{ù#ù‡•1È=žû.s¼ðºžEïˆý¨!ôLõÀy, M    Òƒm MO¹j¤Û¢Û@oì+@ ~ÞÌ…|nñc	÷ÉW 0ÛŒj9.á×@éf8Bl@¦Ìªè%"AÑ½ýâÞÌ{PÞÍþBÁÕÀ2#Ì
+`†9@ºåùa±ß^ÃIüÝýpr¨`£¡›b¶£ó8€Ç¯8â¸‘ÉªLÒ_œöÏ~ãfÔ¿)bäÖs» n—¿âÀä]q{ß9é»þ?°;d~ÌùakÝJŸÀvLùÃÔ‘GQõz›;î×*Ð_4Ïê!A§ò!1àà6ÊxšòÉ17{ÖóC?Ÿð;8‘z20+!ƒK‚1 ¯l¢êcóùA^„¿‰¯GÐ…ÁIS§·1×Vb±S„ ß›Ä•¾ñ"S¥Æz0ÿÞ(ÇÅ„á¦ò•Ç•¦@Ç7þœX¹ÓÑ¬DårøfP oŒ;pàÁä[Š™•`gb”Þ\E±Ä±jEÈ¤pÜ|jñ€Y¡êP=•»þ¨€¿½—_è=$‘8ä]^·PÅ]­¥¢¸~Ðtzå Ïkj¸¼ðq*Q<nJx…°|Áˆæ†]aNV2d<`À—2O-à¦QäÚîc?1ùÐ`Óþ+›½ˆA¬bîcxïàÈ÷ºj1f¹„ƒÿ£ðüÜÆå^@!Òò¦fŒ¢Ø M    ðƒm M»jàÛ ö@o21@  jÎ…ô×ñ6÷S0*kkí9‘áµwG{í@¨0Ù2ÑÛ6ÐÈ¼*Pá63•;QÁ37 5¬õ`<“ONe±}„0ý±Òòp]Ã×†ëÜj¡yr¤V*µ€ µ¢´ô5‘çœˆw¤¾‘1Ôá?´‡çüÌï ðFŠôq~¼º
+å{°}cbºéþa]ÔªniûÀxqÝŠaQ¦$³›´²Ð!»%Ð2;Aûö53\à¸x)bŸõœ1Õn Ý[ð}s—¿Ð!a¾Ï·£ ±H*M&	S_Bz…ïÑ’ã)ãgïUt_¨J3 aÑ˜lµuñ°2?¾¤¶0^ø³ ÔÙòá„‹Ì»î@ÉJ-ozŽˆÑÊa§Ãõ£-PâºÎG1ýSÁBó…Åº`é@²Õn±¬Íq­l¿]p«Ú
+ð¡ÈÄ@ÁX»€Á‡Vaøÿ‘Vô4\VQž½øÀÇÒ.ä¿ QA´ÚÔqÈÓpÊ°¾hm	¥À€a,#i=j²øÀ™)úe—ûQêgh“îæÐ"¶o¥äïA
+¬TRÔ%à™ö{M15kÐž‰ð>HÜ4ƒ{!°˜9ØWË„ M    „m MÓ¼jÛ^Aox6@ ‚õÏ…lAñŸb/÷ÝÊ0_ÇÆl¡Eá“®¥ÔÛn@ª:µK$Ñùož¯&«ÙP£H>w_Á‘j@éFŒà`Š>Æk¹¢h±ª°gÇçpŸ÷<
+/Y2¡W‚’	a10€"£•0ge‘ÄXŽ¬†Sa„Ä\«¨å³ÁÃkf rŠY©SÂq·?ŒYË·°¿®²¨öa;=x’3ïÀz–ö@™zQ1Ñ­*I‘:ÐãA/ÑzTAYÜÄ5Øà:éˆK¤øo1sªMÛzð¿üT´LÝt!?Ïú€>ô- ³$²¯è¬}&pKUôÇTA’||w'íÓ‘\ŸAâ ãj‹mC¬ÓñNC+‹Ö‚ò0 ñˆáí`áb( Ðá6@Ë]\Aœc=Ñè~ió3õP¤o.'ŠÇÁ Š¸í‡ß`kÐ<‹Ñ±J×1ð“¶p`ëÃõ‰†¡¦8ÎêÆ²Í€ÃQcN²Û‘tÊ?N[ÄôÔÜ¼&ÎK—tðÕèMš ÓþüqfVãrJ§š° R,Ã#óa
+ðÎHp(‘À› ¥žNPQ ùàlç«ÔÐä˜.²¯WAhõº@0HHàaô<0÷1¢°Q“ 4pð€YÉÒ
+Æä!Ž>ÌI#ô0 M    ,„m M•¾jXÛ¼*Ao¾;@ Ñ…äªñ=F÷g„0¡d"nUQ§áqå¤¢(ð@¬q:}ùFÑ©l–JšˆPeè]¡v³mÁï€ÄXlË`A‰D#÷k±¹Ï
+d¼Üpá+¢rÕù¡5’€¼—­E€$‘ˆ¬¾•‘# œ¥´N‘µ×C€q+¹ç; ôƒ¦ôqU»Á]¨±ó°úYï2$	a¦E¶ýãÀ|»÷”QOü6¢ömÂÐ¥È8ÒÂm›A·ÁS!7Tà¼Yè4©ûB1Bù¦Õðß6ÑÙ³!72Åh¸ µ :«4›
+f»ˆŸú‘__KR¯Y–8‘ eÒEB£1ñìSï`.0âê]îÏá@Ã€%Õ@Íp‹¾8òÑœ+eðÃ¼Pf$Ž¾;Áþ!Tz`íýíë@”—±èàñ2»­Ïp¢-,­à¡„¬–•Ìà€ÅÔdl·‘’ mhZw“–hl¯ÞžÒ Z×¢·t UìG]ã0qÙ6uÊ>%°B·6Oá†eaè¼4Tvž)ÀP×¥Q>Zq;iÂÐ¦{Fõ¹2¾AÆ>!/Œtkà­òým1@,8qÊVðÂ—JÉàN!lä^»îÝ M    J„m MWÀj”ÛEAoA@ †Ó…\ñÛ»]÷ñ=0ã~o	]2áOb¸puq@®¨¿®êýÑ5â:}n‰7P'As'¯ï{ÁMÑÀŸjL¶`ŽCLKo±WõwÓ°Ñp#`¶QÁ¡¢noÎ)[€&{(,Æ‘As<ß¼¼×ÀŠ¥R‚‘¡L!C¯c v}óoæ#&qóYD/÷—/°CE6oAa÷ÚÇ×À~à(­ ­Qm'À¤JJÐgOBÓ
+‡A§â0
+9Ðà>ÊG®þ1¯Ù4¦r¶‘ðCÁîfŠ¾!ûRsãKÝB ·ÜÁtmJ^¹î[× 9HØüb¯¥G—©ÐÌV/@ ç9 ñ™ñŠdy?j0$ä2û=á^ûªÙ-Ç@Ïƒºåß§Ñ$¹íµíS„P(Ùíy¤®Á\¹ït=v)`oÜ›ö¦]±†ê±uâ¤ˆpä½l–Ë“³¡b _@Òfò€Çå’f´&“‘°v›‚Y*2Xô8ïñ‹0Q£Ù\!O ×Á‘A¡EFq¢[ŠwJÖ¯°„^rÿé×aÆ‰š_|ÂÀŸû½ùQ\Óu&°Ðh^^8ÄY%A$ˆ‡è Žàúðû½õâ1Þ§£A`=ðÖË¿¶K·!JŠñ,ºE‰ M    h„m MÂjÐÛx_AoJF@ ˜Ô…Ô}ñyèt÷{÷&0%ŸÙp½h½á-SÀÌ>Âò@°ßDàÛ´ùÑS	d’xæPé™ˆ­ç+ŠÁ«{|,¡`FööŸr±õåÊˆ¥Æpe”l”ùÍˆ¡ñ±\"¦p€(mn¤>lö‘_ex"ÔÄÞ™ð–Íí…ÿÑZ¥ßæ øv@Ó¯3Xq‘øÆ F~k°…¨|«^aÕwàý‘ËÀ€'Ac$ÇQ‹RI‘Q'ÒÐ)ÖKÔR ™AsŒq@;LàÀ:§³é1MqÌR>TNð…£ú
+ô`c!Ù”¯”ÒQÍ ¹¸I×/`·×ÒQ†[šZËHº/ÏOêS„&ï i¡ºëÇíñ(uïï¦0fÝ *«áüøu0ÞS@Ñ–é·ã[ÑBÖ¯ëãKPêM51"ÁºP‹oemN`ñº)J¬¹#±$ôq¸	œAp&N­¶J¡@”'ë×À€É¯Qhçàn‘ÎLÉœXÝÐ€ËÀÿDŽìÛ‹) Y—Ûcå§[q@ÞÝyÊm:°Æ •MJa¤V k‚ŠZÀ¡¦HtNQz&LzããÐ*Av{Î€ŒA‚ÑíDÍ±à¡Fïó~ØX1|#+ö#ðFM¶ŒŽ !(0„ž…n5 M    †„m MÛÃj	ÛÖyAoK@ Š#Ö…LçñŒ÷±.0g<5rqtHáŠát@²ÊÍkëÑqT×J¶g•P«ò3 h˜Á	8AVŽŒ`’HÒÎ`ôu±“@R~>š»p§ÈÑ=JP¡ÏÁJÕ;"†€*[a QÃ&‘}W´eëÌ¦[ ‘†HYz]å€r›[¼ zp6yCŠq/—IÒ”d§°ÇÛOÃç{a³à­!\¿À‚*0Z¨àQ©}ÒÿZÐë\UÕš¹AÑq Pþ<ÈàB«ñ·¼1ëdÿ	ò
+ðÇ…Ü'7!·ÖëEYÆW »”Ñ9òuõ¶Gcì}È\¸3âÎeÍQ{ž ëuÀž‡KñÆ…Ûf8ûá0¨ÖÜ÷>áÚ“ðµâyW@Ó©Š#¸Ñ`óqWèsP¬B­ðý½•Áè&jds`s™GùaÌé±Âý1û0“úphÞíh¡à¡ð•Ý€Ëyj›J‘ì"÷¶WoÜ{I˜€ì±5ÞÐô Ûl%†)
+qqÞ`1|JÅ°­ä·;°¼a‚#fvˆ óÀ£üP+£Q˜5Å~7¡‹Ðì#Ž¾Ø§óAàTúŸùÔà#“íë?»Î1Ÿë²â‹
+ðˆRÎ¬bÑ‰!ÖQ—á M    ¤„m MÅjH	Û4”AoÖP@ ¯×…ÄPñµA£÷j60©Ùs%€ÓáéÀ|õÚ[õ@´MOC¾"ÝÑ¥1ÚVDPmK³¹X¤¦Ágk1 ìv`K•§ÊHy±1f¿1ôŽ°péü6›€Æ¡­Ñ8ˆrž›€,ITœcW‘›Ið¨ÕnPwÃÄn»±0Š‘×‘ üiÚ™BS¼qÍ5Ì£ãJã°	'÷	$™a‘I{E& ³À„O9sÏ+úQÇ¨[€¬àáÐ­ã^ÖâÒ—A/W_ø>DàÄfÚ¼1‰ û«ÕÇð	h¾D­!•(÷ß:â ½pYœ´‹i›=)R ˆœ{ãÿ>ÃK%NrM mp/•u~©ñd–ÇÝPÙ0êÏ±ï!R‡á¸.k;çŸŸ@Õ¼G\EÅÑ~4¨åÛPn÷¬óJ	ÁvÂdµ[˜`õwe¨ß¯±`ò=XŠ³pªn.RŒ"w¡ü{¸@ãt)€ÍCÏkMU&‘
+ù$ÑVCž—*Ò ëúJâ~àŠ^Þ ]Bo¨ml†q|ã„~ÊœO°JTÉÚY/a`ðËŽv‹À¥óû¹â÷Q¶D>ƒ‹^yÐ®¦ãÎZA>dºèû%øà¥ßëã žD1¸Ò:³!ñðÊO£8ó!ä{©À M    Â„m M_Çj„	Û’®AoV@ Ž:Ù…<ºñSnº÷$>0ëvìtÙ‹^áÇ÷Ú	©¨v@¶„Ôt¯ÙÎÑ­ÆsþEóP/¤È?‘à´ÁÅžÁ²Ìa`–MX€4|±Ï‹,å©ƒ¥p+1œÄBß¡‹á&;©±€.7Gvq‡‘¹;,ìÝ6ß—g>0c~à¡‡Sg ~c'ýcîqkÔNu21°KržP`¶"ao²Hið!§À†tBŒ…¯QåÓä÷Y½iÐojh×*ìA<oò@ÀàFŒÅÃÁ
+b1'8“X¡-„ðKJ a›äQ!sZd¨f¯l ¿Láþv¡Â13ï·ÂHàsøçv!ÊBKiü ï×éiLuñ§³Ti·Y0,É†ç.fõá–ÉåÀëÅç@×Ïv.gbzÑœ-öøâ“¢P0¬lgé×|ÁÔ^_ÝR½`wVƒWÍñu±þ²€lpìþn;w§¡Úï€ëèÎ;€ÏŽm€‘(ÏRëUö¬`#ÚZ1>u¨ÈâDÈ¸ ß¹Ê±Î›qfØ€J4Ú°Œû­ýwv¡a>½1”ì#À§ê¦ò™LQÔS·‡ßgÐpé½DíõÁAœ­ ×WRà',êÛÁ€º1V–¸Âƒ·×ðÏÐ™W\!Â!<óçè9  M    à„m  M!ÉjÀ	ÛðÈAob[@ ÆÚ…´#ññšÑ÷£ÝE0-Hv—éá¥.9wõ÷@¸»Y¦ ÀÑËÿAÿ!5¢PñüÝÅÉÃÁ#ÒèÃ¬L`PYžñ±m±™˜_xšpme¢¿¦¡iñîß–Æ€0%:”ˆÈ·‘×-h/1åþ¡¯X¹›WwJ¹}Ï<  ]t`Õr q	sÑF[°½E—œÓ'aMº#›Àˆ™K¥;3-QÿmošñÐ1ñqØr–Aë!­~ìB<àÈü$­Æ51ÅÏ*mË@ð,‚~(»ö!Qœ Yí#÷ Á(ia9·Oc)µå¢Ñl®Ð®H`H`« q?¤>#leñ ·ŸË••0nÂ[ß;zcátd`Fðë/@Ùâ¥ ‰7/ÑºJ¸Ià#jPò`Ì"ßdðÁ2®ùYJâ`ù4¡ƒ<±œrÃ¦x%p.¯$b,¤¡¸cI–î(N€Ñ×Lo³ÉÝ‘F¥€U©K"¯‰ãA‘ïCåþ1“ aííõ0±q¸è+ƒÊËd°Î¢’ –ÙaŠ—˜šb¼À©áQ+Q¡Qòb0Œ3ÙTÐ2ÌÕ‡÷)Aúö†Å³~>à©xèÓ‚c01ôŸJTM¾ðNRä™Å! ÇÎd³æ "M    þ„m "MãÊjü	ÛNãAo¨`@ ’QÜ…,ñÇè÷-—M0o±£wA£táƒe—2EBy@ºòÞ×‘G²Ñé8æE$QP³UóKYÑÁBÃÕŒ7`šRÞ1Fƒ±×Lmp¯™f%K;n¡G¡Ü€2-›è‘õ¤rHíÆcßH4LÕ@ÑsK ‚VÁÃž‚Rq§TÐý–°ÏíÝØð,a+„ã°„%ÀŠ¾T¾ñ¶FQ!*÷æ´vyÐów{ÙºAI<ŽæD¸àJm„–Ë1cgÂ±8iýðÏd›µ‘›!/ÞÜ
+t˜ ÃñÃûÌtmG{ƒÉd/ÕG!¸æÝÆ}EWùY ó¦^úbÃñ>È‹BšsÑ0°»0×HŽÑáRÿÚËôx@ÛõÔÒªäÑØgzšÝ³1P´,ÞÔñcÁE•T-A`{¿µ8±:$2ÎoÞppðM±:¡–×Aô‚`€Ó¡qæƒ¹‘d{®T\êä:9lRäidsZç¸›m ãÂL:“ÆqVk…Jcï°JwC´<†aúVý£ ØTÀ«ØücöQr©‡–BÐô®íÊDAX@í³«aà+ÅæËCF¦1’…Ò$ã¤ðKÓ†ºÜ.!~maÖ~:’ $M    …m $M¥Ìj8
+Û¬ýAoîe@ ÝÝ…¤öñ-ôÿ÷·PU0±Nÿxõ®ÿáaœõFú@¼)d	ƒþ£ÑrÞÌi Pu®Ò:•ßÁß8‚žçl"`U¡
+rš†±©üsÿÊa„pñÍË¨Ž·5¡%ñSMñ€4 Œ­v‘àµ_õŽ%!9¯r@3ãïèiÇç P'h’„qE°ÖéäÒ°T”$2a	í°ÔN'ƒÀŒã]×§:`Q?U€^bSÐµþ„Ú8”A§ìÊàF4àÌÝãÐÛ1ÿY^ºðñE¸Bh@! ¼ú Åàx&¾âÍ‹+Aé)‰&=á5 ;E›BNð uèÐY!ñÜØw¹²Q0ò´ÏU¢?á0šUQù7À@Ý¥Ìá˜Ñö„<ëÚCùPvÊ‹™Ê~×ÁîÜ0OU8,`ýñÜdî)È±Ø-òHõf—p²¯0÷76Ñ¡tKÚëùÜr€ÕkÊr>•‘‚QÜ9S‰¦Æèôb7äÂ££érH e˜–1~õÛqôíÒ‡Êúy°Rñ[fÒŸøaØ#c¯¦NíÀ­Ï§œ¿JQ."•ÛS0Ð¶‘k÷A¶‰S¢k×„à­åÃ)10	lZõx‹ðÒ‰T}˜!\ôGJc> &M    :…m &MgÎjt
+Û
+Bo4k@ –hß…`ñË øA
+]0óëZz©ºŠá?ÓS[áÛ{@¾`é:tµ•Ñ%«¬³¯P7XsÑíÁ=lÂyùL`žWdãÛî‰±G"á²€Vyp31,Ò3ý¡!ß„€6ïÀÍH‘1ùvýVç>¤)*Þ4‘¯Ÿ `C½ †I[Š1¢¶qãNY»mÊ°SŸ;kQ+7açU~ø)wÀŽgð]¾yQ]€	Ö0‰Ðw…ŽÛJQAÒY­ÚH°àNNCiÕ®1Ÿ–ñ
+Ð¤vðSÓ'ÕÏ>å!ëaUm– Ç¼ ‰€ø&©OLIèê¥zJˆV™Ã¸?Eç· ÷uÓ¼§Pñzéc0Ë/I04®ÚÆb¶­á5ÐÖý]@ß3wî¶MÑ¢þ;ØÓÀP8ëTÀKÁLtÌI}/Q`Ðú¤<Ž±v7²‹^Ppô?qà"»g¡R¿¢–ÿ6…€×5‰tLøp‘ '
+TRÂ'hR˜}sŠ^ Ôìë,o" çmàSÂWñq’p&ŠJ’°”˜@‰ðka¶ðÈº¬Ä…À¯ÆRÕvŸQL›™/ÐxtQ’^AÓ¹Ç¨à/^ã»Å’1Î„RâÅrðÈÕsfb!:¹†¹Œê (M    X…m (M)Ðj°
+Ûh2Bozp@ ôà…”ÉñiM.øËÃd05‰¶{]Æá
+²o¯(ý@À—nlel‡ÑCäzš±ñ]Pù_3Þ«üÁ›ŸU-ø` Z'¼EC±åGNf6Knpu6–¯°Ä¡á0Í¹º‡€8Ý„Ò$y‘OöW<Ž©n'¥I)ï{OV¿’ C¨íú±èqíÛŒ¼°J°•êâ±H<aÅ¾Kã*kÀ-p	B“Q{«’M½Ð9˜Ü’j’Ac·è¼ÔJ,àÐ¾¢RÚ1=.‰·›B3ð•µ	ò\Š!É£‘ö  É˜ˆëB€Çó Í´n	ªH_pŽ÷AÖ<<Þf yÝ‘~GÝñúO§ã…0v§¯¾oÊáìÏJ\„P@á.bIŒÑ2¿ÀŒÕcˆPú3K¶˜¾ÁªhD¥&v`¯ÃYOT±ArÎCU	p6Ð±É@þ¡03kA‘—€ÙÿGv²L‘¾ý7nQuÆ*ÞG„ÝØ~6îæØü iC*vºq0óyŒÊ)°Ö?%¬fÝa”½.Æ²:À±½ý.ôQjŸžƒÎÐ:W5” ¹ÅAr #0Ëà±ªá³†î1l 9j–¤XðVWj<¥j!_+á´– *M    v…m *MëÑjì
+ÛÆLBoÀu@ šâ…3	ñzEøU}l0w&}Ò áû@„}u~@ÂÎóV#yÑaIÕàP»¸HdäI
+ÁùÒB0ã`¢\ê”¯—±ƒm»ì?cp·jû2Y,Œ¡¿@»lñ2€:Ëøÿä{©‘mè“¥çkžª
+ µMHÿ/L;h Š<õPÄÁqŒ^^—†°×5ŠøÉeAa£'@­,_À’Ry"ÊÅ¬Q™ÖÅjé˜Ðû’¡ÝÚƒAÁœwÌÎL¨àR/<ßT1ÛÅ dgàïð×—ëêë.!§åÍÏŽj« ËtN$Ùå×ö’‘Él¦v­sXÆUÀó93Õ ûDHfU>;ñ¶
+<üëÀ0¸ „¶|Þ‰áÊjÅáª˜@ãA‘2a·ÑPÜ‚ÝÒóOP¼èªË«%2Á£?Í›`ƒ6rb±²J2kLÂpx`ò²øÄ”¡§3ì
+ë©€ÛÉx²l(‘ÜÓeˆP(eìi÷Ž”0SÜ4ð B× ët˜JqÎuÍŽJÁ°ç	Ï,ÉOarŠ”Ñ¸°¶À³´¨FåHQˆ®¢×‹ùÐü9M×*à,AÐe†m\îà3÷ß«GÑ}1
+|òf:?ð˜DØ`èÓ!ö¬œ¬ÝB ,M    ”…m ,M­Ój(Û$gBo{@ ä…„œ	ñ¥¦\øß6t0¹Ãm~ÅÝ+áÙwn˜KÂÿ@ÄyÏGÚjÑVhùÏ»P}^ê†ÁWƒ/íÍ`$_­mì“±!“(Í¡4Xpùž`¶œ¨S¡P©(€G€<¹ë{÷ÒÙ‘‹ÚÏÂ¼¯-Î-ûš «¯GB·= 6B´ÑLq½*á/Z}Â°1?ƒFaæcw.SÀ”w‚;€IÆQ·¥<Æ Ð½«Þ"A‚ÜÈN$àÔŸa%ä'1y]¸3~¬ðzÍ+wÂÓ!…'
+ß5 ÍP˜°Ç92¼ìX€³‰.ßFˆ@þ³>7*ÌÄ }¬;,5™ñT(•Êü0ú™Y®‰ò÷á¨@gÐà@åTÀíS6lÑnùD.ÐƒP~
+‡¡²¥Áf:Ÿ9õÀ`lT!Åtà±PTòS’C{pºð2œãI+¡ìü–E¼€Ý“Åyå&‘ú©“¢OÛ®õ¦¥ƒÍ:eÈòZ¬± mî½ºŽ~1qlø ‘ÊX¤°ZŽîñJ,ÂaPWúÜ¾&OÀµ«SœQ¦½§+IçÐ¾e5”A.¯ì[ÛˆàµCÞ£´ó1¨÷z7Ð%ðÚ‚YWè*=!Ôª>xï .M    ²…m .MoÕjdÛ‚BoL€@ ž–å…ü
+ñCÓsøið{0û`Éyé¶á·®Ì¬@Æ<þ 9‘\ÑåN¿jP?jspUÂ&Áµ9Ãæ@Í¸`¦apFƒ@—±¿¸•€W)Mp;ÓÅ9à$¡{`—Ò^ü\€>§Þ÷	*
+‘©ÌÔwïý°ëŒ	á^_83 Ž/Wá~q[Éc©cþ°[ÌØ…B Ka_ù³‡A0GÀ–œ‹T6ÍßQÕ,.´Å¢¨Ð ´ßj¶A}g•ëÂP àVÁé"ú1õO½þið[\¯H™x!ciF2œSÀ Ï, ŠO‹! âæÕIðaGàœ(6½.4!Ãs ÿ½,÷ñò+-¨80<“.¦–fá† ºìö(@çgï¿u!ÑŒÍßP@RjB—?ÁÄÑ:4å`‡JrÐz‡¦±î]²–¹:4pü€s…ÎÎÁ¡ÊŽÄAŸÎ€ß]„{áß‘€Á¼NŽ¢pV µÖG˜•õŒ ïÃÝÒàFq
+{t“Jð.°œ5Ói4a.$`èÄœçÀ·¢þ·SòQÄÌ«ÕÐ€ÿ|]?.ûAŒøRJ7µ4à7Ü›É–i1FsìfðÁÚM¾m¦!²PÑC/› 0M    Ð…m 0M1×j Ûà›Bo’…@  "ç…to
+ñáÿŠøó©ƒ0=þ$-õAá•å*Áç[@Èsƒ2*HNÑ»È³5A®PÃˆöþ4ÁmÂR­£`(d3í”š±]Þ4Bp}+½#¡â¡Yp……•xr€@•Ñs:‘Ç¾GIë%?±-4Ü÷úg­w.¯è )Üz ñ°qùgæÒ÷I:°€Ì~½Pa=b«2;À˜Á”mìPùQóW·+s0ÐA'¾à²ÏŽAÛL$û¼RàØ€ øí%Í1µŒçiÊ¹%ð>‘e‘o!A«‚ã"ÈJ Ñ¨uLeä?„ØäKø	²¿¯y±no;L1º" {wäÙ"Uñ< ƒE†t0~Œž£Ôád;5rq@éz’—àÕÑª3ÉÏÊ£¦PÊýŒÌŒÁ"iÖ.E
+`	)0šl±ŒgrÙà1íp>´n¹SX¡¨ìùà€á'C}K›»‘6VïÖMAA2)Æ)ÂöÅZ÷Îf q™QÿC\q¨ýÇ•Ê‡¹°ÞÜ·7‡ò¦añÅóÊ€À¹™©ð
+GQâÛø¯ÓÃÂÐBâ” IUbAêA¹8“áWà¹ÜÚ“Šyß1äîÒ‰Øûòð^ÿ[D”°!öcñXG 2M    î…m 2MóØjÜÛ>¶BoØŠ@ ¢­è…ìØ
+ñ,¢ø}c‹0›€‚á Íás‰Õµ¨ƒ@Êªdÿ?ÑÙ‚eÈPÃž|Æ:CÁq CdŽ`ªfö÷Vé±ûpçÂ7p¿;@gª¡7€s8Ìô‡€BƒÄï.Øj‘å°ƒŒ.s]·ÌcïÅy¾Ž$+¾ ’")Þé ãq—i¤F0v°ßb'»ÚUaËNÏÕ3/Àšæ†¢ÔQƒ@£ \¸Ð®ÇáúèA92³
+·T˜àZñáò( 1S$–Wâðß s‚FÂ!í¾”©<Õ Óä/Ø{=]hÎª±ÊtÆø¥Í¹i.±Ñ ã1¹°³ñ.Mìù]d°0À…Ø•°.BáBÖ¯÷B¹@ëMd¹µŠÑÈP‹ È3nPÄ»)¹‚Y Á€ r)mú.`‹®.æ¬2±*q2)¦p€¡ôW¤Øî¡†vU—!Só€ãñ~U—‘T,ñLôßô˜µ±Ö|<Tö£ùˆé@ ón›![¥qqF€˜JD° „œZ¥Uaê½+ÿÐˆÀ» T)Â›Q ëq´'°ÐÅ¬ãS|ÉAH‹'ï{à;)Ù‹K\U1‚j¹©‘Ùð =Ý:jóx!nœöbÚ€ó 4M    †m 4MµÚjÛœÐBo@ $9ê…dBñY¹ø“0Á8Üƒ•XáQSçéƒõ@Ìá•¶1Ñ÷:P‰ŒwP…t³ÿvQÁÏÓƒxvmy`,i¹ÐÀ=¡±™)Ýšx,ppõÃª™q¡aëq€Dq·kA/›‘£¿Ï6Ï5:½†Îã#Fn¦§“ vA³q5¥ëu•²°!®ÎY÷÷Zaù3óŸ5#Àœ§ŸXX,Q/®ÉÎ8@ÐÅ4ÑâBA—B±VàÜaßÊ÷+s1ñ»Ãaõžð!UŸ«g!ý.ûE0±_ ÕÀ·:Ñ–{LÄp=Š6{€¬ÚàÝ+8‡+¨€ …Jì‡ñÌ]ØpvBì0­½B°á q*}h@í |6ÛŠ?ÑæmMqÅÃ5P†p‰txæsÁÞ—$•ñS`æËÝ›¿ø±Èzò^/ _pÂ15A]…¡dêB'­€å»À€±s‘rKL§~¶$e:çÏ¶²&íûBS uDåCŸ‡qäošÊ¶Î°b+}Ã¸‹aÈŠ‘
+×þ°À½!‡ÿayðQúê¸{>žÐÆ§Ä&^£0A¦Ô…K:žà½u×ƒ?Ë1 æŸ™y'Àðâ{^1@6â!LB‰Ô¥©Ÿ 6M    *†m 6MwÜjTÛúêBod•@ ¦Äë…Ü«ñ»…Ðø‘Öš0Ö7…Iãá/ŠEþQB†@ÎÇýl#Ñtê¬{&PGÍÈˆ7³_Á-ÄSˆMd`®k|©*’¤±7OJN.ü pC¤ZGî9¡óŸOž9í²€F_ªçS†Ë‘!•û1>—÷¼½­:Ø¾#i –Ã¤| GqÓCnGäüí°cùu 3`a×œéj7Àž0°¸ÜEQMÙR’{ÈÐ‡»ÚãŠAõüÐ)«Xà^Ò>´ü.F1S®o-“[ðcå6¼8ó!Ûp7÷¶%ê ×œ?“¦ï™0º6}_JøØèEïÈ‰¶¤(ýž/ ²¦b^oñjnÄçŽ (0Dx‚…ÊVáþ¥"ŽI@ï³«ý_ôÑ‹ÂÂSýPH%é/nsçÁ</©½èx`ÄéŒQÒ¾±f„²¡VpÂu*zâ¡B^æì,€ç…‚äÉN‘Øx%KZx°Ã÷"1W6þü¼õ ÷/fãiœq‚…ÂœJNY°¤Òe áþa¦W÷ÝtIÀ¿"~ªš0EQ<	d½Ïû‹ÐˆŠÜihÊ—Aì§fÁà?ÂÕ{Í!A1¾a†!J½¦ð$ºß'yK!*èFqÒK 8M    H†m 8M9ÞjÛXCoªš@ (Pí…TñY²çø¢0Es“†ý#náÁ£ @ÐO˜øî#Ñ3­ìÐÐjÕP	&ÞpïmÁ‹:/š-O`0n?‚”æ§±Õt·äðp…Ø¿Ê1’ ¡Ñ¯=QpiÈ€HMcfÝû‘?‡7VHF_¹ì@ž|¥ÌßÞÍÕŸ> F0yqqâð3ã)°¥Dço2eaµ·:49À U¹ÑÄ__QkÜ	)òOÐIBääÒ4‹ASâ_9¥ZààBž21-ëEù0ð¥ÇÙÅÉ°!¹²s¨=št ÙxÇÿU¼H·°üâ
+º6Qß±Mç4Â%ô•Þ ‰a75þÌñ°^§þc0†qW}×jŒáÜ¦ˆ&´‘@ñÆÚÚ5©Ñ"¨ÑÀãÄP
+ÚHëc [ÁšÆDåß`£<å„±Žrä}ÑpFR¶eg²¡ Ò®—2a*€éO>„„*‘®®¦?J¼:<ÄKv«n‡ ·&Ð yïxˆ'Ì±q ŸÊåã°æyJÃÿ~pa„$]!ãêáÀÁ#uUÓç™QZÝÁ#¹yÐJmô¬rñþAbgRò“äàÁÔsŽ·1\Ýl©Sðfø`ì»´!Ž®·<û÷ :M    f†m :MûßjÌÛ¶CoðŸ@ ªÛî…Ì~ñ÷Þþø¥Iª0‡ï‡±/ùáë÷'îÛˆ@Ò†*àÚÑQæº·ôY„PË~ó”¨+|ÁémD
+¬:`²p[þ:«±sš$µ™å
+pÇ%NuÈ¡¯¿+§åÝ€J;ßx4,‘]ys™_N'{ÄŽ÷Á=«}íü š]k@«qsêÉe°çÄ-¬Oja“n„^þ:ÿÀ¢zÂêzãxQ‰/eÖÎ×ÐÉíåN
+A±ÇîHŸ\ˆàb³ý†5ì1Ë‚ÝÈÄÎÔðç©úõR U!—ô¯YÄÿ ÛTObÒ¡Õø¥ÂH¤Ê|”¹x™…E³ß"ëŒ õ*ñ¦œÕ¿ÜŸ0Èj,uä~úáºAš+ÚÙ@óÙ	­@
+^Ñ@Å“c½sŒPÌŽ¨¦YÎÁø]à×Â`“%ë¼÷J±¢—2'¥ŠpˆâöüOìH¡þEwB8»<€ëý…J>‘Ì„ÔYIÀZüÇsÔÉ%Ì·Èqª ûÄÂªk.Çq¾Ši¡J}n°(!/æââabñÂ,é`zÀÃ$l ŸîQx'VÆwvgÐPð|fAÀ°¸à^¿àC[ÒkOç,1úXS1ëèsð¨6âÂþ!æ3A)$¤ <M    „†m <M½ájÛ:Co6¥@ ,gð…Dèñ•ù/²0É­J‰e;„áÉ.`;¼(
+@Ô½¢[Ñ‘øÑo‰žI3P×ágŠÁG¡„å½í$`4sÅ3h®±À‘hOÚÿp	AŠÑ¸Š¡Ï·Ýaó€L)ƒ[‹‹\‘{k¯ÜvVï=LGr|µ›w-ó–é ªÎØOÝq­ö»Ð¯¡°)Ûktèloaq×Q‚È<óÀ¤ŸË1g’Q§Zîøƒ«_ÐÍO÷æbg‰A­}X™^àä#]p8¿1iuul‘ð)ŒÜàvú!u6ì
+Kƒ‰ Ý0×ÄÚçúóÜ›ˆ®ÆŠ>ò!-½£1ýâƒ< èÕàâëˆñD ˆLØºÛ0
+dmñ’há˜Ü“/ "@õì8bßÑ^âU´ºTPŽCbOBÁVõ{5Îç``Cšr
+±@¡òiÌüBpÊr7æ:qß¡Ü¹?í=O€íã»‡}øá‘êZtHsù¾S#]) *è+ú„ }šÍ¯Üq\½£Êù°jÈ	<EUa@¾(8ïÖÀÅ%c«DVCQ–6ÏÊË3UÐÎ2$3‡?ÍAúÏºë*àÅ§ÐcÊ¢1˜Ô9¹»~Zðêtc˜A‡!ÄÙÓšÓLP >M    ¢†m >MãjDÛrTCo|ª@ ®òñ…¼Qñ38-ù¹¼¹0K¦ŠGá§e¾OŠu‹@Öô'ÂHêÑXW…<8âPO0¡¤˜Á¥ÔÄÀÏÍ`¶uˆÒã±±¯åþÏôpKuïTüW¡kßjÞ€Nv×âŒ‘™]ëŽ^·ÿ{Êoíç©ùCÝé¿ žûö1¢_qK¾x–Ý°k&»$ŠtaO@¦’>çÀ¦ÄÔçê«QÅ…wp1ˆçÐÖ èª€Am’h“`€àf”¼Y;’1²"\
+Nðkn¾/mMŸ!Sx(¼Ñ÷ ß_'ýSÁ‘NéJ PŠ«Aiõ°Ùzë Pµ¹âæñâ°tÃð˜0L]Ödþ¦Öávw4&j@÷ÿgQ„´ÇÑ|ÿ¸“PPøgE§µÁ´Œ	]Å`—>aI(×±Þª²¬óóûpxÏ%öu¡º-˜Coa€ï­z‰°²½‘10ŽG&˜€ßÒå9oˆ[åc_ ÿoVïóòñqú¦J¬ƒ°¬oø+Z¨Ça‹ŽCõL«ÀÇ&ZV}˜Q´EHÏñBÐ<v‘f4A|C…½NàGôÎ[Ñ¬16P AŒAð,³än„ð!¢fŸuü @M    À†m @MAåj€ÛÐnCoÂ¯@ 0~ó…4»ñÑdDùCvÁ0MèŒÍRšá…œdXÂ@Ø+­¾³ÿÛÑ«‘%l`'‘P‰3'Rà¦Áœá­ú`8xKå;8µ±MlÏºÃép©TØ?ƒ¡IïõKZ€PiS°9½‘·O'c¥fÁ«M`hSžW4ßŽ”  õC•koAqé\û^n|°­qºa§ya-©ìÉ\@ÛÀ¨éÝ5nÅQã° èÞdoÐQ]
+éò™‡AËw›wbüàèC>e1¥I¤Î'¨
+ð­P Lú#D!1ºdmXlž áèæ‰_­/¥‡zÂ­òDVQ-_.8Ðqš ‘·JŠÙDñ€Á`:	wS0ŽV«\»DáT
+ž8L²@ù—#¦‰|ÑšÚUµ#ãP­ÇØ:4)Á$³…¼1`øÝ/±|´rïë´pN“¸¸{¡˜¡ÐBIÉs€ñw9‹ãl™‘&^¨FÙ6Bk‚nJÂ”æH¤	ŸÍ9 E 8Uq˜d¨ÊC°îÝNx:aüWôNûÂCÀÉ'Q¶ÄìQÒTÁÓs®0ÐRøS¹››AÚŒë«rDqàÉ@ÍS’Ž1ÔËÉ\ª'ðnñeøCÇY!€%ù}jž¨ BM    Þ†m BMçj¼Û.‰Coµ@ ²	õ…¬$ño‘[ùÍ/É0…]^%ácÓzx&Ž@Úb2ð¤¶ÍÑÉÊóR„@PÓáH­ŠµÁa;Ewóå`ºz¾¥Œ¸±ë0Ù‚p¸ÞpÏÝ¹[ƒÿå¡'ÿãÏÖ3€Ró[ÏÂí‘ÕAc¦¼nGƒÛÐPã¾’µÜ<LÕ
+j ¢îø4sq‡û}0½bU°ï¼aHÄ~aºí&BÏÀªçNSòÞQÜ‰_ŒA÷Ðäê:³A)]*‡‡dxàju{,A81Cá;{óEÇðï2‚i‡úè!ü ßà( ãÄnì!)M‰}Úß-Ë„[Þj9e½¬UÇhI _gÐ¢ñÒL±!U0ÐO€TÏ²á2­„#=rú@û%ÆõÇ^1Ñ¸9œ¦²³ªPÔa'”0ÁœÁp»Nþ¬³V`›ûœ§“Bc±¾22Bâmp#ù¡ûÿ¢¡v™íN#†€óAøŒ'u‘DÝ‹ÂEŒÕ÷1÷ZDyíY7 ê3|·q6•·ªJÛ˜°0¾Áq–n¬aÚ$ZZ9ÜÀË(H¬î{AQðc:ØÇkÐÛkü¥´A8ÖQšÎp”àKËKSr1rGíP-@ð°/çî
+Ã!^Ë‹ï5ÇT DM    ü†m DMÅèjøÛŒ£CoNº@ 4•ö…$Žñ¾rùWéÐ0Ñ"¹Ž5j°áA
+ÙŒô[@Ü™·!–m¿ÑçÂ9¨ïP•:^3ÃXÃÁ¿n…RnÐ`<}Ñ–á»±‰VF6&­ÓpßÆ{­¡Ò‚¸RI€TáNKÕç‘ó3ŸéÓvETA^*‡©ìcË†? $èÝ[þŽ¥q%š I‘°1	Ùáƒaéz‡ñCÃÀ¬3ðg	vøQ×9ÐÕjë‚Ì…A‡B¹–fôàìåÚD1áxÓ'¿ãƒð1d†Ñ!í=ÝÏeU³ å öNä>_kms EP‹FiÃw!+s¾_ø •†¿3>Ç ñ¼â8(:3Ë0IUL%ã áHÿ¨A˜B@ý8õÇé3æÑÖV^÷¯CrP–‡O&NÁÎRêøÔª{`ÚºVIU)±¸ÇòtiÙ&pÒ³9‹æ„9¡T‰a˜T}˜€õ·ŽIáP‘b³¹ÜD?tÆ‚ákh‰¢©6¡î …ð3VÀ2qÔ­Êr#°re¦”´Ña¸ñ¿e¯tÀÍ)?W'3–Qs³Ü)ÐÖ½ƒ?°ÛiA–¸ˆ*·àÍÙÉCUz1ÃÓØýÕôðòmhåïL,!<qað  FM    ‡m FM‡êj4Ûê½Co”¿@ ¶ ø…œ÷ñ«ê‰ùá¢Ø0Àéu;áA7¡Â¨@ÞÐ<S‡$±Ñ= ÌôPW“s¹û”ÑÁ¢Å-N»`¾”oy5¿±'|³éÛ¡ÈpSF„b
+øt¡ãÀ5ïÎ^€VÏAÇç>N‘&Û,ë~×;×1Ù•{quœ{Á ¦á*¿Çž×qÃ8ƒÓZ/Í°sS°ÕÿˆaÇãT5»E·À®Xù€¿ùQ=2œNçúÐ—ñ&ìÊåAå'H¦{hpànV:ÿ#GÞ1kÔŠ@ðs÷E£¡§2!ËìÉ= ç|~±¦T¸‰Qif«rKÇ+”	Õy©µV§ îy¾^ñZó$ŸR0TB*D2÷Žáîây.F¾Š@ÿK$š	›Ñôs H­Ó9PXËæ
+ÛƒÁ,ê…óü¡ `Ÿ¸Øÿgï±VÑ²·ÐßpDztÑ	Ð¡2ý)CZ×ª€÷Õu|›,‘€‰çöCòˆ‘|» ÚÍ
+É Æ}x|Gqrš^¯J
+®°´‹·Ò4‘a–¾%q%ÀÏ*6`êêQ,‚,áoæùÐ˜ ›‚ºÑAôhw†ÉÚàO&È;Õ7ð1®>º`ÎkÛð4¬éÛÅ•!±ÒÌ­ HM    8‡m HMIìjpÛHØCoÚÄ@ 8¬ù…añI¡ùk\à0U]p‘Æáýw•µõ@àÂ„xÛ¢Ñ#v^ðãLPìˆ?4ÑßÁ{Õ	).¦`@‚WHã‰Â±Å¡ ‘–½p•zéåMt<¡Á.®è%Kt€X½4Cú•~‘/p‡ŸÉjZ"TpÏAL“·~ê (Ûw"‘®	qa×¥©	°µžWRŽa¥L"Y…G«À°}šu}+Q[]%Æ”×ŽÐYx0íÿƒAC×µujìàðÆ™è(J±1¨VýðµÙ'À.~×!©ÁU2s>È éXij§5_,•Ê$”ª¨ñ×'®¬MV ™U4Ýë´¼ñøkïB0–;ÿ;?ýáÌ}ô³JäÒ@_Sl-ÞOÑ‘â˜ªcP€FÆh÷ÁŠ!î$™Å`!—ö´´zµ±ôÚrú·Ç˜pVÔº]¼Žf¡qòí_1½€ùŸ4’¯U‘ž_C¥±Jš@‘Œ~^
+É‡t£ ‰›ÇšHÞ\q²±Ê¡8°ö³oÚð—at‹‹|›¥ÀÑ+-­˜¡?QJ‘¥åÃ£çÐZƒ³ÅÄ)8AR²„eâõýàÑrÆ3–f1Lº èžÂðvêjÒ›Òþ!ø¼CD˜AY JM    V‡m JMîj¬Û¦òCo Ê@ º7û…ŒÊñçC¸ùõè0—úË’QQáÛ®óÉ^B“@â>G¶i’”ÑA¯,îÓûPÛDžÅlîÁÙFä:‘`Â„!MÞÅ±cÇPG‹²p×®Ni‘ð¡Ÿ>œ›\Ç‰€Z«'¿í®‘M
+S³g‹šÝÏld-üª­ú¿ ªÔÄ…Z¾;qÿuˆvøûD°÷éþbŽ9“aƒµï|OIŸÀ²¢³+EQyˆ®=B´Ðÿ9îZA¡òeÅolhàr7ùÑ-M„1»?š-"½¹ð÷»	Ý»T|!‡’ãù²R ë4Žv+€jÅUòv·ËŒ‚üC½ÙD5¦Ë£D ½î±Â«ñ–ýŒƒÍ~0Ø4Ô3Lkáªo9O
+@r‚>O³Ñ0®¤é§óÈPÜ4¦õjÁè½èLê`£udj{±’ä2=ß¾Qp˜dûF§ý¡îäº˜e‹Ï€ûió“âä‘¼5C+BXP&ðaø¼:AÞ} q½Œ@rq®Ÿ´J9Ã°8[TýûuaRXñ‡>ÀÓ,$XÑX”Qh êaÕÐfËÏPŸA°ûêS>"!àS¿Ä+WýÛ1ê5‡po—¨ð¸(ìÈqh!ÖbÖµcj LM    t‡m LMÍïjèÛDofÏ@ <Ãü…4ñ…pÏùÏï0Ù—'”™Üá¹åQÞ,@äuÌçZI†Ñ_èúÔ7ÂªP³K¥IüÁ7<†¿Lî{`D‡Ýù¶2É±íúý§pã³ìÔlË¡}NŠN“CŸ€\™;Dß‘küŽö0—/MÊ`JØX‹Ú«Â£v• ,Îé#ÎmqHGâ€°95¦©ÊV˜aa½ K“À´ÇÌá„^Q—³7µïžÐÝ…Cï¢1‚Aÿ×ôÔinäàô§X»2PW1Y×1ÚíZvð9žëùH+!!eEÎ”€'Ý íÙí•ÃãýJ¸ÜÙ‹NàdÝÑÁ|“$éš;´ $©†™¢xñ4%éœ«º0.©+Y3Ùáˆ³é¾S0c@…±qˆ¹ÑNËf:¥ƒPžé=ýÞÁF°Xãt‡`%T2  A±0îò¶
+pÚô;0’˜“¡ÌXƒCkåá€ý3²•Ê¿‘ÚqEAïÎ±Ÿ¢­´rk[ûGX F[ßÐ¢‡qL"Y¶ÊÐM°z9 -^èa0%W“‡ÖÀÕ-
+éQ†¯—îkÃÐÞHãKÙwAEQBšNDàÕÃ#àQ1ˆ±mø?-ðúfm¿GXÑ!´i'/“± NM    ’‡m NMñj$Ûb'Do¬Ô@ ¾Nþ…|ñ#æù	‰÷05ƒ•¹¤gá—°òúÛ•@æ¬QL xÑ}!É»[±YP_öÈÑÝ…
+Á•oÆš^Îf`Æ‰ Ò ‡Ì±Ÿh·²tœp[pé’¡[^xÊ¿´€^‡·1›‘‰îÊ9HŸ÷úãóÄCMé¦[Ú™òj ®Ç^LíÝŸq;³–È¼°{€Mðta?‡ŠÄãL‡À¶ìå—xQµÞÀ,m&ÐŸMðêJA]½ƒäcp`àv¸¤7S*1÷nÉ†¹ø2ð{€ÍÖÆ!C‡
+Fœg ïì;°«â@~BüK>Ívæ©´ñ¢‘2c Œc[p™ÖñÒ5Õz´‰ö0\'~#fGGáfNdDXV«@˜àâ’]nÑlè(‹¢XP`žeøòRÁ¤GôÝœ~4`§2PÂÕ²±Î÷²Â-­Ãp…|}*¡ªÌKîp?ô€ÿýp—H„›‘øáž_@¾=O+¾íx›¤µ±2 ¥qê¤¬¸JhØ°¼©CKÁZaò¼ž%ýnÀ×.®BÇ=Q¤¾ó¿Û°Ð +ûŽãžmAlŽ·0özgàWXÁÙÂÇ1&-T€Ãuð<¥îµ›:!’®û˜ú»] PM    °‡m PMQój`ÛÀADoòÙ@ @Úÿ…ôñÁÉýù“Bÿ0]ÒÞ–m°òáuSÉ(@èãÖJ=·iÑ›Z—¢ P!OÞWÂÁó¢vp®Q`HŒc«ŠÛÏ±=8Õjhi‘pK~ó[eZ¡9nf´ <Ê€`u 3Dò?‘§à}_§¿Ñ)gä?¯AGsòn@ 0Á«¯¶íÑqÙQëä®ø°½Ëô6C‘¢aðWè­N{À¸'þMŒ‘QÓ	J¤JJ®Ða“Vñ2d€A»¢ô]rÜàøˆŽ<Vý1•a3…–ïð½b¯3cØj!!ÉF÷ò ñÈ%žrÁuÆ6D¨Ò›5û‘ìO!$ˆ) ¡ó0G4ñpFÁñÌg20ž Ss[µáDéÞÉ\|ó@	«µ´2#ÑŠëÛŸ£P"SÅ³è›ÅÁßØÄuY`)nq‹ÅÍ±lsU¤|p^½h¢À¡ˆ@™v™€È/™{>w‘¸Ìy?q,RÉþ³ÎZgÖËío ‘ñî#Yg²qˆ' »Êÿb°þPfi$Íaì¾"ª+sÀÙ/	Y{~’QÂÍ‰÷™žÐbÒíÅÔAÊ×R§ŠàÙ¤¿š¥=1Ä¨:áX\ð~ão¬óÝ£!pTŽ
+Æä	 RM    Î‡m RMõjœÛ\Do8ß@ Âe†lpñ_öúü0Ÿo:˜!¼}áSŠl—u˜@ê\|.n[Ñ¹“e‰£·Pã§óÝNþ&ÁQÖFQ‚Ž<`ÊŽ&„ô/Ó±Û]B^†pßãvŸá!¡~Tg7¸ß€bcó®VIp‘ÅÒBÀv¯‡“YêÔº6¥?»	†ê ²ºø€ýqwð’¼3•4°ÿœ}®§aûX%xPoÀº60«Qñ4Óø&6Ð#`òz}ÿAˆ¡XtXàzùvwAYÐ13žøßP4¬ðÿD‘Pð®!ÿ
+ƒ¨…| ó¤­ 5×Î=ª,
+AÌ”ù©z$­ŸA  Á #[Ø‡’ñW­håEn0à(€o#á"„YOa¢;@¾>‡ÖØÑ¨"­,3çPä%oÞ(9Á`v+Óìl~`«ï‹ AØ“±
+3H|›5p ¥ýëR'W¡f´ÜC|ó€’îš®øR‘4Žú“>$ËU®<ß­á4ü6)…ç Ç8FÉÇq&ªS½J—í°@øæˆ‡‡?aÊ‹ˆµ1éŸÀÛ0 ´5çQàÜügVŒÐ$ñ*øì;A(!„®Ó­à[ñ½[ˆ³1b$!±îBðÀ!ñ¢É !Nú |‘¶ TM    ì‡m TMÕöjØÛ|vDo~ä@ Dñ†äÙñý",ú§µ0á–™ÕÇá1ÁÊ/eÂ@ìQá­%MÑ×Ì3pÇ~fP¥ 	d‡:5Á¯	‡,”n'`L‘é\^„Ö±yƒ¯ÑÓR{p!´Húâ]é¡õBn4õ€dQæ*i  ‘ãÄ~Ž·OU‰mÅ5†*k!|fë 4´EvI6qŽ‚{p°AbCÄ»Ë¬aÙÁò/BRcÀ¼[90º“ÄQ`\“¥¾Ðå ióÂ–~Awm0RvÔàüiÖ`F\£1Ñ5ŒÒhðA'sm}…´!ÝL¿Y›ù õ€5c÷ì'[Ž"ÐscŒVWC$b\_ýup ¥Â’Ùô}ðñ¬g™ßý#ª0"ý
+ƒ‘á ÔÔeÈƒ@ÑmYøÜŒÑÆ?o}šÃ®P¦¼„*Ôµ¬Á¾ÇÍd£`-Î©ÏöêY±¨óŠ£’îpâ5>Õ=¬í¡D(¥îM+€\­œá².‘Rd(®=×iÖà]Åï \’,€ ãîÁ •œ‚há+ÝqÄ,§¿Ê.x°‚ŸË«¥ê±a¨XîÀ7_8ÀÝ1÷®ìì;Qþë{ ¼zÐæÓBX£A†jêû	 ÑàÝ=¼k)1  ‚„)ð`r™Ÿcv!, ³í\6b VM    
+ˆm VM—øjÛÚDoÄé@ Æ|†\Cñ›OCú1o0#ªñš‰Ó“áø(D3›@îˆfßÜ>ÑõWëmPgYê¿vCÁ=Ç¦N`Î“¬5ÈØÙ±©…‰Gppcè­}&Ú°¡Ó0Í¤°
+€f?Ù¦{÷Ð‘·ºF¥¿¹ðµ°ñaØ9râÀ ¶­’Ùhq³-˜_Ña¬°ƒ­ê
+øè±a·*ÀSTWÀ¾€BIpÞQ-‹å
+SàEÐ§'sô
+°ýAÕR¿"LxPà~Ú5JK_v1oÍ'9èo%ðƒ	UŠ
+\Y!»Žû
+"n‘ ÷\½Å¹yr–Ù…LµnÜ8J”iœ|úl '*M®ËtNñJx…Væ0dÒš—ÿáÞ¹NZjîË@äœ+²AÑä\1Î—SvPhqäåÉB Á¥bÈ<[È`¯¬Ç~¬ý±F³ÍÊ‰§p$Æ~¾(1„¡"œm™‡§=€&lžm
+‘p:VÈ<Š˜lN TÖð\É"Xœ rÌŠ%Žòqb¯úÁJÆ°ÄF°ÎÃM$a†%TÌ=ÕÐÀß2îY%¤QûôÑgÐ¨¶Z›;
+Aä³Pêe,ôà_ŠºûÜMŸ1žîŸRðDžóu¦ß!
+FF_(_ XM    (ˆm XMYújPÛ8«Do
+ï@ H†Ô¬ñ9|Zú»(0eGMœ=ßáí.‡X\@ð¿ë“0Ñ?Ð=]ÄP)²3pø²QÁkpã·.ý`P–o2-Ý±µÎ‰8?<ep¥jVx¡±­€Û, €h-Ì"ŽN‘©ö‰¼ÇßÙès¦+]¿¤ÊPh^– 8§ß<Ü,šqQÌ1 Hè°Åø‘Q4·a•“wÖUKÀÀ¥Kb&›÷QK¶n‚ ½ÍÐi®|õRÉ|A38N2FzÌà K•3PbI1e¿å³âðÅë6§—2þ!™Ð7¼¨â ù8E(|Ú—V\?¨Ú×uM2ÌÇš÷cÎ ©‘ƒ¢k¬ñèˆqÍ.à!0¦§ú¦«má¼TÉßn@÷Ëý;‡öÑzó•ã=P*&D¡¿Ï“Áz<þÂdRí`1‹å-bæ±ä'sò€`pfV¿§¶¡ 6DP€	ð* G'æ‘Ž„â;=§Zø¼Ö§PN%WÂv ™G­iðq 2NÄÊ]°î”ñá°–adò¹×CKiÀá3å^[åQ:
+n	dŽUÐj™rÞbqABý¶ØÁXàáÖ¸ó01<—Ô'#°öð†Üt†KéH!èëØÐó‡º ZM    Fˆm ZMüjŒÛ–ÅDoPô@ Ê“†Lñ×¨qúEâ%0§ä¨ñê©áËeålÏ¨@òöpBóI"Ñ1xž$3LsPë
+Iö0ï_ÁÉ£G¾Éè`Ò˜2ç›à±Sôöëô0ZpçPx„­Ò?¡½3©5€j¿ž ¥1‘=›2ÍÓÏ§›÷–¦Èqzh^Úk º , ¥<Ìqïjo.$°D9˜p#¼asüZ› W?ÀÂÊT{ÜQiá÷ù­™UÐ+5†öšâûA‘ÝA@|Hà‚»ôUe1«üV’«žðÎÄ$	£!wtm/W¦ ûÍŠ>.3µ:"¥ÊÌœp?b%™·ôZü| +ùÁWyb
+ñ†™]DG¾]0èþ{ò³¿ÛášïCes:\@
+ûÏ]\«Ñ —µo’sPìÚ£\µ\ÁØÓ™½ŒI`³iÝ#¬±‚13Sxp¨æÿþ:±¡Þƒþî’[b€ºé¡záÁ‘¬æ±ü:ðE„l_!úÊ¬½[',Q `Ï­Rqž´¡ÆJõ°H•y 	aB¿ãIÁÀã4Ü¯–:QXç¸KCÐ,|Š!!‰ØA FÇ…:àc#·ë^‹1Ú»¯óEÝðÈö|!,²!Æ‘kB¿°f \M    dˆm \MÝýjÈÛôßDo–ù@ L	†ÄñuÕˆúÏ›-0éŸ¥ö4á©œCõ@ô-ösä ÑO±lW;"P­c^|i+nÁ'×‡™ÛîÒ`T›õ¿Öã±ñdŸª%Op)…ÝñN¡mÍúåH%K€l	²³üa‘[në×o]Hz‡!4ü{=*€TVA <šyoLþq	 Ô½`°IàÞ¬@ÁaQe(¿jY3ÀÄï]”’¢*Q‡q[vÝÐí»÷âûzAïlQ:~Äà,TZhï1I”î>KI[ðI°úà±ßG!UT°¶Ë0 ýðTí DŒÓúç
+íŒ^Î§¨v<ƒÕñQó+ ­`|,PYhñ$ªI»_œ™0*øPêÀÓIáxŠ¾êw`¤@*¢1`Ñ>´wÀÍP®«ézÁ6k5¸´@7`5H!ŒÍ5r± ;ó•@oÒpêv@zé¿G¡¼÷Æ™˜µt€„¨£­›‘Ê¼ß:£äÞè1ME
+î¤)Ë•+ ò©ññ´2q<7õÈÊŒ¢°Š<^7w{a Œ…îO7šÀå5ÓZÏÉŽQv(`	1Ðî^¢d+°?Aþƒµy±]àåoµãö 1xŽ¡7ÄÛÃð
+Yws÷n!¤7þ³ŠÙ ^M    ‚ˆm ^MŸÿjÛRúDoÜþ@ Îª
+†<éñ úYU50+` YÀá‡Ó¡•kB @öd{¥Õ·Ñmê:òz*ÑPo¼s¢g|Á…
+ÈtíÎ½`Ö¸˜o*ç±?ÑR`Dpk¹B‹4ËÎ¡KÝè˜¡`€n÷¤–ÅS’‘yªSà7xýwœŸðÙ	Ú—JÒ ¾“Æf8\0q+¨¢¥û›°‹Ú‡%é]Æa/Îõâ4['ÀÆg­H&DQ¥7
+éSeÐ¯B™ø*úAMèú`4€@à†œ³ï^kÂ1ç+†ëçð‹’Üý>¶ì!3–ìÏ<@» ÿÌÜOÃYåñð­pM ,B‹êsá•òîHêÚ /È6'PÆñÂº52xzÕ0lñ%âÍç·áV%9p|†ì@0Yt¡Ñ\Ñ9“”PpDcÓ vîÁ”Ñ²Ü7\`·&?;ƒH8±¾D³Øgf‹p,cÔDÞ¡škDž‡€Ng¥àUy‘è’19Vƒ ›ËpB ¿hî+…ÿ Èó6HqÚ¹HËJ$-°ÌãBZ<ÚíaþXëùU­2Àç6ÊãQ”7Ù`ÆÐ°Aº§5×¦A\Ùé£ÕÝ€àg¼³ÛàØv1
+ˆ¿”qªðL—øiÍ±„!‚Ý%V¿ `M     ˆm `Mak@Û°Eo"A P6†´Rñ±.·úã=0m¼»¡Káe
+ ª9!@ø› ×Æn÷Ñ‹#	Ùž€P1‰ˆÚ£ŠÁã=Pÿ®¨`X {qÙ~ê±-e>9p­í§xG–¡)íÖK¶v€på—ØªÂ‘—qæ–èÿá§€hå7Ö‰¯@Nì @ÊlbqÉF%w[á×°Í%/l%{Ëa7Ãÿ\ÀÈ9pÆþ©]QÃb“`¶/íÐqÉ¢ùr.yA«Í‰p.‚¼àÙcn•1…Ã˜â„ÔðÍt¾ÌŒ‘!Ø(Ã´E ©d²…o>çåsÖ1â‰xÛŸÒ«?ì?á‰ ±/ñÕýF$ñ`Ë!©X0®êúÙÚû%á4À³õ€¬4@CˆFÃÛÉÑzîûaŠ#\P2ùÂŽ–bÁò™l­/`9]ê8[þ±\Ns]Dpn—ÁL¿Ét¡xßWï£i™€&§U‘i;K8	"b'{ùRó9ÆN7.?ià ¡=6zy]qx<œÍÊ»·°‹'}Z=`aÜ%Q\#ËÀé7Á°@88Q²FR´ƒÐr$Òê?þAº"P’1
+¤àé²Ó¡»ì1´…nGe‘ðŽÕy`£ôí!`ƒ#—!+k bM    ¾ˆm bM#k|Û/Eoh	A ÒÁ†,¼ñO[ÎúmÈD0¯Y£ÁÖáCA^¾Ü¢@úÒ…¸%éÑ©\×¿Â/Pómžà˜ÁAqH+“`Ú¢>JCÓí±ËŠ«¹Ë.pï!’»Ã]¡ýÄþì™‹€rÓŠŽêó‘µc"Ú0ðÇ£×Y’vÙ•¢9Ç6ÊÁ Â†`-Ë{”qgå§HªÇ°qÖ²a˜ÐaëŸ*É^ÀÊ^yß´-wQáØcuÐ3P¬úºGøA	³€(„8àŠ}rÂhqh1#[µD®"‘ðW 7Yc6!ïe2J)Ð …ìH…—-ËÛ9<TÍ¤çàt´ºã’-é6Ø8 3—«ªÔ=‚ñþÛ ©6M0ðãÏÑç”á[.{…Ò|@V·å°~Ñ˜¾²‡³#Pô­"JŒÕÁP1¨,&¦`»ãz™îmÄ±úW3^¶Týp°'6ªN¡VS š©Ã«€âä¨FÊ0‘$?ie7¼À$³*‚cF´$€0ùÒº #s‡X¾Ûrq¿ïÏJSB°P2 x Òaºò¶b™cÀë8¸[yïŒQÐUËAúÐ4ê-J%uAl¶€6ÇàkU°Ëbžb1RUÏ5wðÐûVy7W!>)¶íS dM    Üˆm dMåk¸ÛlIEo®A TM†¤%ñí‡åú÷L0ñör¤u%aá!x¼ÒÕ($@ü	:©ÜÚÑÇ•¥¦æ÷ÝPµÆ³”K§ÁŸ¤ˆ#o~`\¥#­'ñ±i°mø"p1Vrÿ?%¡å³±#¡€tÁ}
+ýX#‘ÓU^Høe‡IâÍónéÞ,F— D€­”‹Æq„*ù­O°Q¼}ùµÕaÉ^N“`ÀÌƒ‚øj±Qÿ¸¥OéüÐõÖµûawAg˜§"†´àîÑ«mt;1ÁòLñyÀMðQ9‚Tæ9Û!Í[¡ãÐZ atw
+›ðK¯Ñÿ¡vfEIÉ¢ûKæ-Ïç µþe«4àñœìù–Á‰02Ý¤Éô#áðõ¨ ŠøÄ@iæê†3Ñ¶(€…CëP¶b‚‚IÁ®È£¢TË`=Â˜H¤€Š±˜aó ÝK¶pò·B•Ó¡¡4ÇèD¯¾€¬£ªy„‘B—6o_æ>Ú
+t™.‚¯É2³<• ¥HÑz>ˆq´ACÒÊêÌ°’ÙðÂ–Ea˜¿hüÀí9¯²¦áQîdD$\þçÐöéqTLÜAvµoébêàí¡®Ã#Ø1ð|;W3^ðR|MOzÀ!ÏHz¸|Ã fM    úˆm fM§kôÛÊcEoôA ÖØ†ñ‹´üú;T03”Î¥)1ìáÿ®ç£u¥@þ@kš“ÌÑåÎs
+çŒPwÉ„XµÁý×Èá4Oi`Þ§Äû|ô±Ö… 7ípsŠ×˜B¼ì¡Ã¡dZ’¶€v¯p†°S‘ñGš`_ X'7
+:ˆMÂQ;™ö"Âl Æyúó]›øq£"­ëG”‹°“%@ÚÒÚa§q+r]b÷ÀÎ¨‹!5ªQä.Ç¾Å„Ð·]¿üJzöAÅ}6Ÿˆ0àŽ^1•rw1_ŠäE^
+ð“dqs€!«Ý”Wå =üÙÌ°Ii“ÇÅ™M(£±§ÝŠSYhã$Æ– 7f T‚+>ñ:ýåÚòÄ0tÖyÁ8páÎ#†Ž@|½([èÑÔEBT‚Ó²PxâÀwª¼Á`?|ð`¿ ¶÷Y“P±6k³ãCop4Hƒ€X8¡;±ï´wÐ€vb¬¬>è‘`ëÄ™5"þ¨Ê‰“„ì¨àß5m¦o 'F qRÄ–ÔJ‚W°Ô€Õå´f·avŒ‚'n…”Àï:¦±ê]6Qt½(°»ÕÐ¸Ì´^sCAÔþ‚]Eàoî¬»äcN1Žø!ßÖÈDðTýC%½)!útÛëƒ¥o hM    ‰m hMik0Û(~Eo:A Xd†”øñ)áûõ[0u1*§Ý<wáÝåxûqÂ&@ x‹J¾ÑBt.Ö;P9xÞ ¼”ÃÁ[	½F/T``ª‡Ô€Ð÷±¥ûòÓìápµ¾<†8´¡¡,‘Ì€xc"„‘:Ö£v éf*¹¶¯I>B HsGW'«*qAÁ/½–zÇ°ÕRÌ†ðßa…Úø•'dëÀÐÍ”*×¸ÃQ;¸>l¢ÐyäÈý’“uA#cÅ®Š¬àÏ~wzá1ý!|JüÆðÕýEŽ ç$!‰ßFÞ†o 	„<Æ¢‡w½‹m»ê Aòr‹·†à½E ¹ÍÚ(Y"œñØÒ„òÐ 0¶ÏN¹LÞá¬+ž“DU@!DJ0Ñòb¥czP:ÌA|m70Áj÷Ú—¤`AÔ¦¦±Ôts&,:(pvØÃñjÝÎ¡ð®yšºÑâ€@!®ßøÃ‘~Áò³4ÕœjV9•?#>\7'J ©ód¿Š³qðFêÖÊâ°(ºÓÉ)aTYè2tû,Àñ;\#‹Q*ƒ6-yÃÐz¯1÷hšªA2HéK¡»0àñ:«³¥FÄ1,tg§^+ð–Î~:ûÿ’!Øn]OÎ jM    6‰m jM+
+klÛ†˜Eo€A Úï†bñÇ+û•®c0·Î…¨‘Há»×@¨@¯šÎ|°Ñ!A[RÅêPûÐó&õÐÑÁ¹>I˜X?`â¬J­ê$û±C!`‡¢Öp÷ò¡ŸÉ´{¡<}ÊÇŠá€z‹V~4^´‘-,çè«–~$«Ôø%º Êl”ºðº\qß_²Žå`°žsÍRåacCÆ¹ñeßÀÒòC<ÝQY:A¶”Ð;kÒþÚ¬ôAHT¾Œ(à’?ðg|}´1›¹÷Ü™ƒðà'«½É!g!V÷dûù õŸQÜû¥[³QÓÝÍ¬^‚Ú[ÃŒ£Ý´ô ;5•ý/úñv¾û
+¯<0øÈ#±`LáŠÆ‘—j@#¢salRÑ€Æõ|óAPü€¡7cÄ£ÁÈŽv’Ì:`Ã]òUÅ¸Ü±r~3iS1áp¸hÛUbe¡Î"BEÀ+õ€
+à¯³Ÿ‘œ— Î3ˆ;,âè¤¥’œ@¥9áy$ +É®áÎdÈqŽÉ=ÙJ±l°XÏž+ñ,œa2&N>zqÅÀó<”\ÌßQH’¯1X6±Ð<’I:sÁA‘O:ýçSàs‡©«f):1ÊïîîwôðØ 1ÑBü!¶À Ï÷Ç lM    T‰m lMík¨Ûä²EoÆ#A \{†„Ëñe:Bûhk0ùká©ETá™S5$\)@æ n¸¡Ñ?zÞAv´™P½)	­-àÁr‰sjï)`d¯†Tyþ±áFÍ:XËöp9'#1C¡]Lk}þ÷€|yIúFµä‘KN*¥°mÆ“ùŸk ¨=6í LfáºÊŽq}þ4`4G?°Yé*êaA¬“Ý»gÓÀÔ§\CÀöQweÊ-Ç[ÐýñÛÿ"ÆsAß-ãÍ
+Ž¤à°OQ€‡19Q«£¨7@ðYÂ	È”n!Ec’¨ëo„ Ñ“òTÃ?©9 Žn¼êsCûs
+ÁÚ	«£ ½œOÒXñ/ªr#x0:Âø¨(tºáha“œå@%µ¢3ŽÚÑ.ˆFzƒ	P¾5óXQÁ&&ôù^`E<{Ë¢±ˆó«z(špúøDÄ@çû¡¬–
+ðÅ…€Ôž±Em{‘ºmNè2;Úîm˜-¶åúpî;›ãþ ­žøÇÝq,L‘ÛÊH÷°švƒNaó³I€ç]Àõ=‹²”ƒ4Qf¡(6¬óžÐþta}}èxAîÚµ(YwàõÓ§£'°1hkÕvHŠøðK'§…e!”f“@æt nM    r‰m nM¯käÛBÍEo)A Þ†ü4ñgYû©!s0;	=«ù_áwŠ“8Ü¨ª@¥1_o“Ñ]³¬(š£HP‚3fIîÁu¥ÉN|Ï`æ±Ð^¾Í±l:îÀëp{[l¦P­
+¡;\Y05ƒ€~g<vY‘iŠm¼ x/öüsû“ÉlXUû±Â Î_.ƒÚÀq·1ƒ-{°›4ÂZËGïaa†iÇÀÖ<°uùCQ•S¥t8¤Ð¿xå kßòA=rÝ à– ¯:†ƒZ1×èBPtÕüð›¤ëä§j!#¥ÎYrä ­dÖ®á#ŸÝž"N0S0+3ÑˆÞ× ¢R ?
+§Ý¶ñ²?–é;k´0|»Í 5ˆ(áFüœ ¶-@'ÈÑ°¯»ÑLºJ—wÑP€ê`®NÞŠÁ„½­‡ñƒ`Ç.´0Þh±®‘³î¡Sp<‰…­+l’¡Š
+ÓšËß€ž]³x'W‘ØC|2îx°ùG¶Æ8’X¡7>UMÙ /tB&W)óqÊÎäÝJà°Ühq-ó€aî¿U†]öÀ÷>‚]Í:‰Q„°¡: ±ŒÐÀWyÀ‡àAL$µ@šàw ¦›èî%1ç»þ ßð\‰}ÈÎ!r&²±H  pM    ‰m pMqk Û çEoR.A `’†tžñ¡“pû3Ûz0}¦˜¬­k£áUÁñLªõ+@T*cP&…Ñ{ìz¾’÷PAÛ3¹ž…üÁÓØ	*Ž¯ÿ`h´“7("±’§¡Ã´àp½Ñ)”)Ò¡lGãkÿ!€€U/òkcE‘‡Æ°Ó(@ñ%šìîfˆ'9mñ-˜ PY{äLêòq¹;:Ò·°Ýi¡eôaý}.%Pk»ÀØa¹Ž¯Ç)Q³»Ü",Ðÿî³øqA›ø íþ‘œà‘$‹†-1u€Úü?s¹ðÝ†Í5A¸!ç
+ùX™ ‰£Æ˜ÿ•£Eòw»¦Dk/üÔ÷˜ ÁkÄ{´ýñPP‚`TIð0¾´¢˜Bœ–á$—ˆ!¥Üu@)Û ØÑ„pÑj×èt£˜PBŸÀiDkþÁâTI‚Dè¨`IùKcæð.±L›s1Ép~Æ–ñ(¡h~›EÑ9,€!hµ«á2‘öª1¡r…÷>×‹¶Ñ€@·³ ±IŒH›‹qhQ8àÊw°ÅL”KVóaÌŒ`ŒÓŽÀù?yòÝQ¢¿?TnzÐ‚:‘’6GAªm‚m½àùl¤“©Ñ›1¤b¢†éµÅðžÇƒS8!P²¸#}qÌ rM    ®‰m rM3k\ÛþFo˜3A â†ìñ?À‡û½”‚0¿Cô­aw.á3øOaxB­@
+‹¯”AÝvÑ™%Iöá¦P4I?×Á
+Á1J ê`ê¶V’v±»·Uy©ÕpÿÃ6­×¥™¡÷{5–¢{7€‚C"n~ºu‘¥ôôê0³UÝiÒ|…¸„ç©m ÒRÈGú$qWÚ¼Ô úò°ËèC‚ùaÛæûHm¯ÀÚ†Â§eKCQÑæe”Ïñ³ÐC†øûñAùÝüø“àšn‰ 1r©vði¯Â]!ß(G¼Í# e+)[3`ìŠijgÎ´Õ#@Yû¢…Òî° CÓ~P‹ôqñî`n×l',0 ®wO°á2§©¾@+î/ªóY%ÑˆôÎ8r3`PT %:øqÁ@ìä|lßÍ`Ë×iœõ±ê¤3tðÅpÀ©€v¿¡FòcðÖ“>€#2Û¶Þ›‘ð×60T¶4§ÇçÞ†ÊBÉ Ž 3ÖjßíqÔ‹âJ—°`l1·i¹eaªYåk’I'Àû@p³>©2QÀÎ“C¨+hÐD©Fœ]®A·èól™àà{¹¢‹j´1BÞˆºK¬ðà)N¡!.XK•Hšx tM    Ì‰m tMõk˜Û\FoÞ8A d©†dqñÝìžûGNŠ0áO¯ƒ¹á/®uF.@Â4Æ2”hÑ·^ÝqUPÅŒ^ÅþÁ?Šà±oÕ`l¹éûÊ±YÝ/žÊpAø›0"a¡Õ‹#IÙ÷L€„1ê¦‘Ãæ=79Ðu… Íä=qãÑgœÝ%C TL«ß	Wqõx?¦oà.°a¸.€Ÿþa¹OÉlän£ÀÜ«ËÀÏ\Qïï}Î;ÐC+pAWÃó•”àrÍö”ŒÓ1±¯	V×®2ðaK‘;Oî!½jƒmB® A³‹I¹;Ð€/Ð‰Žv3ŒÙmãÚë7Ïå†_ Å:9%bëÏñŒqZN…h0B§Lˆ\ÄráàÌ},®(@-_|/ÚÑ¦‘‰oÃ'PÆ€à/…åÁžƒ€w”Öò`M¶‡ÁQ»±ˆ®ó¶~p:GiìúU¡$f,›ÜíP€%ü™¸Vê‘2ÆQ/UöœVPø1r2EƒŠh µô#P3q¤VßäÊ¦!°¢Ú‡Øaˆ&Kw˜¿¿ÀýAg^w`‡QÞÝHüèUÐ Á‰¦„Af OâÈÅàý¡ƒ+—‡1àYo–Šá’ð"D†ÿ
+!þÝÃ$ vM    ê‰m vM·kÔÛº6Fo$>A æ4†ÜÚñ{¶ûÑ’0C~«°ÉŽDáïeŠÜ¯@ù¹÷#KZÑÕ—åÃ)`P‡åsKH:'ÁírÊ»ÃOÀ`î»ÜÁe±÷ï»ä’¿pƒ,´^ž(¡³›ütb€†f£hÖ‘áØyzA˜7µ#¾_©eAž´Ó¡ ÖEb©‰q“Âw¾Æj°£a_u¼¼a—¸–®p—ÀÞÐÔÙÑRvQ=xƒ*«ÃÐÇ“‹DïAµ¨­í—àžâ,à™¦1OG¡£Lïð£-sXÜÄ¦!›¬¿¶8 ;îß^Y´võ5¬N8‘ôr‚ËI‚TÌÜ} G¢óù8â-ñ*‚FÅã£0„ !€iØàá¾gø±²NN@/ŽN7ÑÄ.SÚlSïPˆ½ß›%YÁür¼Í`Ï”¥p)±&¸³ù>ü6pDÊ‡R×ì¡ÚôEâGc€'ÆXºDÆ‘Pœ3k.ºó¸(Ù…{Ðb\G=ôB 7Êi¯g²HqBÙ2çJ>¬°äºúü¥Jafó°‚ž5XÀÿB^	°ÜQüì…LP¦CÐÈâØÌ°«|AÄIµÐ$ò&àRŸ{ìyý1~ÕU[wyðd‚øÔÓs!ê£pxßëÐ xM    Šm xMykÛQFojCA hÀ†TDñFÍû[Á™0…²}šÏáÍœjžâ(1@0?)LÑóÐ³ªMO³PI>‰Ñ€v5ÁK¦
+—Õ/«`p¾ŸšÏs±•(\oš‡´pÅ`f7¢ð¡‘«ÿ®Fðw€ˆûáµ¿‘ÿÊµ½0I`ùä¦®ÚZŸjÇËÉî X?¯qr)»q1¶DI­¦°å¬¼øÙau!d´xr‹ÀàõÝò‡ÖQ+hû×‡KÐ‰Ó]nAŽ<+ç™Œà SŒÉž’y1íÞ8¯nê«ðåUui›K!yîûÏ+Ã ùÂP¢tkw˜l»›Îúî\—³J§ rÉÓt½ É	®ÎÙ‹ñÈ’2<¶Áß0Æ™öwvìNáœs7·t–@1'½ YÙCÑâK+jã¶PJr?WŸÌÁZ²·läÄ<`QsÃ½;G±ÄÁs<fóïp†ZÈ;Âƒ¡àM½ðç¡u€)¼wÊ¡‘nra…-m’z´µaØõ.“¥I÷] ¹Ÿ³Ñ«^qà[†éÊÕ6°&bßÄâ¼aDÀŽ¤«ðÀDU´èÎ0QüþP¤c1ÐŠÅð»ÒãA"“¿€JàŸs­\s1Q<¦+`ð¦ÀˆîªÝ!ÈIêª} zM    &Šm zM;kLÛvkFo°HA êK †Ì­ñ·räûåz¡0Ç¸b³1¦Zá«ÓÈ²°u²@gÄZ¹=Ñ
+‚‘q>bP—žW¹²CÁ©ÙJrç–`òÀbs9È±3NÉ"P|©p•Ëºå–·¡o»ía}l€Šûí]È7‘½ñ HQ(»*ŸU€Ný6wã¿™Ã Ú8üÔ;9íqÏTÇ\“â°'ø­5÷aSŠ1ØBtÀâç>Z©QI“Šr…dÓÐK¡wíAqsË:á›à¢Ãë²£•L1‹vÐ[:ˆhð'ò6’öqð!W08šŸM ÕJ³dŠÄ•|bñÎ¼LÅ¥«›‚ÆÊkl Kqh£æÏéñf£³ÎŸ0“Ëoƒ ½ází¼»šÞ@3:ìòz®øÑ i×{gs~P'Ÿ,@Á¸ISg¼a`ÓQáÎrN±bË3ê¨pÈê%­‰¡¾Á…›íû‡€+ZÖ½ª„}‘ŒHŸ, 1<@eê)+pŒÃîK±Ç÷ ;uýóïvsq~ÞÙëJmÁ°h	ÄBâE/a"|™ª!‰ÀEL_!†…Q8xUø ÐL¨SÅùJA€Ü­ÜJmàƒë›kn?é1ºÌ".ü¢Fðèþ	å€YF!¦ï•[v=) |M    DŠm |MýkˆÛÔ…FoöMA l×!†DñUŸûûo4©0	V¾´å±åá‰
+'Ç~Â3@žIŒ÷o/Ñ/CPx•-PÍï³ÝñîQÁ‹Mùï€`tÃ%L£±Ñs6ÖqžpIÉ0>)¡MËÛ´è¢€ŒéàÙÚmg‘;¯-D_Yð}D­ÐëB['ûµ™ \2I8IqmóIìªy°iCUIqa1óþûvsÀä?ð$ôÝÂQg¾ê2A[Ð((clAÏXZJÛ„à$4Kœ¨˜1)h&%ðiÔ¯ƒH•!5rt2!Ø ±Ò' ³`XGg~ª-?Àƒºcý¬ÃÁb ÍØ"x½ÆGñ´
+*ç}W0JŒ g+áX8hBÀÀ&@5MÅœƒ­Ñ†™ÌdFPÎÛþÍ¹³Ááîa4³†`U0ÿ}(aÓ± ÕóÁ´áap
+{I˜°¡œ5NFóUš€-$•¿Ý>Y‘ª½¹+ÓÏþËs:~êêó7Nk1Ò ½JG4Ùˆqa-îÊL°ª°¨e ©¡a Zâ¤°—!ÀFC
+Z=ÚQVñYLÞÐ‹ –Ï ²AÞ%è›8wà8šc/"_1XH	¶Ì8-ð*=‹ÛVœ¯!„•(ÍAfÕ ~M    bŠm ~M¿kÄÛ2 Fo<SA îb#†¼€ñóËüùí°0Kó¶™½págA…ÛLµ@ÕÎ½è&!ÑM|_¹ÀPHÉc*+`Áe@Ë(Ðk`öÅè$q±o™£‰»e“p‹ý•ÁlF¡+ÛÉÇêd¸€Ž×ÓUíÄ—‘Y¡i‡va¸?t0€KW7¹ÏÖ¬‘n Þ+–›ÎXQq’Ì½ù_Z°«Žü­1a\Ì×wgÀædù=ªaÜQ…éœaàãÐÏ®1	«©ëA->éYÕŸ à¦¤ª…­›ò1Ç¥ÿ´ÑÃáð«¶úË:!´°ã§ˆb ZxéµvÑDNÍ5O@–ØÔkòÁ{ÊÀ¸YÊ O@ÝL”½¥ñ¢Äö ÿ[“0Œ…u_(™á6ÓâÇÄæn@7`J—¾XbÑ<£[b“P^‰üE'ÁtxŠ\\ª«`×-Þs™±žÞ³ÜØpLŠ÷‚“F¡z©ñø¯¬€/îSÁù4‘ÈôêÓ*†nÀWÄûJÑdH$P%›¬ ? ‘8x;žqºã€ðJœÖ°ìWˆaÞ&H°¶ºÀG:µ’ô.Qt)j^ ›úÐÐm8ÙÙGA<oNŠ”£³à‡„˜[ðÕ1öÃï=Îðl{Ò,ß!b;»> €M    €Šm €Mk ÛºFo‚XA pî$†4êñ‘ø)üƒ§¸0u·MÉûáExãï\6@TïÙÝÑkµìEÝoPQ¡ÞébgnÁÃs°V`xÈ«ývÅ±¿=qZˆpÍ1ûD°¡	ë·z!áÍ€ÅÆÑÿÈ‘w“¥Êi€¤³pÆÂ+œ†*¢D `%ãþ—hƒq©0OHF–°íÙ£ÖéNaíÄ™C¡y[Àè‰W`åõQ£&ÙújÐ‘5;
+óÂjA‹#xiÏ¡|à(
+o²žÅ1e=—aažðí˜ÜèõÞ!ñõì”.ýì !iâÚ«ËÏï(DÓ2XfþqéS*úç½¯Py Ñ§—!k´ñ@Õâ:Ï0Î~JWª<án]MÉ·@9syià-ÑZÀn_#ÕPRE¾DòÒšÁÒ&W„¡Ð`Yí:Ü“†_±<èsGÐÓpŽ›ÊàmÝ¡Xß›þ	¿€1¸ÃC³‘æÊî)9‚ãs„[$ß¦TÊRß‡ ÁõÚZ¼³qXfÔòÊ3a°.ÿq«<o†a¼ó­»¼ƒRÀ	H1`Ë«ƒQ’8ãbôXèÐ’PPän€Aš¸´xðÏÖà	Ñ–S±çJ1”?ÖÅmdúð®¹È"‚!@áM°Ø·- ‚M    žŠm ‚MCk<ÛîÔFoÈ]A òy&†¬Sñ/%AüaÀ0Ï-Ñ¸Õ†á#¯Aé¨·@CÙ Ë”Ñ‰îº,ûPúóo›£|Á!§Kß.A`úÊnÖà#±«ä}ð&O}pf`Èó‡Õ¡çú¥-X]ã€’³¹Msø‘•…á¥qHÃÓ6aA. uh6B˜‰ â0baxµqGÏÑ`—,Ò°/%K&l"aË-ggk{OÀê®piQÁ?¯P;×òÐS¼D;ÜéAéyÉ£øàª…iX·¡˜1Õ.iÿZð/{¾+Ìƒ!Ï7)Fµqw #Ej=ná(:™˜zÏÄÃfþ;b}x»¦G( SRöA«añÞåÎŽ00xO·PuáòØÒÍ2ÿ@;†¨;ÌÑxÝß¾\³œPú è_Á0§ÁQ¬˜õ`ÛËX‹I™%±Úñ3Š*ÇŒpÐ+ÊXs¡6‘§FdÑ€3‚ÑÄvmì‘¡F)ì«Do#lwY…U™na CË$}  Éqöè'õJËë°p¦VÎZÒøašÀÇÂùêÀI(cØQ°G\gHÖÐT3h_î•çAøgLüùà‹•KrÊÀ12»¼M>úàðð÷¿Ødë!‡à!¤àÙ „M    ¼Šm „M!kxÛLïFocA t(†$½ñÍQXü—È0Ë,ºµàáæŸ·õ8@z^R¼KöÑ§'‰%êÌPÕR	öÓßŠÁÚ‹º@p,`|Í1¯Jn&±I
+ë£ÜCrpQšÅK7¡Å
+”àŽÙø€”¡¬É$Ê(‘³wQ¼y…ºQ¼™Ó4æYŽï d}Å*ˆçqåmT2æ°qpòcb‰'a©–4‹5}CÀìÓ‰Ìì(Qßj8Èè³zÐCNƒõhAGî•ˆÃ¥tà,öÈA¼¤k1¡lÆº4ðq] "¸¢(!­ye÷;æ %!òŸ0÷+ñ/_þœ†!Ï¤$šÛö"¸>× ÕvË¢¿ñ|öºIöF0RqôFÄdãáÐ£RXÒXG@=™×$Ø€Ñ–ú¡ZCdPÖ®}»ÝìÁŽ>]LÔ`]ªv:ÿ«ë±xûóÌQ¾Ep¼K³C"
+¡pñ	¾ã€5LÆ©'È‘"wt"(ŸJûÒ•|ÊÓbµ\WSØ; Å nŸDbÞq”k{÷Êbv°²M;ñx5kaxyÒÈoƒÀJ¶<-QÎVÕkœÓÃÐ€¢ø¼NAVKU¨(àj“C3­61Ð6£ÕÇð26µ®§T!ü,s“o	† †M    ÚŠm †MÇ"k´Ûª	GoThA ö)†œ&ñk~oü!ÔÏ0Shˆ»iìœáßþ,…Bº@±ãƒ­èÑÅ`WúHÙ{P—«|™ÁÝÌ•RP`þÏô‡´Â)±ç/XW’8gp“Î*Ïz€d¡£‚“ÅU€–ŸE7!Y‘ÑiY”ÓØG3=B7	1–q„Ä æÊ(ô—qƒ×5ùI°³»™ªž¦,a‡ÿ¯ÿ~7Àîø¢‚pBQý•Á?–Ð×ÉWËèA¥Ó$˜½§ðà®f(+Á§>1?^g ;Ôð³?‚?EyÍ!‹»¡¨ÂZŒ 'ýyóÛIÕ%%d¿OH7>'Ò9u@µ”5† WÞÆŸï˜ñ§|aÔ‚0”jÉ>ÑxQá®>ÍÝÖ~@?¬àE­5Ñ´d`WÓ+P˜cÝvÓyõÁìÕøFü†?`ßˆ”é´¾±±´yµþpTLŒœ.§ ¡òx8œö€7OÈÜá£‘@M¢<'RéÈ†‚NÀå¥YB Gv¸ÁˆÄóq2îÎùJú °ôô—˜ÝaVZßÝÎåÀKauÑQìeNpð±ÐØø—åäµA´”çCU@à¶‘;ô¬1n²‰]ß%®ðtt¬„ê½!ÚÒ;22 ˆM    øŠm ˆM‰$kðÛ$GošmA x+†ñ	«†ü«×0•ä¼ø'á½S\AS;@ èhµž¹ÙÑã™%álÈ*PY4EX§Á;Aqd0`€Ò·`-±…UÅ
+H-\pÕR¾ü+¡*pFüÑ#€˜}’ÁIx‰‘ï[•×ê‰ 	cÀ2²pýÍE‰zý™ hŒ½§Kq!«YÕƒß…°õAñÚÃ1aehÏÒÉ€+Àð'»8ô[QÁJ·CmŠÐ™Pa(gA¹³§·©là0×‡Æª1Ý›õÌØðõ!d\ÒOr!iýÝYIÏ )Ùeµ"4g¹ëÉá
+ÝŸ×;ô	—ó]²‹,5 ÙEtÆ{ñ¸“óy²¾0Öcž6ÞŒ¿áŒÙGcÛ¤×@A¿5²g‚êÑÒ4&±TcóPZ=2ÉiÁJm”A$~d`ag²˜jÑw±´tR ¬·p–ÜÌ…,7¡Ðì Gr€9àÊœ‘^#ÐV&ˆŠ2§pÈï[Ç«ð ÉKäÌ&	qÐp"üÊ‘‹°6œ7µûOa4'EéÔ[´ÀL®ˆÖQ
+uÇtDNŸÐšÛ¯(AÞM2`cà3µr"1.på¯»”ð¶²’¢Z-'!¸x˜v[Þ ŠM    ‹m ŠMK&k,Ûf>GoàrA ú§,†Œùñ§×ü5Gß0×¢?¾Ñ³á›ŠºU!Ü¼@"îæpËÑÓóÇ·ÙP]Iˆ}”µÁ™tLLví`Õz9ˆk0±#{2¾ý!Qp7õÕyó¡_:^ù2N9€šk…=\Ï¹‘NÑ’hË’C#-Üñí™õ pyo êdï†·}q¿IÜ¦ÒÅÁ°7Rè7á6aCÑœö“‚ÀòB0ÔîwuQ9ìÓ.ñIÐ[×j[AæAažB·±«èà²GçýÊ­ä1{3À—vMð7Fy_&!G?ÐC¡ +µ‰Çw8…±/ÐÌ:qPÜAõq{¯‚#ä [­;I†ÙñV(j’ú0]s.ë -ájtÂèßÊ@CÒd„‰WŸÑðQèRóºPÍœí¾“ÜÁ¨0<Lu‰`ãEÐG ä=±R4•Ç£ppØlo±Í¡®`ÉñÌ€;ªÌËBV[‘|ùýp%¸&Lžá/®ÃB|F8^Ë K!L‰qnóuþJ)°xCéYÓ^ÂaôªôÚÑLÀM·æ?+Q(„@y˜Ð\¾Çk2„Ap'´ ¼­†à“OŽ+vU˜1ª©Vm€Q{ðøð™0p!–+èÑƒŠ ŒM    4‹m ŒM(khÛÄXGo&xA |3.†cñEµü¿ ç0@›¿…>áyÁjï(>@$Vs'½ÑÂ®´¦ˆPÝµ^¶ÐÃÁ÷§Œ'ˆð×`„×=ò¿3±Á Ÿq³FpYkZYEõº¡=JL¬iÊN€œYx¹n&ê‘+@^š0ÂÆ¨GæKf¥¸fõD lþ°RPÇ¯q]è^x!¬ý°y~Sþ;a!:j^„Àôg9í¤ûŽQW]¦ž&šÐ^t£ZeA¿ƒÑÆ«­dà4¸FçÏ°·1Ë$mc
+ðyæ'–ìü»!%V¼V¸+ -‘*:Næ£w•&Ž˜p
+eÄySð˜¬y“ Ýöt}7ñô8káªn60ZVH&ø´›áH=näðg@Eå“V«,TÑoªROƒ‚PÞü¨´ PÁœË6tl®`e$îöÕö±ð!ô×îš)pýMXï5d¡ŒÔ‘œ &-€=t‹Íu7‘šÏ+‹$kÅ*‘¸¾½Úv`;¥ Íö•(Uë3qvÉ ËÀ °ºêÍ|ñÁ4aðÀ áGåÀNûa÷QF“¹}ìÈzÐ¡ß®!YëAÎpÚ©àœŒ#781H%=õPçað:/•³ù!tÄ½Y¬6 ŽM    R‹m ŽMÏ)k¤Û"sGol}A þ¾/†|Ìñã0ÌüIºî0[ÝöÀ9ÉáWøv~½u¿@&øIrÞ®Ñ=E•Ø•7PŸt”îÒÁUÛÌšÐÂ`Ú ë[7±_Æ%i;p›Ÿ¿Üˆq‚¡Z:_ Fd€žGk5}‘I2I¡0¢øOòI#³Ú©2UÐ\q î÷ýµ×áqû†áIp’9°»è6ÅAaÿ¢7>(†ÀöŒB[¨QuBæL"Ðßä}ësäAi`Ö¥¯àà¶(¦ÐÔ³Š1·b¼/²Æð»È	³yÓ`!Ã’mÝ,¶ /m™Œüc?Áeý<ûHPPöØ£y¬±±n¶©pB _|°òJt•ñ’IWXÃLr0œOÉ	á&ª·óè°@GøÂ(Í	Ñ,Œl£LJP 6\dª­ÃÁd3g1œcÓ`ç¦‹	Ê±Ž+´’âp\ŽAÚºú¡jHZG&€?€?>JÏ¨Ê‘¸¥Y¥#dÐµ@AÏi78§Êbõè OÌßJ™MIqªøKX+°ü‘²Ÿ%§aÎvç½}ÀOòX®ÔQd¢2‚@†hÐàƒ÷ñ+€RA,º€ýsÍà—èŠø„1æ #}!}Hð|m†Üõb!RjPËhÕâ
